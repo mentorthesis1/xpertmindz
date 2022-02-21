@@ -87,7 +87,7 @@
             </ul>
           </li>
           <li><a class="nav-link scrollto" href="#services">Contact Us</a></li>
-          <li><a class="nav-link scrollto" href="/login">Login User</a></li>
+          <li><a class="nav-link scrollto" href="/login">Login</a></li>
           <li><a class="nav-link scrollto" href="/register">Register</a></li>
           
         </ul>
