@@ -20,5 +20,9 @@ use App\Http\Controllers\NewController;
 // });
 
 Route::get('/',[NewController::class,'index']);
-Route::get('/contactUs',[NewController::class,'contactUs']);
-Route::get('/about',[NewController::class,'about']);
+
+
+
+
+require __DIR__.'/auth.php';
+require __DIR__.'/frontend.php';
