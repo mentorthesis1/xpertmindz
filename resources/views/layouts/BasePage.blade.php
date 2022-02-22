@@ -87,8 +87,8 @@
             </ul>
           </li>
           <li><a class="nav-link scrollto" href="#services">Contact Us</a></li>
-          <li><a class="nav-link scrollto" href="/login">Login</a></li>
-          <li><a class="nav-link scrollto" href="/register">Register</a></li>
+          <li><a class="nav-link scrollto" href="/login_view">Login</a></li>
+          <li><a class="nav-link scrollto" href="/register_view">Register</a></li>
           
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>

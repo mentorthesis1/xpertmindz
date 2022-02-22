@@ -3,6 +3,7 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\NewController;
 
+
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -19,5 +20,8 @@ use App\Http\Controllers\NewController;
 // });
 
 Route::get('/',[NewController::class,'index']);
-Route::get('/login',[NewController::class,'login']);
-Route::get('/register',[NewController::class,'register']);
+
+
+
+
+require __DIR__.'/auth.php';
