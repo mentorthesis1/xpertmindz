@@ -35,6 +35,13 @@
   * Author: BootstrapMade.com
   * License: https://bootstrapmade.com/license/
   ======================================================== -->
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:300,400,700">
+
+
+
+
 </head>
 
 <body>
@@ -46,10 +53,16 @@
         Xpert Mindz Innovative Solution Pvt Ltd
       </div>
       <div class="d-flex align-items-center">
-        <div class="search-container" style="margin-right: -104px;">
-          <form action="/action_page.php">
+        <div class="search-container" style="margin-right: -120px;">
+          {{-- <form action="/action_page.php">
             <input type="text" placeholder="Search.." name="search">
             <button type="submit"><i class="fa fa-search"></i></button>
+          </form> --}}
+          <form class="search">
+            <div class="search__wrapper">
+              <input type="text" name="" placeholder="Search for..." class="search__field">
+              <button type="submit" class="fa fa-search search__icon"></button>
+            </div>
           </form>
         </div>
       </div>
@@ -86,9 +99,10 @@
               <li><a href="#">Drop Down 4</a></li>
             </ul>
           </li>
-          <li><a class="nav-link scrollto" href="#services">Contact Us</a></li>
+          <li><a class="nav-link scrollto" href="/contactUs">Contact Us</a></li>
           <li><a class="nav-link scrollto" href="/login_view">Login</a></li>
           <li><a class="nav-link scrollto" href="/register_view">Register</a></li>
+          
           
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
@@ -168,12 +182,14 @@
           <div class="container1 d-flex align-items-center justify-content1-center flex-wrap">
             <div class="box1">
               <div class="body1">
-                <div class="imgContainer1"> <img src="https://images.pexels.com/photos/3601422/pexels-photo-3601422.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500" alt=""> 
+                <div class="imgContainer1"> <img src="assets/image/courselogo.jpg" alt=""> 
                 </div>
                 <div class="content1 d-flex flex-column align-items-center justify-content1-center">
                   <div>
-                    <h3 class="text-white fs-5">Post Title</h3>
+                    <h3 class="text-white fs-5" style="text-align: center;">Courses</h3>
                     <p class="fs-6 text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo sed cum neque, rem provident ex. Laboriosam </p>
+                    <button type="button" class="btn btn-primary rounded-pill" style="margin-left: 64px;">view more</button>
+
                   </div>
                 </div>
               </div>
@@ -185,12 +201,14 @@
           <div class="container1 d-flex align-items-center justify-content1-center flex-wrap">
             <div class="box1">
               <div class="body1">
-                <div class="imgContainer1"> <img src="https://images.pexels.com/photos/1532771/pexels-photo-1532771.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940" alt=""> 
+                <div class="imgContainer1"> <img src="assets/image/manpowerlogo.png" alt=""> 
                 </div>
                 <div class="content1 d-flex flex-column align-items-center justify-content1-center">
                   <div>
-                    <h3 class="text-white fs-5">Post Title</h3>
+                    <h3 class="text-white fs-5"  style="text-align: center;">ManPower</h3>
                     <p class="fs-6 text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo sed cum neque, rem provident ex. Laboriosam perspiciatis modi eveniet in?</p>
+                    <button type="button" class="btn btn-primary rounded-pill" style="margin-left: 64px;">view more</button>
+
                   </div>
                 </div>
               </div>
@@ -202,7 +220,7 @@
           <div class="container1 d-flex align-items-center justify-content1-center flex-wrap">
             <div class="box1">
               <div class="body1">
-                <div class="imgContainer1"> <img src="https://images.pexels.com/photos/573238/pexels-photo-573238.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260" alt="">
+                <div class="imgContainer1"> <img src="assets/image/projectlogo.png" alt="">
                 </div>
                 <div class="content1 d-flex flex-column align-items-center justify-content1-center">
                   <div>
