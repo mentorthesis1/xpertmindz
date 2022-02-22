@@ -36,8 +36,8 @@
   * License: https://bootstrapmade.com/license/
   ======================================================== -->
 
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.min.css">
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:300,400,700">
+  {{-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:300,400,700"> --}}
 
 
 
@@ -52,32 +52,19 @@
       <div class="align-items-center d-none d-md-flex" style="margin-left: -104px;">
         Xpert Mindz Innovative Solution Pvt Ltd
       </div>
-      <div class="d-flex align-items-center">
-        <div class="search-container" style="margin-right: -120px;">
-          {{-- <form action="/action_page.php">
-            <input type="text" placeholder="Search.." name="search">
-            <button type="submit"><i class="fa fa-search"></i></button>
-          </form> --}}
-          <form class="search">
-            <div class="search__wrapper">
-              <input type="text" name="" placeholder="Search for..." class="search__field">
-              <button type="submit" class="fa fa-search search__icon"></button>
-            </div>
-          </form>
-        </div>
-      </div>
+      
     </div>
   </div>
 
   <!-- ======= Header ======= -->
-  <header id="header" class="fixed-top" style=" max-height:98px">
+  <header id="header" class="fixed-top" style=" max-height:72px;">
     <div class="container d-flex align-items-center">
 
       <a href="index.html" class="logo me-auto"><img src="assets/image/logo2.png" alt="" style="height:60px; margin-top:-15px;"></a>
       <!-- Uncomment below if you prefer to use an image logo -->
       <!-- <h1 class="logo me-auto"><a href="index.html">Medicio</a></h1> -->
 
-      <nav id="navbar" class="navbar order-last order-lg-0">
+      <nav id="navbar" class="navbar order-last order-lg-0" style="margin-top: -20px;">
         <ul>
           <li><a class="nav-link scrollto " href="/">Home</a></li>
           <li><a class="nav-link scrollto" href="/about">About</a></li>
@@ -102,6 +89,19 @@
           <li><a class="nav-link scrollto" href="/contactUs">Contact Us</a></li>
           <li><a class="nav-link scrollto" href="/login_view">Login</a></li>
           <li><a class="nav-link scrollto" href="/register_view">Register</a></li>
+          <li>
+            <div id="myOverlay" class="overlay">
+              <span class="closebtn" onclick="closeSearch()" title="Close Overlay">×</span>
+              <div class="overlay-content">
+                <form action="/action_page.php">
+                  <input type="text" placeholder="Search.." name="search">
+                  <button type="submit"><i class="fa fa-search"></i></button>
+                </form>
+              </div>
+            </div>
+            <a><i class="fa fa-search nav-link scrollto " aria-hidden="true" style="font-size: 20px;" onclick="openSearch()"></i></button></a>
+            
+          </li>
           
           
         </ul>
@@ -112,6 +112,8 @@
 
     </div>
   </header><!-- End Header -->
+
+  
 
   <!-- ======= Hero Section ======= -->
   <section id="hero">
@@ -188,7 +190,7 @@
                   <div>
                     <h3 class="text-white fs-5" style="text-align: center;">Courses</h3>
                     <p class="fs-6 text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo sed cum neque, rem provident ex. Laboriosam </p>
-                    <button type="button" class="btn btn-primary rounded-pill" style="margin-left: 64px;">view more</button>
+                    <a href="/viewcourse" type="button" class="btn btn-primary rounded-pill" style="margin-left: 64px;">view more</a>
 
                   </div>
                 </div>
@@ -224,8 +226,10 @@
                 </div>
                 <div class="content1 d-flex flex-column align-items-center justify-content1-center">
                   <div>
-                    <h3 class="text-white fs-5">Post Title</h3>
+                    <h3 class="text-white fs-5"  style="text-align: center;">Projects</h3>
                     <p class="fs-6 text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo sed cum neque, rem provident ex. Laboriosam perspiciatis modi eveniet in?</p>
+                    <button type="button" class="btn btn-primary rounded-pill" style="margin-left: 64px;">view more</button>
+
                   </div>
                 </div>
               </div>
@@ -237,12 +241,49 @@
           <div class="container1 d-flex align-items-center justify-content1-center flex-wrap">
             <div class="box1">
               <div class="body1">
-                <div class="imgContainer1"> <img src="https://images.pexels.com/photos/573238/pexels-photo-573238.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260" alt="">
+                <div class="imgContainer1"> <img src="assets/image/workshoplogo.png" alt="">
                 </div>
                 <div class="content1 d-flex flex-column align-items-center justify-content1-center">
                   <div>
-                    <h3 class="text-white fs-5">Post Title</h3>
+                    <h3 class="text-white fs-5"  style="text-align: center;">Workshop</h3>
                     <p class="fs-6 text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo sed cum neque, rem provident ex. Laboriosam perspiciatis modi eveniet in?</p>
+                    <button type="button" class="btn btn-primary rounded-pill" style="margin-left: 64px;">view more</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div> 
+
+        <div class="col" style="margin-top: -20px;">
+          <div class="container1 d-flex align-items-center justify-content1-center flex-wrap">
+            <div class="box1">
+              <div class="body1">
+                <div class="imgContainer1"> <img src="assets/image/symposiumlogo.jpg" alt="">
+                </div>
+                <div class="content1 d-flex flex-column align-items-center justify-content1-center">
+                  <div>
+                    <h3 class="text-white fs-5"  style="text-align: center;">Symposium</h3>
+                    <p class="fs-6 text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo sed cum neque, rem provident ex. Laboriosam perspiciatis modi eveniet in?</p>
+                    <button type="button" class="btn btn-primary rounded-pill" style="margin-left: 64px;">view more</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div> 
+
+        <div class="col" style="margin-top: -20px;">
+          <div class="container1 d-flex align-items-center justify-content1-center flex-wrap">
+            <div class="box1">
+              <div class="body1">
+                <div class="imgContainer1"> <img src="assets/image/internshiplogo.jpg" alt="">
+                </div>
+                <div class="content1 d-flex flex-column align-items-center justify-content1-center">
+                  <div>
+                    <h3 class="text-white fs-5"  style="text-align: center;">Internship</h3>
+                    <p class="fs-6 text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo sed cum neque, rem provident ex. Laboriosam perspiciatis modi eveniet in?</p>
+                    <button type="button" class="btn btn-primary rounded-pill" style="margin-left: 64px;">view more</button>
                   </div>
                 </div>
               </div>
@@ -442,6 +483,16 @@
 
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
+
+  <script>
+    function openSearch() {
+      document.getElementById("myOverlay").style.display = "block";
+    }
+    
+    function closeSearch() {
+      document.getElementById("myOverlay").style.display = "none";
+    }
+    </script>
 
 </body>
 
