@@ -86,9 +86,15 @@
               <li><a href="#">Drop Down 4</a></li>
             </ul>
           </li>
+<<<<<<< HEAD
           <li><a class="nav-link scrollto" href="/contactUs">Contact Us</a></li>
           <li><a class="nav-link scrollto" href="/login">Login</a></li>
           <li><a class="nav-link scrollto" href="/register">Register</a></li>
+=======
+          <li><a class="nav-link scrollto" href="#services">Contact Us</a></li>
+          <li><a class="nav-link scrollto" href="/login_view">Login</a></li>
+          <li><a class="nav-link scrollto" href="/register_view">Register</a></li>
+>>>>>>> 6620fe0378718ccdc6fc17c993989786b776c6f9
           
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
