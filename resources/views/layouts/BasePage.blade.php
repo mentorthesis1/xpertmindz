@@ -67,7 +67,7 @@
       <nav id="navbar" class="navbar order-last order-lg-0">
         <ul>
           <li><a class="nav-link scrollto " href="/">Home</a></li>
-          <li><a class="nav-link scrollto" href="#about">About</a></li>
+          <li><a class="nav-link scrollto" href="/about">About</a></li>
           
           <li class="dropdown"><a href="#"><span>Products</span> <i class="bi bi-chevron-down"></i></a>
             <ul>
@@ -86,7 +86,7 @@
               <li><a href="#">Drop Down 4</a></li>
             </ul>
           </li>
-          <li><a class="nav-link scrollto" href="#services">Contact Us</a></li>
+          <li><a class="nav-link scrollto" href="/contactUs">Contact Us</a></li>
           <li><a class="nav-link scrollto" href="/login">Login</a></li>
           <li><a class="nav-link scrollto" href="/register">Register</a></li>
           
@@ -173,7 +173,7 @@
                 <div class="content1 d-flex flex-column align-items-center justify-content1-center">
                   <div>
                     <h3 class="text-white fs-5">Post Title</h3>
-                    <p class="fs-6 text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo sed cum neque, rem provident ex. Laboriosam perspiciatis modi eveniet in?</p>
+                    <p class="fs-6 text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo sed cum neque, rem provident ex. Laboriosam </p>
                   </div>
                 </div>
               </div>

@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>Medicio Bootstrap Template - Index</title>
+  <title>Xpert Mindz</title>
   <meta content="" name="description">
   <meta content="" name="keywords">
 
@@ -56,7 +56,7 @@
       <nav id="navbar" class="navbar order-last order-lg-0">
         <ul>
           <li><a class="nav-link scrollto " href="/">Home</a></li>
-          <li><a class="nav-link scrollto" href="#about">About</a></li>
+          <li><a class="nav-link scrollto" href="/about">About</a></li>
           
           <li class="dropdown"><a href="#"><span>Products</span> <i class="bi bi-chevron-down"></i></a>
             <ul>
@@ -75,7 +75,7 @@
               <li><a href="#">Drop Down 4</a></li>
             </ul>
           </li>
-          <li><a class="nav-link scrollto" href="#services">Contact Us</a></li>
+          <li><a class="nav-link scrollto" href="/contactUs">Contact Us</a></li>
           <li><a class="nav-link scrollto" href="/login">Login</a></li>
           <li><a class="nav-link scrollto" href="/register">Register</a></li>
           
