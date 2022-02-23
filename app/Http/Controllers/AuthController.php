@@ -23,38 +23,64 @@ class AuthController extends Controller
     public function login(Request $request)
     {
         $request->validate([
-            'email' => 'required',
-            'password' => 'required',
+            'email'=>'required',
+            'password'=>'required'
         ]);
-   
-        $credentials = $request->only('email', 'password');
-        if (Auth::attempt($credentials)) {
-            return redirect("/")->with('message' , 'Login successfully');
+
+        $email = $request->input('email');
+        $password = $request->input('password');
+
+        if (Auth::attempt(['email'=>$email,'password'=>$password])) {
+            $user = User::where('email',$email)->first();
+            Auth::login($user);
+            return redirect('/');
+        }else{
+            return back()->withErrors(['Invalid credentials!']);
         }
-        else{
-            return redirect("/login_view")->with('Login details are not valid'); 
-        }
-       
     }
 
 
     public function register(Request $request){
-        $request->validate([
-            'name'=>'required',
-            'email'=>'required',
-            'password'=>'required',
-        ]);
+        $request->validate(
+            [
+                'name'=>'required',
+                'email'=>'required',
+                'password'=>'required|confirmed'
 
-        $name=$request->name;
-        $email=$request->email;
-        $password=Hash::make($request->password);
+            ]
+            );
 
-        $user =new User;
-        $user->name=$name;
-        $user->email=$email;
-        $user->password=$password;
+        $user = new User;
+        $user->name = $request->input('name');
+        $user->email = $request->input('email');
+        $user->password = Hash::make( $request->input('password'));
         $user->save();
 
-        return redirect('/')->with('message','Register successfully');
+        Auth::login($user);
+
+        return redirect('/login');
+
+    }
+
+    public function logout(){
+        Auth::logout();
+        return redirect('/');
+    }
+
+
+    public function student_register(){
+        return view('auth.student_register');
+    }
+
+    public function institution_register(){
+        return view('auth.institution_register');
+    }
+
+    public function student_login(){
+        return view('auth.student_login');
+    }
+
+    public function institution_login(){
+        return view('auth.institution_login');
     }
 }

@@ -28,10 +28,18 @@
           alt="Sample image">
       </div>
       <div class="col-md-8 col-lg-6 col-xl-4 offset-xl-1">
+        @if ($errors->any())
+        <ul class="alert alert-danger">
+            {!! implode('',$errors->all('<li class="list-group-item bg-danger">:message</li>')) !!}
+        </ul>
+    @endif
         <form action="login" autocomplete="off">
       
           <div class="d-flex flex-row align-items-center justify-content-center py-3">
             <p class="lead fw-normal mb-0 me-3 ">Sign in to XpertMindz</p>
+
+      
+
             {{-- <button type="button" class="btn btn-primary btn-floating mx-1">
               <i class="fab fa-facebook-f"></i>
             </button>
@@ -53,16 +61,20 @@
           <div class="form-outline mb-4">
             <input type="email" name="email" id="form3Example3" class="form-control form-control-lg"
               placeholder="Enter a valid email address" />
+             
             <label class="form-label" for="form3Example3">Email address</label>
+          
           </div>
+       
 
           <!-- Password input -->
           <div class="form-outline mb-3">
             <input type="password" name="password" id="form3Example4" class="form-control form-control-lg"
               placeholder="Enter password" />
+            
             <label class="form-label" for="form3Example4">Password</label>
           </div>
-
+      
           <div class="d-flex justify-content-between align-items-center">
             <!-- Checkbox -->
             <div class="form-check mb-0">
@@ -84,7 +96,16 @@
         </form>
       </div>
     </div>
+
+    <div class="text-center">
+      <a href="/" class=" p-2 btn btn-info btn-sm">go to home</a>
+    </div>
+    
+
+
   </div>
+
+
  
 </section>
 @endsection

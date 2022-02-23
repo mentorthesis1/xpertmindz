@@ -52,6 +52,7 @@
             <div class="row">
               <div class="col form-group mt-3">
                 <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
+              
               </div>
               <div class="col form-group mt-3">
                 <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required>

@@ -41,7 +41,7 @@
 
         <form action="register"  autocomplete="off">
           <div class="d-flex flex-row align-items-center justify-content-center py-3 mt-5">
-            <p class="lead fw-normal mb-0 me-3 ">Sign up to XpertMindz</p>
+            <p class="lead fw-normal mb-0 me-3 ">Student Registeration</p>
             {{-- <button type="button" class="btn btn-primary btn-floating mx-1">
               <i class="fab fa-facebook-f"></i>
             </button>
