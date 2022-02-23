@@ -115,7 +115,7 @@
   </header><!-- End Header -->
 
   <!-- ======= Hero Section ======= -->
-      
+      @yield('carousal')
  <!-- End Hero -->
 
 

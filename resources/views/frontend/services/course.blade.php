@@ -1,6 +1,6 @@
 @extends('layouts.basesection')
 @section('dashboard')
-<section id="contact" class="contact" style="margin-top: -100px;">
+<section id="contact" class="contact" style="margin-top: -100px;" style="background-color: blue;">
     <div class="container">
     <div class="container">
 
@@ -47,31 +47,87 @@
             <div class="col">
               <a href="/python">
                 <div class="card" id="company">
-                  <img src="assets/image/python.png" class="card-img-top" alt="...">
+                  <img src="assets/image/python.jpg" class="card-img-top" alt="...">
                 </div>
               </a> 
             </div>
 
             <div class="col">
-              <a href="/matlab">
+              <a href="/bigdata">
                 <div class="card" id="company">
-                  <img src="assets/image/matlab.jpg" class="card-img-top" alt="...">
+                  <img src="assets/image/bigdata.jpg" class="card-img-top" alt="...">
                 </div>
               </a> 
             </div>
             <div class="col">
-              <div class="card" id="company">
-                <img src="assets/image/msoffice.jpg" class="card-img-top" alt="...">
-                
-              </div>
+              <a href="/msoffice">
+                <div class="card" id="company">
+                <img src="assets/image/msoffice.jpg" class="card-img-top " alt="...">
+                </div>
+              </a>
             </div>
           
             <div class="col">
-              <div class="card" id="company">
-                <img src="assets/image/tally.jpg" class="card-img-top" alt="...">
-                
-              </div>
+              <a href="/c">
+                <div class="card h-50" id="company">
+                  <img src="assets/image/c.png" class="card-img-top" alt="...">
+                </div>
+              </a>
             </div>
+            <div class="col">
+              <a href="/ps">
+                <div class="card" id="company">
+                  <img src="assets/image/ps.png" class="card-img-top" alt="...">
+                </div>
+              </a>
+            </div>
+            <div class="col">
+              <a href="/tally">
+                <div class="card" id="company">
+                  <img src="assets/image/tally.png" class="card-img-top" alt="...">
+                </div>
+              </a>
+            </div>
+
+            <div class="col">
+              <a href="/asp">
+                <div class="card" id="company">
+                  <img src="assets/image/aspnet.png" class="card-img-top" alt="...">
+                </div>
+              </a>
+            </div>
+            <div class="col">
+              <a href="/flash">
+                <div class="card" id="company">
+                  <img src="assets/image/fl.png" class="card-img-top" alt="...">
+                </div>
+              </a>
+            </div>
+            <div class="col">
+              <a href="/html">
+                <div class="card" id="company">
+                  <img src="assets/image/html.jpg" class="card-img-top" alt="...">
+                </div>
+              </a>
+            </div>
+            <div class="col">
+              <a href="/pgdca">
+                <div class="card" id="company">
+                  <img src="assets/image/pgdca1.jpg" class="card-img-top" alt="...">
+                </div>
+              </a>
+            </div>
+            <div class="col">
+              <a href="/matlab">
+                <div class="card" id="company">
+                  <img src="assets/image/matlab.png" class="card-img-top" alt="...">
+                </div>
+              </a>
+            </div>
+
+
+
+
           </div>
         </div>
 
