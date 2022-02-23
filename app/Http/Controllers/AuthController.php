@@ -29,10 +29,10 @@ class AuthController extends Controller
    
         $credentials = $request->only('email', 'password');
         if (Auth::attempt($credentials)) {
-            return redirect("/")->withSuccess('Login details are not valid');
+            return redirect("/")->with('message' , 'Login successfully');
         }
         else{
-            return redirect("/login_view")->withSuccess('Login details are not valid'); 
+            return redirect("/login_view")->with('Login details are not valid'); 
         }
        
     }
@@ -55,6 +55,6 @@ class AuthController extends Controller
         $user->password=$password;
         $user->save();
 
-        return redirect('/');
+        return redirect('/')->with('message','Register successfully');
     }
 }

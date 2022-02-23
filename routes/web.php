@@ -26,3 +26,4 @@ Route::get('/',[NewController::class,'index']);
 
 require __DIR__.'/auth.php';
 require __DIR__.'/frontend.php';
+require __DIR__.'/server.php';

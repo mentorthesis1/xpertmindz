@@ -40,6 +40,11 @@
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato:300,400,700">
 
 
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10.16.6/dist/sweetalert2.all.min.js"></script>
+    
+  <link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/sweetalert2@10.10.1/dist/sweetalert2.min.css'>
+
+
 
 
 </head>
@@ -442,6 +447,23 @@
 
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
+
+
+
+  @if(session()->has('message'))
+  <script>
+    
+    Swal.fire({
+      position: 'top-end',
+      icon: 'success',
+      title: "{{session()->get('message')}}",
+      showConfirmButton: false,
+      timer: 2000
+    })
+    </script>
+  @endif
+  
+
 
 </body>
 
