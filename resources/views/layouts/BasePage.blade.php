@@ -220,7 +220,7 @@
                   <div>
                     <h3 class="text-white fs-5"  style="text-align: center;">ManPower</h3>
                     <p class="fs-6 text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo sed cum neque, rem provident ex. Laboriosam perspiciatis modi eveniet in?</p>
-                    <button type="button" class="btn btn-primary rounded-pill" style="margin-left: 64px;">view more</button>
+                    <a href="/manpower" type="button" class="btn btn-primary rounded-pill" style="margin-left: 64px;">view more</a>
 
                   </div>
                 </div>
@@ -239,7 +239,7 @@
                   <div>
                     <h3 class="text-white fs-5"  style="text-align: center;">Projects</h3>
                     <p class="fs-6 text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo sed cum neque, rem provident ex. Laboriosam perspiciatis modi eveniet in?</p>
-                    <button type="button" class="btn btn-primary rounded-pill" style="margin-left: 64px;">view more</button>
+                    <a href="/project" type="button" class="btn btn-primary rounded-pill" style="margin-left: 64px;">view more</a>
 
                   </div>
                 </div>
@@ -303,6 +303,26 @@
         </div> 
     
       </div>
+
+      <div class="col" style="margin-top: -20px;">
+        <div class="container1 d-flex align-items-center justify-content1-center flex-wrap">
+          <div class="box1">
+            <div class="body1">
+              <div class="imgContainer1"> <img src="assets/image/webdevelopment.jpg" alt="">
+              </div>
+              <div class="content1 d-flex flex-column align-items-center justify-content1-center">
+                <div>
+                  <h3 class="text-white fs-5"  style="text-align: center;">Web development</h3>
+                  <p class="fs-6 text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo sed cum neque, rem provident ex. Laboriosam perspiciatis modi eveniet in?</p>
+                  <a href="/weddevelopment" type="button" class="btn btn-primary rounded-pill" style="margin-left: 64px;">view more</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div> 
+  
+    </div>
       
       
     </div>
@@ -498,7 +518,7 @@
   </footer><!-- End Footer -->
 
   <div id="preloader"></div>
-  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center" style="margin-bottom: 62px;"><i class="bi bi-arrow-up-short"></i></a>
 
   <!-- Vendor JS Files -->
   <script src="assets/vendor/purecounter/purecounter.js"></script>

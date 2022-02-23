@@ -20,3 +20,4 @@ Route::get('/flash',[FrontendController::class,'flash']);
 Route::get('/html',[FrontendController::class,'html']);
 Route::get('/pgdca',[FrontendController::class,'pgdca']);
 Route::get('/matlab',[FrontendController::class,'matlab']);
+Route::get('/project',[FrontendController::class,'project']);

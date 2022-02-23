@@ -51,4 +51,7 @@ class FrontendController extends Controller
     public function matlab(){
         return view('frontend/courses/matlab');
     }
+    public function project(){
+        return view('frontend/projects/project');
+    }
 }
