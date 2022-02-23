@@ -6,7 +6,7 @@
 
       <div class="row mt-5">
 
-        <div class="col-lg-7">
+        <div class="col-lg-12">
 
           {{-- <div class="row">
             <div class="col-md-12">
@@ -31,47 +31,57 @@
               </div>
             </div>
           </div> --}}
-          <div class="section-title" style="margin-left: -450px;">
-            <h3>COURSES</h3>
+          <div class="section-title">
+            <h3 style="text-align: center;">COURSES</h3>
+          </div>
+
+          <div class="row row-cols-1 row-cols-md-5 g-4" style="margin-top: -50px;">
+            <div class="col">
+              <a href="/java">
+                <div class="card" id="company">
+                  <img src="assets/image/java.jpg" class="card-img-top" alt="...">
+                </div>
+              </a>
+            </div>
+
+            <div class="col">
+              <a href="/python">
+                <div class="card" id="company">
+                  <img src="assets/image/python.png" class="card-img-top" alt="...">
+                </div>
+              </a> 
+            </div>
+
+            <div class="col">
+              <a href="/matlab">
+                <div class="card" id="company">
+                  <img src="assets/image/matlab.jpg" class="card-img-top" alt="...">
+                </div>
+              </a> 
+            </div>
+            <div class="col">
+              <div class="card" id="company">
+                <img src="assets/image/msoffice.jpg" class="card-img-top" alt="...">
+                
+              </div>
+            </div>
+          
+            <div class="col">
+              <div class="card" id="company">
+                <img src="assets/image/tally.jpg" class="card-img-top" alt="...">
+                
+              </div>
+            </div>
           </div>
         </div>
 
-        <div class="col-lg-5">
-            
-              
-              
-          <form action="forms/contact.php" method="post" role="form" class="php-email-form">
-            <h4>Register</h4>
-            <div class="row">
-              <div class="col form-group mt-3">
-                <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
-              </div>
-              <div class="col form-group mt-3">
-                <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required>
-              </div>
-            </div>
-            {{-- <div class="form-group mt-3">
-              <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" required>
-            </div> --}}
-            <div class="form-group mt-3">
-              <textarea class="form-control" name="message" rows="5" placeholder="Address" required></textarea>
-            </div>
-            <div class="row">
-                <div class="col form-group mt-3">
-                  <input type="number" name="age" class="form-control" id="age" placeholder="age" required>
-                </div>
-                <div class="col form-group mt-3">
-                  <input type="text" class="form-control" name="payment" id="payment" placeholder="Payment" required>
-                </div>
-              </div>
-            <div class="my-3">
-              <div class="loading">Loading</div>
-              <div class="error-message"></div>
-              <div class="sent-message">Your message has been sent. Thank you!</div>
-            </div>
-            <div class="text-center"><button type="submit">Buy Now</button></div>
-          </form>
+
+
+
+
+
         </div>
+
 
       </div>
     </div>

@@ -74,7 +74,7 @@
           <li><a class="nav-link scrollto " href="/">Home</a></li>
           <li><a class="nav-link scrollto" href="/about">About</a></li>
           
-          <li class="dropdown"><a href="#"><span>Products</span> <i class="bi bi-chevron-down"></i></a>
+          <li class="dropdown"><a href="#"><span>SERVICES</span> <i class="bi bi-chevron-down"></i></a>
             <ul>
               <li><a href="#">Drop Down 1</a></li>
               <li class="dropdown"><a href="#"><span>Deep Drop Down</span> <i class="bi bi-chevron-right"></i></a>
@@ -92,8 +92,15 @@
             </ul>
           </li>
           <li><a class="nav-link scrollto" href="/contactUs">Contact Us</a></li>
-          <li><a class="nav-link scrollto" href="/login_view">Login</a></li>
-          <li><a class="nav-link scrollto" href="/register_view">Register</a></li>
+          <li class="dropdown"><a href="#"><span>LOGIN</span> <i class="bi bi-chevron-down"></i></a>
+            <ul>
+              <li><a href="/register_view">REGISTER</a></li>
+              
+              <li><a href="/login_view">EMPLOYEE LOGIN</a></li>
+              <li><a href="#">STUDENT LOGIN</a></li>
+              <li><a href="#">INSTITUTION LOGIN</a></li>
+            </ul>
+          </li>
           <li>
             <div id="myOverlay" class="overlay">
               <span class="closebtn" onclick="closeSearch()" title="Close Overlay">×</span>
@@ -348,44 +355,53 @@
     <section id="portfolio" class="portfolio">
       <div class="container">
         <div class="row">
-          <div class="col-lg-12 d-flex justify-content-center">
+          {{-- <div class="col-lg-12 d-flex justify-content-center">
             <ul id="portfolio-flters">
               <h1>Our Sub Companies</h1>
           </ul>
           </div>
-        </div>
+        </div> --}}
       
         {{-- <div class="row portfolio-container"> --}}
       
-          <div class="container">
+          {{-- <div class="container">
       
-            <div class="row">
+            <div class="row"> --}}
       
-              <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center" id="company">
-                <img src="assets/image/clients/client-1.png" class="img-fluid" alt="">
-              </div>
-      
-              <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center" id="company" >
-                <img src="assets/image/clients/client-2.png" class="img-fluid" alt="">
-              </div>
-      
-              <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center" id="company">
-                <img src="assets/image/clients/client-3.png" class="img-fluid" alt="">
-              </div>
-      
-              <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center" id="company">
-                <img src="assets/image/clients/client-4.png" class="img-fluid" alt="">
-              </div>
-      
-              <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center" id="company">
-                <img src="assets/image/clients/client-5.png" class="img-fluid" alt="">
-              </div>
-      
-              <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center" id="company">
-                <img src="assets/image/clients/client-6.png" class="img-fluid" alt="">
-              </div>
-      
-            </div>
+              
+                  
+                    <div class="default-content-container-inner marquee-wrapper relative overflow-hidden inline-block">
+                      <div class="marquee" style="animation-duration: 57s;">
+                        <a target="_blank"><img src="https://cdn.worldvectorlogo.com/logos/calvin-klein.svg" title="" class="marqueelogo" style="width: auto; max-width: none;"></a>
+                        <a target="_blank"><img src="https://cdn.worldvectorlogo.com/logos/tiktok-logo.svg" title="" class="marqueelogo" style="width: auto; max-width: none;"></a>
+                        <a target="_blank"><img src="https://cdn.worldvectorlogo.com/logos/ngk-3.svg" title="" class="marqueelogo" style="width: auto; max-width: none;"></a>
+                        <a target="_blank"><img src="https://cdn.worldvectorlogo.com/logos/asus-rog-1.svg" title="" class="marqueelogo" style="width: auto; max-width: none;"></a>
+                        <a target="_blank"><img src="https://cdn.worldvectorlogo.com/logos/nippon-sanso.svg" title="" class="marqueelogo" style="width: auto; max-width: none;"></a>
+                        <a target="_blank"><img src="https://cdn.worldvectorlogo.com/logos/comdisco.svg" title="" class="marqueelogo" style="width: auto; max-width: none;"></a>
+                        <a target="_blank"><img src="https://cdn.worldvectorlogo.com/logos/aricoin-icon.svg" title="" class="marqueelogo" style="width: auto; max-width: none;"></a>
+                        <a target="_blank"><img src="https://cdn.worldvectorlogo.com/logos/pse-1.svg" title="" class="marqueelogo" style="width: auto; max-width: none;"></a>
+                        <a target="_blank"><img src="https://cdn.worldvectorlogo.com/logos/scien.svg" title="" class="marqueelogo" style="width: auto; max-width: none;"></a>
+                        <a target="_blank"><img src="https://cdn.worldvectorlogo.com/logos/e-online.svg" title="" class="marqueelogo" style="width: auto; max-width: none;"></a>
+                        <a target="_blank"><img src="https://cdn.worldvectorlogo.com/logos/yourhomedirect.svg" title="" class="marqueelogo" style="width: auto; max-width: none;"></a>
+                        <a target="_blank"><img src="https://cdn.worldvectorlogo.com/logos/nextra-3.svg" title="" class="marqueelogo" style="width: auto; max-width: none;"></a>
+                      </div>
+                      <div class="marquee" style="animation-duration: 57s;">
+                        <a target="_blank"><img src="https://cdn.worldvectorlogo.com/logos/calvin-klein.svg" title="" class="marqueelogo" style="width: auto; max-width: none;"></a>
+                        <a target="_blank"><img src="https://cdn.worldvectorlogo.com/logos/tiktok-logo.svg" title="" class="marqueelogo" style="width: auto; max-width: none;"></a>
+                        <a target="_blank"><img src="https://cdn.worldvectorlogo.com/logos/ngk-3.svg" title="" class="marqueelogo" style="width: auto; max-width: none;"></a>
+                        <a target="_blank"><img src="https://cdn.worldvectorlogo.com/logos/asus-rog-1.svg" title="" class="marqueelogo" style="width: auto; max-width: none;"></a>
+                        <a target="_blank"><img src="https://cdn.worldvectorlogo.com/logos/nippon-sanso.svg" title="" class="marqueelogo" style="width: auto; max-width: none;"></a>
+                        <a target="_blank"><img src="https://cdn.worldvectorlogo.com/logos/comdisco.svg" title="" class="marqueelogo" style="width: auto; max-width: none;"></a>
+                        <a target="_blank"><img src="https://cdn.worldvectorlogo.com/logos/aricoin-icon.svg" title="" class="marqueelogo" style="width: auto; max-width: none;"></a>
+                        <a target="_blank"><img src="https://cdn.worldvectorlogo.com/logos/pse-1.svg" title="" class="marqueelogo" style="width: auto; max-width: none;"></a>
+                        <a target="_blank"><img src="https://cdn.worldvectorlogo.com/logos/scien.svg" title="" class="marqueelogo" style="width: auto; max-width: none;"></a>
+                        <a target="_blank"><img src="https://cdn.worldvectorlogo.com/logos/e-online.svg" title="" class="marqueelogo" style="width: auto; max-width: none;"></a>
+                        <a target="_blank"><img src="https://cdn.worldvectorlogo.com/logos/yourhomedirect.svg" title="" class="marqueelogo" style="width: auto; max-width: none;"></a>
+                        <a target="_blank"><img src="https://cdn.worldvectorlogo.com/logos/nextra-3.svg" title="" class="marqueelogo" style="width: auto; max-width: none;"></a>
+                      </div>
+                    </div>
+              
+            {{-- </div> --}}
             {{-- <div class="row">
               <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
                 <img src="assets/img/clients/client-6.png" class="img-fluid" alt="">
@@ -489,7 +505,6 @@
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
 
-<<<<<<< HEAD
 
 
   @if(session()->has('message'))
@@ -506,7 +521,6 @@
   @endif
   
 
-=======
   <script>
     function openSearch() {
       document.getElementById("myOverlay").style.display = "block";
@@ -516,7 +530,6 @@
       document.getElementById("myOverlay").style.display = "none";
     }
     </script>
->>>>>>> 72f74a739ec9bdb75a26e4de68283e2e1a1c0121
 
 </body>
 

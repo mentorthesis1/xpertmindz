@@ -63,7 +63,7 @@
           <li><a class="nav-link scrollto " href="/">Home</a></li>
           <li><a class="nav-link scrollto" href="/about">About</a></li>
           
-          <li class="dropdown"><a href="#"><span>Products</span> <i class="bi bi-chevron-down"></i></a>
+          <li class="dropdown"><a href="#"><span>SERVICES</span> <i class="bi bi-chevron-down"></i></a>
             <ul>
               <li><a href="#">Drop Down 1</a></li>
               <li class="dropdown"><a href="#"><span>Deep Drop Down</span> <i class="bi bi-chevron-right"></i></a>
@@ -81,8 +81,29 @@
             </ul>
           </li>
           <li><a class="nav-link scrollto" href="/contactUs">Contact Us</a></li>
-          <li><a class="nav-link scrollto" href="/login">Login</a></li>
-          <li><a class="nav-link scrollto" href="/register">Register</a></li>
+
+          <li class="dropdown"><a href="#"><span>LOGIN</span> <i class="bi bi-chevron-down"></i></a>
+            <ul>
+              <li><a href="/register_view">REGISTER</a></li>
+              
+              <li><a href="/login_view">EMPLOYEE LOGIN</a></li>
+              <li><a href="#">STUDENT LOGIN</a></li>
+              <li><a href="#">INSTITUTION LOGIN</a></li>
+            </ul>
+          </li>
+          <li>
+            <div id="myOverlay" class="overlay">
+              <span class="closebtn" onclick="closeSearch()" title="Close Overlay">×</span>
+              <div class="overlay-content">
+                <form action="/action_page.php">
+                  <input type="text" placeholder="Search.." name="search">
+                  <button type="submit"><i class="fa fa-search"></i></button>
+                </form>
+              </div>
+            </div>
+            <a><i class="fa fa-search nav-link scrollto " aria-hidden="true" style="font-size: 20px;" onclick="openSearch()"></i></button></a>
+            
+          </li>
           
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
@@ -252,6 +273,16 @@
     })
     </script>
   @endif
+
+  <script>
+    function openSearch() {
+      document.getElementById("myOverlay").style.display = "block";
+    }
+    
+    function closeSearch() {
+      document.getElementById("myOverlay").style.display = "none";
+    }
+    </script>
   
 
 </body>
