@@ -10,8 +10,8 @@ Route::get('/register_view',[AuthController::class,'register_view']);
 
 
 
-Route::get('/login',[AuthController::class,'login']);
-Route::get('/register',[AuthController::class,'register']);
+Route::post('/login',[AuthController::class,'login']);
+Route::post('/register',[AuthController::class,'register']);
 
 Route::get('/logout',[AuthController::class,'logout']);
 
@@ -25,3 +25,19 @@ Route::get('/student_login',[AuthController::class,'student_login']);
 
 
 Route::get('/institution_login',[AuthController::class,'institution_login']);
+
+
+//post
+
+Route::post('/student_register_create',[AuthController::class,'student_register_create']);
+
+
+Route::post('/institution_register_create',[AuthController::class,'institution_register_create']);
+
+Route::post('/student_login_action',[AuthController::class,'student_login_action']);
+
+
+Route::post('/institution_login_action',[AuthController::class,'institution_login_action']);
+
+
+

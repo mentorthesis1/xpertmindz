@@ -33,7 +33,7 @@
             {!! implode('',$errors->all('<li class="list-group-item bg-danger">:message</li>')) !!}
         </ul>
     @endif
-        <form action="login" autocomplete="off">
+        <form action="login" method="POST" autocomplete="off">
       
           <div class="d-flex flex-row align-items-center justify-content-center py-3">
             <p class="lead fw-normal mb-0 me-3 ">Sign in to XpertMindz</p>

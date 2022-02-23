@@ -31,7 +31,7 @@
 
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
-    
+  <link href="assets/css/custom.css" rel="stylesheet">
 
   <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10.16.6/dist/sweetalert2.all.min.js"></script>
   
@@ -84,11 +84,9 @@
 
           <li class="dropdown"><a href="#"><span>LOGIN</span> <i class="bi bi-chevron-down"></i></a>
             <ul>
-              <li><a href="/register_view">REGISTER</a></li>
-              
               <li><a href="/login_view">EMPLOYEE LOGIN</a></li>
-              <li><a href="#">STUDENT LOGIN</a></li>
-              <li><a href="#">INSTITUTION LOGIN</a></li>
+              <li><a href="/student_login">STUDENT LOGIN</a></li>
+              <li><a href="/institution_login">INSTITUTION LOGIN</a></li>
             </ul>
           </li>
           <li>
@@ -171,7 +169,18 @@
         
       </section>
 
-  </main><!-- End #main -->
+  </main>
+  
+  <!-- End #main -->
+
+
+  <div class="whatsapp-chat">
+    <a href="https://wa.me/8681910095?text=I'm%20interested%20in%20your%20car%20for%20sale">
+      <img src="{{asset('frontend/logo/whatsapp.png')}}" alt="whatsapp chat" height="80px" width="80px">
+    </a>
+    
+  </div>
+
 
   <!-- ======= Footer ======= -->
   <footer id="footer">
@@ -283,6 +292,23 @@
       document.getElementById("myOverlay").style.display = "none";
     }
     </script>
+
+
+
+    <!--Start of Tawk.to Script-->
+    <script type="text/javascript">
+      var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+      (function(){
+      var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+      s1.async=true;
+      s1.src='https://embed.tawk.to/62160a36a34c24564127bfc0/1fsj1fpgb';
+      s1.charset='UTF-8';
+      s1.setAttribute('crossorigin','*');
+      s0.parentNode.insertBefore(s1,s0);
+      })();
+      </script>
+      <!--End of Tawk.to Script-->
+    
   
 
 </body>
