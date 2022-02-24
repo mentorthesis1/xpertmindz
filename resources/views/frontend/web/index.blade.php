@@ -5,11 +5,6 @@
     <div class="row">
         <div class="col-md-12">
 
-            @if ($errors->any())
-            <ul class="alert alert-danger">
-                {!! implode('',$errors->all('<li class="list-group-item bg-danger">:message</li>')) !!}
-            </ul>
-        @endif
 
             <div class="h-100 p-5 bg-light border rounded-3 ">
               <h2 class="text-info">Unique <span class="text-dark">WebApplication</span>
@@ -39,19 +34,21 @@
             @csrf
               <div class="form-group">
                   <label>Name</label>
-                  <input type="text" class="form-control mb-2" name="name" placeholder="Enter your name"/>
+                  <input type="text" class="form-control mb-2" name="name" placeholder="Enter your name " required />
                   
               </div>
               <div class="form-group">
                 <label>Email</label>
-                <input type="text" class="form-control mb-2" name="email" placeholder="Enter your email"/>
+                <input type="email" class="form-control mb-2" name="email" placeholder="Enter your email " required/>
 
             </div>
             <div class="form-group">
                 <label>Mobile Number</label>
-                <input type="text" class="form-control mb-2" name="mobile" placeholder="Enter your mobile number"/>
+                <input type="number" class="form-control mb-2" name="mobile" placeholder="Enter your mobile number" required/>
 
             </div>
+            
+                <input type="hidden" class="form-control mb-2" name="req" value="web developement"/>
 
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>

@@ -40,6 +40,7 @@ class ServerController extends Controller
         $talk=new Talk;
         $talk->name=$request->name;
         $talk->email=$request->email;
+        $talk->requirement= $request->req;
         $talk->mobile=$request->mobile;
         $talk->save();
 
