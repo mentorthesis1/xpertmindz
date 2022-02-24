@@ -4,11 +4,11 @@
 <head>
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
-
+  <meta name="csrf-token" content="{{ csrf_token() }}">
   <title>Xpert Mindz</title>
   <meta content="" name="description">
   <meta content="" name="keywords">
-
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" crossorigin="anonymous"></script>
   <!-- Favicons -->
   <link href="assets/img/favicon.png" rel="icon">
   <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
@@ -314,7 +314,7 @@
   })();
   </script>
   <!--End of Tawk.to Script-->  
-
+@yield('scripts')
 </body>
 
 </html>

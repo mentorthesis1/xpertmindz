@@ -321,7 +321,7 @@
                 <div>
                   <h3 class="text-white fs-5"  style="text-align: center;">Web development</h3>
                   <p class="fs-6 text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo sed cum neque, rem provident ex. Laboriosam perspiciatis modi eveniet in?</p>
-                  <a href="/weddevelopment" type="button" class="btn btn-primary rounded-pill" style="margin-left: 64px;">view more</a>
+                  <a href="/web-design" type="button" class="btn btn-primary rounded-pill" style="margin-left: 64px;">view more</a>
                 </div>
               </div>
             </div>
