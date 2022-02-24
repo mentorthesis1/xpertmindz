@@ -68,23 +68,23 @@
    
               <li class="dropdown"><a href="#"><span>Courses</span> <i class="bi bi-chevron-right"></i></a>
                 <ul>
-                  <li><a href="#">Java</a></li>
-                  <li><a href="#">Python</a></li>
-                  <li><a href="#">C++ programing</a></li>
-                  <li><a href="#">Web Design</a></li>
-                  <li><a href="#">Matlab</a></li>
-                  <li><a href="#">Photo Shop</a></li>
-                  <li><a href="#">Tally</a></li>
-                  <li><a href="#">Asp.net</a></li>
-                  <li><a href="#">PGDCA</a></li>
+                  <li><a href="/java">Java</a></li>
+                  <li><a href="/python">Python</a></li>
+                  <li><a href="/c">C++ programing</a></li>
+                  <li><a href="/web-design">Web Design</a></li>
+                  <li><a href="/matlab">Matlab</a></li>
+                  <li><a href="/ps">Photo Shop</a></li>
+                  <li><a href="/tally">Tally</a></li>
+                  <li><a href="/asp">Asp.net</a></li>
+                  <li><a href="/pgdca">PGDCA</a></li>
                 </ul>
               </li>
-              <li><a href="#">Current Openning</a></li>
-              <li><a href="#">Projects</a></li>
-              <li><a href="#">Workshops</a></li>
-              <li><a href="#">Symposium</a></li>
-              <li><a href="#">Internship</a></li>
-              <li><a href="#">Web Development</a></li>
+              <li><a href="/manpower">Current Openning</a></li>
+              <li><a href="/project">Projects</a></li>
+              <li><a href="/workshop">Workshops</a></li>
+              <li><a href="/symposium">Symposium</a></li>
+              <li><a href="/internship">Internship</a></li>
+              <li><a href="/web-design">Web Development</a></li>
             </ul>
           </li>
           <li><a class="nav-link scrollto" href="/contactUs">Contact Us</a></li>
@@ -190,12 +190,23 @@
 
 
   <!-- ======= Footer ======= -->
-  <footer id="footer">
-    <div class="footer-top">
+  <footer id="footer" style="background-color: #033155">
+    
+    <div class="footer-top" style="background-color: #033155">
+      <div class="social-links mt-1" style="float: right;">
+        <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
+        <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
+        <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
+        <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
+        <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+      </div>
+      <div class="social-links mt-6" style="float: right; margin-top: 88px; margin-right:-140px; ">
+        <button type="button">download</button>
+      </div>
       <div class="container">
         <div class="row">
 
-          <div class="col-lg-3 col-md-6">
+          {{-- <div class="col-lg-3 col-md-6">
             <div class="footer-info">
               <h3>Medicio</h3>
               <p>
@@ -212,38 +223,44 @@
                 <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
               </div>
             </div>
-          </div>
+          </div> --}}
 
           <div class="col-lg-2 col-md-6 footer-links">
-            <h4>Useful Links</h4>
+            {{-- <h4>Useful Links</h4> --}}
             <ul>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Home</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">About us</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Services</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Terms of service</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Privacy policy</a></li>
+               <li><a href="#" style="color: white ">Home</a></li>
+               <li><a href="/about"style="color: white ">About us</a></li>
+              <li><a href="#" style="color: white ">Disclaimer</a></li>
+              <li> <a href="#" style="color: white ">Privacy policy</a></li>
+              <li> <a href="#" style="color: white ">cookie policy</a></li>
             </ul>
           </div>
 
-          <div class="col-lg-3 col-md-6 footer-links">
-            <h4>Our Services</h4>
+          <div class="col-lg-3 col-md-6 footer-links" >
+            
             <ul>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Web Design</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Web Development</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Product Management</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Marketing</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Graphic Design</a></li>
+              <li> <a href="#" style="color: white ">Education</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="/viewcourse" style="color: white ">courses</a></li>
+              
             </ul>
           </div>
-
-          <div class="col-lg-4 col-md-6 footer-newsletter">
+          <div class="col-lg-3 col-md-6 footer-links" >
+            
+            <ul>
+              <li> <a href="#" style="color: white ">HR</a></li>
+              <li> <a href="/manpower" style="color: white ">current openings</a></li>
+              
+            </ul>
+          </div>
+          
+          {{-- <div class="col-lg-4 col-md-6 footer-newsletter">
             <h4>Our Newsletter</h4>
             <p>Tamen quem nulla quae legam multos aute sint culpa legam noster magna</p>
             <form action="" method="post">
               <input type="email" name="email"><input type="submit" value="Subscribe">
             </form>
 
-          </div>
+          </div> --}}
 
         </div>
       </div>
@@ -251,14 +268,14 @@
 
     <div class="container">
       <div class="copyright">
-        &copy; Copyright <strong><span>Medicio</span></strong>. All Rights Reserved
+       <a style="color: white "> &copy; 2022 </a><strong><span style="color: white ">xpert mindz innovative solution pvt ltd</span></strong><a style="color: white ">. All Rights Reserved</a>
       </div>
       <div class="credits">
         <!-- All the links in the footer should remain intact. -->
         <!-- You can delete the links only if you purchased the pro version. -->
         <!-- Licensing information: https://bootstrapmade.com/license/ -->
         <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/medicio-free-bootstrap-theme/ -->
-        Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+         <a style="color: white">xpert mindz innovative solutions</a>
       </div>
     </div>
   </footer><!-- End Footer -->
