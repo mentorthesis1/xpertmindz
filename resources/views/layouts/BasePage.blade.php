@@ -258,7 +258,7 @@
                   <div>
                     <h3 class="text-white fs-5"  style="text-align: center;">Workshop</h3>
                     <p class="fs-6 text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo sed cum neque, rem provident ex. Laboriosam perspiciatis modi eveniet in?</p>
-                    <button type="button" class="btn btn-primary rounded-pill" style="margin-left: 64px;">view more</button>
+                    <a href="/workshop" type="button" class="btn btn-primary rounded-pill" style="margin-left: 64px;">view more</a>
                   </div>
                 </div>
               </div>
@@ -276,7 +276,7 @@
                   <div>
                     <h3 class="text-white fs-5"  style="text-align: center;">Symposium</h3>
                     <p class="fs-6 text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo sed cum neque, rem provident ex. Laboriosam perspiciatis modi eveniet in?</p>
-                    <button type="button" class="btn btn-primary rounded-pill" style="margin-left: 64px;">view more</button>
+                    <a href="/symposium" type="button" class="btn btn-primary rounded-pill" style="margin-left: 64px;">view more</a>
                   </div>
                 </div>
               </div>
@@ -294,7 +294,7 @@
                   <div>
                     <h3 class="text-white fs-5"  style="text-align: center;">Internship</h3>
                     <p class="fs-6 text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo sed cum neque, rem provident ex. Laboriosam perspiciatis modi eveniet in?</p>
-                    <button type="button" class="btn btn-primary rounded-pill" style="margin-left: 64px;">view more</button>
+                    <a href="/internship" type="button" class="btn btn-primary rounded-pill" style="margin-left: 64px;">view more</a>
                   </div>
                 </div>
               </div>
@@ -314,7 +314,7 @@
                 <div>
                   <h3 class="text-white fs-5"  style="text-align: center;">Web development</h3>
                   <p class="fs-6 text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo sed cum neque, rem provident ex. Laboriosam perspiciatis modi eveniet in?</p>
-                  <a href="/weddevelopment" type="button" class="btn btn-primary rounded-pill" style="margin-left: 64px;">view more</a>
+                  <a href="/webdevelopment" type="button" class="btn btn-primary rounded-pill" style="margin-left: 64px;">view more</a>
                 </div>
               </div>
             </div>
@@ -449,7 +449,7 @@
       <div class="container">
         <div class="row">
 
-          <div class="col-lg-3 col-md-6">
+          {{-- <div class="col-lg-3 col-md-6">
             <div class="footer-info">
               <h3>Medicio</h3>
               <p>
@@ -466,27 +466,33 @@
                 <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
               </div>
             </div>
-          </div>
+          </div> --}}
 
           <div class="col-lg-2 col-md-6 footer-links">
-            <h4>Useful Links</h4>
+            {{-- <h4>Useful Links</h4> --}}
             <ul>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Home</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">About us</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Services</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Terms of service</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Privacy policy</a></li>
+               <li><a href="#">Home</a></li>
+               <li><a href="/about">About us</a></li>
+              <li><a href="#">Disclaimer</a></li>
+              <li> <a href="#">Privacy policy</a></li>
+              <li> <a href="#">cookie policy</a></li>
             </ul>
           </div>
 
-          <div class="col-lg-3 col-md-6 footer-links">
-            <h4>Our Services</h4>
+          <div class="col-lg-3 col-md-6 footer-links" style="margin-left: -70px;">
+            
             <ul>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Web Design</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Web Development</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Product Management</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Marketing</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="#">Graphic Design</a></li>
+              <li> <a href="#">Education</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="/viewcourse">courses</a></li>
+              
+            </ul>
+          </div>
+          <div class="col-lg-3 col-md-6 footer-links" style="margin-left: -150px;">
+            
+            <ul>
+              <li> <a href="#">Education</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="/viewcourse">courses</a></li>
+              
             </ul>
           </div>
 

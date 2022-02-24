@@ -21,3 +21,7 @@ Route::get('/html',[FrontendController::class,'html']);
 Route::get('/pgdca',[FrontendController::class,'pgdca']);
 Route::get('/matlab',[FrontendController::class,'matlab']);
 Route::get('/project',[FrontendController::class,'project']);
+Route::get('/manpower',[FrontendController::class,'manpower']);
+Route::get('/internship',[FrontendController::class,'internship']);
+Route::get('/workshop',[FrontendController::class,'workshop']);
+Route::get('/symposium',[FrontendController::class,'symposium']);

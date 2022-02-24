@@ -54,4 +54,16 @@ class FrontendController extends Controller
     public function project(){
         return view('frontend/projects/project');
     }
+    public function manpower(){
+        return view('frontend/manpower/job');
+    }
+    public function internship(){
+        return view('frontend/internship/internships');
+    }
+    public function workshop(){
+        return view('frontend/workshop/workshop');
+    }
+    public function symposium(){
+        return view('frontend/symposium/symposium');
+    }
 }
