@@ -4,11 +4,11 @@
 <head>
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
-
+  <meta name="csrf-token" content="{{ csrf_token() }}">
   <title>Xpert Mindz</title>
   <meta content="" name="description">
   <meta content="" name="keywords">
-
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" crossorigin="anonymous"></script>
   <!-- Favicons -->
   <link href="assets/img/favicon.png" rel="icon">
   <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
@@ -65,19 +65,26 @@
           
           <li class="dropdown"><a href="#"><span>SERVICES</span> <i class="bi bi-chevron-down"></i></a>
             <ul>
-              <li><a href="#">Drop Down 1</a></li>
-              <li class="dropdown"><a href="#"><span>Deep Drop Down</span> <i class="bi bi-chevron-right"></i></a>
+   
+              <li class="dropdown"><a href="#"><span>Courses</span> <i class="bi bi-chevron-right"></i></a>
                 <ul>
-                  <li><a href="#">Deep Drop Down 1</a></li>
-                  <li><a href="#">Deep Drop Down 2</a></li>
-                  <li><a href="#">Deep Drop Down 3</a></li>
-                  <li><a href="#">Deep Drop Down 4</a></li>
-                  <li><a href="#">Deep Drop Down 5</a></li>
+                  <li><a href="#">Java</a></li>
+                  <li><a href="#">Python</a></li>
+                  <li><a href="#">C++ programing</a></li>
+                  <li><a href="#">Web Design</a></li>
+                  <li><a href="#">Matlab</a></li>
+                  <li><a href="#">Photo Shop</a></li>
+                  <li><a href="#">Tally</a></li>
+                  <li><a href="#">Asp.net</a></li>
+                  <li><a href="#">PGDCA</a></li>
                 </ul>
               </li>
-              <li><a href="#">Drop Down 2</a></li>
-              <li><a href="#">Drop Down 3</a></li>
-              <li><a href="#">Drop Down 4</a></li>
+              <li><a href="#">Current Openning</a></li>
+              <li><a href="#">Projects</a></li>
+              <li><a href="#">Workshops</a></li>
+              <li><a href="#">Symposium</a></li>
+              <li><a href="#">Internship</a></li>
+              <li><a href="#">Web Development</a></li>
             </ul>
           </li>
           <li><a class="nav-link scrollto" href="/contactUs">Contact Us</a></li>
@@ -294,23 +301,20 @@
     </script>
 
 
-
-    <!--Start of Tawk.to Script-->
-    <script type="text/javascript">
-      var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
-      (function(){
-      var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
-      s1.async=true;
-      s1.src='https://embed.tawk.to/62160a36a34c24564127bfc0/1fsj1fpgb';
-      s1.charset='UTF-8';
-      s1.setAttribute('crossorigin','*');
-      s0.parentNode.insertBefore(s1,s0);
-      })();
-      </script>
-      <!--End of Tawk.to Script-->
-    
-  
-
+<!--Start of Tawk.to Script-->
+<script type="text/javascript">
+  var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+  (function(){
+  var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+  s1.async=true;
+  s1.src='https://embed.tawk.to/62160a36a34c24564127bfc0/1fsj1fpgb';
+  s1.charset='UTF-8';
+  s1.setAttribute('crossorigin','*');
+  s0.parentNode.insertBefore(s1,s0);
+  })();
+  </script>
+  <!--End of Tawk.to Script-->  
+@yield('scripts')
 </body>
 
 </html>
