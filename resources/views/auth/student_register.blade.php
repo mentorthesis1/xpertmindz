@@ -39,7 +39,8 @@
     @endif
 
 
-        <form action="register"  autocomplete="off">
+        <form action="student_register_create" method="POST"  autocomplete="off">
+          @csrf
           <div class="d-flex flex-row align-items-center justify-content-center py-3 mt-5">
             <p class="lead fw-normal mb-0 me-3 ">Student Registeration</p>
             {{-- <button type="button" class="btn btn-primary btn-floating mx-1">
@@ -63,7 +64,14 @@
            <div class="form-outline mb-4">
             <input type="text" name="name" id="form3Example3" class="form-control form-control-lg"
               placeholder="Enter your name" />
-            <label class="form-label" for="form3Example3">User Name</label>
+            <label class="form-label" for="form3Example3">Your Name</label>
+          </div>
+         
+
+          <div class="form-outline mb-4">
+            <input type="text" name="collage_name" id="form3Example3" class="form-control form-control-lg"
+              placeholder="Enter your collage name" />
+            <label class="form-label" for="form3Example3">Collage Name</label>
           </div>
          
 
@@ -106,7 +114,7 @@
             <button type="submit" class="btn btn-primary btn-lg"
               style="padding-left: 2.5rem; padding-right: 2.5rem;">Submit</button>
             <p class="small fw-bold mt-2 pt-1 mb-0">Do you have already an account? <a href="/login_view"
-                class="link-danger">Login</a></p>
+                class="link-danger">Student Login</a></p>
           </div>
 
         </form>
