@@ -4,7 +4,7 @@ use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\Schema;
 
-class CreateTalksTable extends Migration
+class CreateCurrentsTable extends Migration
 {
     /**
      * Run the migrations.
@@ -13,12 +13,15 @@ class CreateTalksTable extends Migration
      */
     public function up()
     {
-        Schema::create('talks', function (Blueprint $table) {
+        Schema::create('currents', function (Blueprint $table) {
             $table->id();
-            $table->string('name');
-            $table->string('email');
-            $table->string('mobile');
-            $table->string('requirement')->nullable();
+            $table->string('job_title');
+            $table->string('salary');
+            $table->string('location');
+            $table->string('qualification');
+            $table->string('experience');
+        
+            $table->string('job_description')->nullable;
             $table->timestamps();
         });
     }
@@ -30,6 +33,6 @@ class CreateTalksTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('talks');
+        Schema::dropIfExists('currents');
     }
 }

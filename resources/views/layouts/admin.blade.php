@@ -10,7 +10,11 @@
         <link href="https://cdn.jsdelivr.net/npm/simple-datatables@latest/dist/style.css" rel="stylesheet" />
         <link href="admin/css/styles.css" rel="stylesheet" />
         <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/js/all.min.js" crossorigin="anonymous"></script>
-
+        <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10.16.6/dist/sweetalert2.all.min.js"></script>
+  
+ 
+        <link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/sweetalert2@10.10.1/dist/sweetalert2.min.css'>
+      
         @yield('styles')
     </head>
     <body class="sb-nav-fixed">
@@ -57,6 +61,14 @@
                                 <div class="sb-nav-link-icon"><i class="fas fa-tachometer-alt"></i></div>
                                  Reports
                             </a>
+                            <a class="nav-link" href="/talk">
+                                <div class="sb-nav-link-icon"><i class="fas fa-tachometer-alt"></i></div>
+                                 Talk
+                            </a>
+                            <a class="nav-link" href="/current_openning">
+                                <div class="sb-nav-link-icon"><i class="fas fa-tachometer-alt"></i></div>
+                                  Current Openning
+                            </a>
                             {{-- <div class="sb-sidenav-menu-heading">Interface</div>
                             <a class="nav-link collapsed" href="#" data-bs-toggle="collapse" data-bs-target="#collapseLayouts" aria-expanded="false" aria-controls="collapseLayouts">
                                 <div class="sb-nav-link-icon"><i class="fas fa-columns"></i></div>
@@ -98,6 +110,19 @@
         <script src="admin/assets/demo/chart-bar-demo.js"></script>
         <script src="https://cdn.jsdelivr.net/npm/simple-datatables@latest" crossorigin="anonymous"></script>
         <script src="admin/js/datatables-simple-demo.js"></script>
+
+        @if(session()->has('message'))
+        <script>
+          
+          Swal.fire({
+            position: 'top-end',
+            icon: 'success',
+            title: "{{session()->get('message')}}",
+            showConfirmButton: false,
+            timer: 3000
+          })
+          </script>
+        @endif
 
         @yield('scripts')
     </body>

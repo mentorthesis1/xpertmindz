@@ -445,7 +445,7 @@
 
   <div class="whatsapp-chat">
     <a href="https://wa.me/8681910095?text=I'm%20interested%20in%20your%20car%20for%20sale">
-      <img src="{{asset('frontend/logo/whatsapp.png')}}" alt="whatsapp chat" height="80px" width="80px">
+      <img src="{{asset('frontend/logo/whatsapp2.png')}}" alt="whatsapp chat" height="80px" width="80px">
     </a>
     
   </div>
