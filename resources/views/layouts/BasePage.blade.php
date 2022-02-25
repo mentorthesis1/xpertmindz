@@ -423,32 +423,21 @@
                   
                     <div class="default-content-container-inner marquee-wrapper relative overflow-hidden inline-block">
                       <div class="marquee" style="animation-duration: 57s;">
-                        <a target="_blank"><img src="https://cdn.worldvectorlogo.com/logos/calvin-klein.svg" title="" class="marqueelogo" style="width: auto; max-width: none;"></a>
-                        <a target="_blank"><img src="https://cdn.worldvectorlogo.com/logos/tiktok-logo.svg" title="" class="marqueelogo" style="width: auto; max-width: none;"></a>
-                        <a target="_blank"><img src="https://cdn.worldvectorlogo.com/logos/ngk-3.svg" title="" class="marqueelogo" style="width: auto; max-width: none;"></a>
-                        <a target="_blank"><img src="https://cdn.worldvectorlogo.com/logos/asus-rog-1.svg" title="" class="marqueelogo" style="width: auto; max-width: none;"></a>
-                        <a target="_blank"><img src="https://cdn.worldvectorlogo.com/logos/nippon-sanso.svg" title="" class="marqueelogo" style="width: auto; max-width: none;"></a>
-                        <a target="_blank"><img src="https://cdn.worldvectorlogo.com/logos/comdisco.svg" title="" class="marqueelogo" style="width: auto; max-width: none;"></a>
-                        <a target="_blank"><img src="https://cdn.worldvectorlogo.com/logos/aricoin-icon.svg" title="" class="marqueelogo" style="width: auto; max-width: none;"></a>
-                        <a target="_blank"><img src="https://cdn.worldvectorlogo.com/logos/pse-1.svg" title="" class="marqueelogo" style="width: auto; max-width: none;"></a>
-                        <a target="_blank"><img src="https://cdn.worldvectorlogo.com/logos/scien.svg" title="" class="marqueelogo" style="width: auto; max-width: none;"></a>
-                        <a target="_blank"><img src="https://cdn.worldvectorlogo.com/logos/e-online.svg" title="" class="marqueelogo" style="width: auto; max-width: none;"></a>
-                        <a target="_blank"><img src="https://cdn.worldvectorlogo.com/logos/yourhomedirect.svg" title="" class="marqueelogo" style="width: auto; max-width: none;"></a>
-                        <a target="_blank"><img src="https://cdn.worldvectorlogo.com/logos/nextra-3.svg" title="" class="marqueelogo" style="width: auto; max-width: none;"></a>
+                        <a target="_blank"><img src="assets/image/clients/client-1.png" title="" class="marqueelogo" style="width: auto; max-width: none;"></a>
+                        <a target="_blank"><img src="assets/image/clients/client-2.png" title="" class="marqueelogo" style="width: auto; max-width: none;"></a>
+                        <a target="_blank"><img src="assets/image/clients/client-3.png" title="" class="marqueelogo" style="width: auto; max-width: none;"></a>
+                        <a target="_blank"><img src="assets/image/clients/client-4.png" title="" class="marqueelogo" style="width: auto; max-width: none;"></a>
+                        <a target="_blank"><img src="assets/image/clients/client-5.png" title="" class="marqueelogo" style="width: auto; max-width: none;"></a>
+                        <a target="_blank"><img src="assets/image/clients/client-6.png" title="" class="marqueelogo" style="width: auto; max-width: none;"></a>
+                        
                       </div>
                       <div class="marquee" style="animation-duration: 57s;">
-                        <a target="_blank"><img src="https://cdn.worldvectorlogo.com/logos/calvin-klein.svg" title="" class="marqueelogo" style="width: auto; max-width: none;"></a>
-                        <a target="_blank"><img src="https://cdn.worldvectorlogo.com/logos/tiktok-logo.svg" title="" class="marqueelogo" style="width: auto; max-width: none;"></a>
-                        <a target="_blank"><img src="https://cdn.worldvectorlogo.com/logos/ngk-3.svg" title="" class="marqueelogo" style="width: auto; max-width: none;"></a>
-                        <a target="_blank"><img src="https://cdn.worldvectorlogo.com/logos/asus-rog-1.svg" title="" class="marqueelogo" style="width: auto; max-width: none;"></a>
-                        <a target="_blank"><img src="https://cdn.worldvectorlogo.com/logos/nippon-sanso.svg" title="" class="marqueelogo" style="width: auto; max-width: none;"></a>
-                        <a target="_blank"><img src="https://cdn.worldvectorlogo.com/logos/comdisco.svg" title="" class="marqueelogo" style="width: auto; max-width: none;"></a>
-                        <a target="_blank"><img src="https://cdn.worldvectorlogo.com/logos/aricoin-icon.svg" title="" class="marqueelogo" style="width: auto; max-width: none;"></a>
-                        <a target="_blank"><img src="https://cdn.worldvectorlogo.com/logos/pse-1.svg" title="" class="marqueelogo" style="width: auto; max-width: none;"></a>
-                        <a target="_blank"><img src="https://cdn.worldvectorlogo.com/logos/scien.svg" title="" class="marqueelogo" style="width: auto; max-width: none;"></a>
-                        <a target="_blank"><img src="https://cdn.worldvectorlogo.com/logos/e-online.svg" title="" class="marqueelogo" style="width: auto; max-width: none;"></a>
-                        <a target="_blank"><img src="https://cdn.worldvectorlogo.com/logos/yourhomedirect.svg" title="" class="marqueelogo" style="width: auto; max-width: none;"></a>
-                        <a target="_blank"><img src="https://cdn.worldvectorlogo.com/logos/nextra-3.svg" title="" class="marqueelogo" style="width: auto; max-width: none;"></a>
+                        <a target="_blank"><img src="assets/image/clients/client-1.png" title="" class="marqueelogo" style="width: auto; max-width: none;"></a>
+                        <a target="_blank"><img src="assets/image/clients/client-2.png" title="" class="marqueelogo" style="width: auto; max-width: none;"></a>
+                        <a target="_blank"><img src="assets/image/clients/client-3.png" title="" class="marqueelogo" style="width: auto; max-width: none;"></a>
+                        <a target="_blank"><img src="assets/image/clients/client-4.png" title="" class="marqueelogo" style="width: auto; max-width: none;"></a>
+                        <a target="_blank"><img src="assets/image/clients/client-5.png" title="" class="marqueelogo" style="width: auto; max-width: none;"></a>
+                        <a target="_blank"><img src="assets/image/clients/client-6.png" title="" class="marqueelogo" style="width: auto; max-width: none;"></a>
                       </div>
                     </div>
               
