@@ -56,6 +56,7 @@ class FrontendController extends Controller
         return view('frontend/projects/project');
     }
     public function manpower(){
+        
         return view('frontend/manpower/job');
     }
     public function internship(){

@@ -69,7 +69,7 @@
                             </a>
                             <a class="nav-link" href="/current_openning">
                                 <div class="sb-nav-link-icon"><i class="fas fa-tachometer-alt"></i></div>
-                                  Current Openning
+                                  Man Power
                             </a>
                             <a class="nav-link" href="/workshop_view">
                                 <div class="sb-nav-link-icon"><i class="fas fa-tachometer-alt"></i></div>
