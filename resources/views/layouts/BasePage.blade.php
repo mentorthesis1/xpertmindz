@@ -110,6 +110,16 @@
             </ul>
           </li>
           <li><a class="nav-link scrollto" href="/contactUs">Contact Us</a></li>
+           @Auth
+           <li class="dropdown"><a href="#"><span>My Profile</span> <i class="bi bi-chevron-down"></i></a>
+            <ul>
+              <li><a href="/dashboard">Dashboard</a></li>
+              <li><a href="/profile">Profile</a></li>
+              <li><a href="/logout">Logout</a></li>
+            </ul>
+          </li>
+
+           @else
           <li class="dropdown"><a href="#"><span>LOGIN</span> <i class="bi bi-chevron-down"></i></a>
             <ul>
               <li><a href="/login_view">EMPLOYEE LOGIN</a></li>
@@ -117,6 +127,7 @@
               <li><a href="/institution_login">INSTITUTION LOGIN</a></li>
             </ul>
           </li>
+          @endAuth     
           <li>
             <div id="myOverlay" class="overlay">
               <span class="closebtn" onclick="closeSearch()" title="Close Overlay">×</span>

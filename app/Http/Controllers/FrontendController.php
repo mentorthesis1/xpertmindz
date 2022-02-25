@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use App\Models\workshop;
 
 class FrontendController extends Controller
 {
@@ -171,7 +172,30 @@ class FrontendController extends Controller
 
 
 
+//workshop
 
+public function workshop_create(Request $request){
+              
+   $ins_name=$request->ins_name;
+   $email=$request->email;
+   $phone=$request->phone;
+   $workshop_topic=$request->workshop_topic;
+   $workshop_date=$request->workshop_date;
+   $workshop_place=$request->workshop_place;
+
+   $data=[
+       'institution_name'=>$ins_name,
+       'email'=>$email,
+       'phone'=>$phone,
+       'workshop_topic'=>$workshop_topic,
+       'workshop_date'=>$workshop_date,
+       'workshop_place'=>$workshop_place
+   ];
+
+   Workshop::create($data);
+   return redirect()->back()->with('message','workshop created successfully');
+
+}
 
 
 

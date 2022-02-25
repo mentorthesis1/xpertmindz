@@ -7,6 +7,7 @@ use App\Models\User;
 use App\Models\Contact;
 use App\Models\Talk;
 use App\Models\Current;
+use App\Models\workshop;
 
 class AdminController extends Controller
 {
@@ -111,6 +112,13 @@ public function delete_current_openning($id){
 
 }
 
+
+//workshop
+
+public function workshop_view(){
+   $workshop=Workshop::all();
+   return view('admin.workshop',compact('workshop'));
+}
 
 
 

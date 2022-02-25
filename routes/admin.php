@@ -22,3 +22,8 @@ Route::post('/create_current_openning',[AdminController::class,'create_current_o
 Route::get('/edit_current_openning/{id}',[AdminController::class,'edit_current_openning']);
 Route::post('/update_current_openning',[AdminController::class,'update_current_openning']);
 Route::get('/delete_current_openning/{id}',[AdminController::class,'delete_current_openning']);
+
+//workshop
+
+Route::get('/workshop_view',[AdminController::class,'workshop_view']);
+
