@@ -72,6 +72,16 @@
 
       <nav id="navbar" class="navbar order-last order-lg-0" style="margin-top: -20px;">
         <ul>
+
+        
+           <li><a class="nav-link scrollto " href="/payment_view">
+            <img src="{{asset('frontend/logo/wallet.png')}}" height="40" width="50"
+            data-bs-toggle="tooltip" data-bs-placement="bottom" title="Pay Now">
+           </a></li>
+         
+
+
+
           <li><a class="nav-link scrollto " href="/">Home</a></li>
           <li><a class="nav-link scrollto" href="/about">About</a></li>
           

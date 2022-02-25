@@ -40,6 +40,7 @@
 
 
         <form action="register" method="POST"  autocomplete="off">
+          @csrf
           <div class="d-flex flex-row align-items-center justify-content-center py-3 mt-5">
             <p class="lead fw-normal mb-0 me-3 ">Sign up to XpertMindz</p>
             {{-- <button type="button" class="btn btn-primary btn-floating mx-1">
