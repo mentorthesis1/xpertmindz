@@ -2108,3 +2108,36 @@ div.marquee>a>img {
   }
 }
 /*end workshop*/
+
+/*be project*/
+.project {
+  width: 30%;
+  height: 100%;
+  object-fit:cover;
+  
+  -webkit-box-reflect:below 2px linear-gradient(transparent, transparent, #0004);
+  
+  transform-origin:center;
+  transform:perspective(800px) rotateY(25deg);
+  transition:0.5s;
+}
+.container12 {
+  /* max-width:600px;
+  max-height:350px; */
+  
+  
+  
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  gap:20px;
+  
+}
+.container12:hover .project {
+  opacity:0.3;
+}
+.container12 .project:hover {
+  transform:perspective(800px)       rotateY(0deg);
+  opacity:1;
+}
+/*end be project*/

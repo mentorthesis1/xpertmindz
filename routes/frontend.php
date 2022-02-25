@@ -27,6 +27,7 @@ Route::get('/manpower',[FrontendController::class,'manpower']);
 Route::get('/internship',[FrontendController::class,'internship']);
 Route::get('/workshop',[FrontendController::class,'workshop']);
 Route::get('/symposium',[FrontendController::class,'symposium']);
+Route::get('/beproject',[FrontendController::class,'beproject']);
 
 
 
