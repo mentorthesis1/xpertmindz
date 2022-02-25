@@ -146,34 +146,39 @@
           <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
         </div>
         <div class="modal-body">
-          <form>
+          <form action="/workshop_create" method="post">
+            @csrf
+            <input type="hidden" value="institution" name="workshop_place">
 
            <div class="mb-3">
                 <label for="recipient-name" class="col-form-label">Institution Name</label>
-                <input type="text" class="form-control" id="recipient-name">
+                <input type="text" class="form-control" name="ins_name" required>
             </div>
             <div class="mb-3">
                 <label for="recipient-name" class="col-form-label">Email id</label>
-                <input type="text" class="form-control" id="recipient-name">
+                <input type="email" class="form-control" name="email" required>
             </div>
             <div class="mb-3">
                 <label for="recipient-name" class="col-form-label">Phone Number</label>
-                <input type="text" class="form-control" id="recipient-name">
+                <input type="text" class="form-control" name="phone" required>
             </div>
             <div class="mb-3">
                 <label for="recipient-name" class="col-form-label">workshop Topic</label>
-                <input type="text" class="form-control" id="recipient-name">
+                <input type="text" class="form-control" name="workshop_topic" required>
             </div>
             <div class="mb-3">
                 <label for="recipient-name" class="col-form-label">workshop conducting Date</label>
-                <input type="date" class="form-control" id="recipient-name">
+                <input type="date" class="form-control" name="workshop_date" required>
+            </div>
+
+
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+              <button type="submit" class="btn btn-primary">APPLY</button>
             </div>
           </form>
         </div>
-        <div class="modal-footer">
-          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-          <button type="button" class="btn btn-primary">APPLY</button>
-        </div>
+        
       </div>
     </div>
 </div>
@@ -186,34 +191,44 @@
           <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
         </div>
         <div class="modal-body">
-          <form>
+          <form action="/workshop_create" method="post">
+            @csrf
+            <input type="hidden" value="xpertmindz" name="workshop_place">
 
            <div class="mb-3">
                 <label for="recipient-name" class="col-form-label">Institution Name</label>
-                <input type="text" class="form-control" id="recipient-name">
+                <input type="text" class="form-control" name="ins_name" required>
             </div>
             <div class="mb-3">
                 <label for="recipient-name" class="col-form-label">Email id</label>
-                <input type="text" class="form-control" id="recipient-name">
+                <input type="email" class="form-control" name="email" required>
             </div>
             <div class="mb-3">
                 <label for="recipient-name" class="col-form-label">Phone Number</label>
-                <input type="text" class="form-control" id="recipient-name">
+                <input type="text" class="form-control" name="phone" required>
             </div>
             <div class="mb-3">
                 <label for="recipient-name" class="col-form-label">workshop Topic</label>
-                <input type="text" class="form-control" id="recipient-name">
+                <input type="text" class="form-control" name="workshop_topic" required>
             </div>
-            
+            <div class="mb-3">
+              <label for="recipient-name" class="col-form-label">workshop conducting Date</label>
+              <input type="date" class="form-control" name="workshop_date" required>
+
+          </div>
+
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            <button type="submit" class="btn btn-primary">APPLY</button>
+          </div>
           </form>
         </div>
-        <div class="modal-footer">
-          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-          <button type="button" class="btn btn-primary">APPLY</button>
-        </div>
+       
       </div>
     </div>
 </div>
+
+
 
 
 @endsection

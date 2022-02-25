@@ -40,6 +40,8 @@ Route::get('/beproject',[FrontendController::class,'beproject']);
 
 
 
+//workshop create
+Route::post('/workshop_create',[FrontendController::class,'workshop_create']);
 
 
 
