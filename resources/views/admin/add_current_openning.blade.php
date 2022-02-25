@@ -78,15 +78,7 @@
                                     </div>
 
                                   </div>
-                                  <div class="col-md-6">
-                                    <div class="form-group">
-                                      <label class="bmd-label-floating">Last Date</label>
-                                      <input type="date" name="last_date" class="form-control">
-                                      @error('last_date')
-                                      <p class="text-danger mt-1 mb-1">{{ $message }}</p>
-                                       @enderror
-                                    </div>
-                                  </div>
+                                 
                                 </div>
 
                                 <div class="row">

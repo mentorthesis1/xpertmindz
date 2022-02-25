@@ -18,3 +18,7 @@ Route::get('/current_openning',[AdminController::class,'current_openning']);
 Route::get('/add_current_openning_view',[AdminController::class,'add_current_openning_view']);
 
 Route::post('/create_current_openning',[AdminController::class,'create_current_openning']);
+
+Route::get('/edit_current_openning/{id}',[AdminController::class,'edit_current_openning']);
+Route::post('/update_current_openning',[AdminController::class,'update_current_openning']);
+Route::get('/delete_current_openning/{id}',[AdminController::class,'delete_current_openning']);

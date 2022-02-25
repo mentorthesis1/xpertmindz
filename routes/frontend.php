@@ -4,6 +4,8 @@ use Illuminate\Support\Facades\Route;
 
 use App\Http\Controllers\FrontendController;
 
+use App\Http\Controllers\PaymentController;
+
 
 Route::get('/about',[FrontendController::class,'about']);
 Route::get('/contactUs',[FrontendController::class,'contactUs']);
@@ -41,53 +43,15 @@ Route::get('/beproject',[FrontendController::class,'beproject']);
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 //web design
+
 Route::get('/web-design',[FrontendController::class,'index']);
+
+//payment
+
+
+Route::get('/payment_view',[PaymentController::class,'payment_view']);
+Route::post('paymentRazor', [PaymentController::class,'paymentRazor'])->name('paymentRazor');
+
+
 

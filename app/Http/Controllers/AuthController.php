@@ -58,7 +58,7 @@ class AuthController extends Controller
 
         Auth::login($user);
 
-        return redirect('/login');
+        return redirect('/login_view');
 
     }
 

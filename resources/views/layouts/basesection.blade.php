@@ -8,6 +8,8 @@
   <title>Xpert Mindz</title>
   <meta content="" name="description">
   <meta content="" name="keywords">
+
+
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" crossorigin="anonymous"></script>
   <!-- Favicons -->
   <link href="assets/img/favicon.png" rel="icon">
@@ -60,6 +62,14 @@
 
       <nav id="navbar" class="navbar order-last order-lg-0">
         <ul>
+
+             
+           <li><a class="nav-link scrollto " href="/payment_view">
+            <img src="{{asset('frontend/logo/wallet.png')}}" height="40" width="50"
+            data-bs-toggle="tooltip" data-bs-placement="bottom" title="Pay Now">
+           </a></li>
+         
+
           <li><a class="nav-link scrollto " href="/">Home</a></li>
           <li><a class="nav-link scrollto" href="/about">About</a></li>
           

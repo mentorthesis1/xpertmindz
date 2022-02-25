@@ -46,7 +46,7 @@ class AdminController extends Controller
                 'location'=>'required',
                 'quali'=>'required',
                 'exp'=>'required',
-                'last_date'=>'required',
+           
                 'job_des'=>'required'
 
             ]);
@@ -56,8 +56,8 @@ class AdminController extends Controller
             $location=$request->location;
             $quali=$request->quali;
             $exp=$request->exp;
-            $last_date=$request->last_date;
-            $job_des=$request->last_date;
+        
+            $job_des=$request->job_des;
               
             $data=[
                 'job_title'=>$job_title,
@@ -65,7 +65,7 @@ class AdminController extends Controller
                 'location'=>$location,
                 'qualification'=>$quali,
                 'experience'=>$exp,
-                'last_date'=>$last_date,
+          
                 'job_description'=>$job_des
             ];
             
@@ -73,4 +73,46 @@ class AdminController extends Controller
             return redirect()->back()->with('message','job created successfully');
     }
 
+   public function edit_current_openning($id){
+         $data['key']=Current::where('id',$id)->first();
+        return view('admin.edit_current_openning',$data);
+   }
+
+
+    public function update_current_openning(Request $request){
+      $id=$request->id;
+        $job_title=$request->job_title;
+        $salary=$request->salary;
+        $location=$request->location;
+        $quali=$request->quali;
+        $exp=$request->exp;
+        $last_date=$request->last_date;
+        $job_des=$request->last_date;
+          
+        $data=[
+            'job_title'=>$job_title,
+            'salary'=>$salary,
+            'location'=>$location,
+            'qualification'=>$quali,
+            'experience'=>$exp,
+            'last_date'=>$last_date,
+            'job_description'=>$job_des
+        ];
+        
+        Current::where('id',$id)->update($data);
+        return redirect()->back()->with('message','Update successfully');
+}
+
+
+
+public function delete_current_openning($id){
+       Current::where('id',$id)->delete();
+       return redirect()->back()->with('message','Deleted');
+
+}
+
+
+
+
+    
 }
