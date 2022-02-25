@@ -79,7 +79,11 @@
                   <li><a href="/pgdca">PGDCA</a></li>
                 </ul>
               </li>
-              <li><a href="/manpower">Current Openning</a></li>
+              <li class="dropdown"><a href="#"><span>Man Power</span> <i class="bi bi-chevron-right"></i></a>
+                <ul>
+                  <li><a href="/manpower">Current openings</a></li>
+                </ul>
+              </li>
               <li><a href="/project">Projects</a></li>
               <li><a href="/workshop">Workshops</a></li>
               <li><a href="/symposium">Symposium</a></li>
@@ -201,7 +205,9 @@
         <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
       </div>
       <div class="social-links mt-6" style="float: right; margin-top: 88px; margin-right:-140px; ">
-        <button type="button">download</button>
+        <a href="assets/image/features-1.png" download>
+          <img src="assets/image/boucherlogo.png" style="width: 500%; height: 250%; margin-left: -80px; margin-top: -14px;">
+        </a>
       </div>
       <div class="container">
         <div class="row">

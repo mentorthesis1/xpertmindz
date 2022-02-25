@@ -66,6 +66,9 @@ class FrontendController extends Controller
     public function symposium(){
         return view('frontend/symposium/symposium');
     }
+    public function beproject(){
+        return view('frontend/projects/beproject');
+    }
 
 
 

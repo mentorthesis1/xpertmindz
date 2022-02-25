@@ -1,122 +1,81 @@
 @extends('layouts.basesection')
 @section('dashboard')
 <section id="pricing" class="pricing" style="margin-top: -20px;">
-    <div class="container" data-aos="fade-up">
+    <div class="container" data-aos="fade-up" style="margin-top: 20px;s">
 
-        {{-- <div class="card">
-            <div class="card-header">
-              JOB  title
-            </div>
-            <div class="card-body">
-                <div class="row">
-                    <div class= "col-sm-4">
-                        <h5 class="card-title">Special title treatment</h5>
-                        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                        <a href="#" class="btn btn-primary">Go somewhere</a>
-                    </div>
-                    <div class= "col-sm-8">
-                        <h5 class="card-title">Special title treatment</h5>
-                        <p class="card-text">With supporting text below as a natural lead-in to additional content.</p>
-                        <a href="#" class="btn btn-primary">Go somewhere</a>
-                    </div>
-                </div>
-            </div> --}}
-        {{-- </div> --}}
+       
 <div class="card border">
+  {{-- <div class="card border"> --}}
     <div class="card-header">
         Job Title
     </div>
     <div class="card-body">
         <form>
             <div class="form-group row">
-              <label for="inputEmail3" class="col-sm-2 col-form-label" style="color: black" >Sector</label>
+              <label for="inputEmail3" class="col-sm-2 col-form-label" style="color: black; font-size: 20px;" >Sector</label>
               <div class="col-sm-10">
-              <label for="inputEmail3" class="col-sm-2 col-form-label" style="color: black">IT</label>
+              <label for="inputEmail3" class="col-sm-2 col-form-label" style="color: black; font-size: 20px;">IT</label>
 
-                {{-- <input type="email" class="form-control" id="inputEmail3" placeholder="Email"> --}}
               </div>
             </div>
             <div class="form-group row">
-              <label for="inputPassword3" class="col-sm-2 col-form-label" style="color: black">Experience</label>
+              <label for="inputPassword3" class="col-sm-2 col-form-label" style="color: black; font-size: 20px;">Experience</label>
               <div class="col-sm-10">
-              <label for="inputPassword3" class="col-sm-2 col-form-label" style="color: black">Fresher</label>
+              <label for="inputPassword3" class="col-sm-2 col-form-label" style="color: black; font-size: 20px;">Fresher</label>
 
-                {{-- <input type="password" class="form-control" id="inputPassword3" placeholder="Password"> --}}
               </div>
             </div>
             <div class="form-group row">
-                <label for="inputPassword3" class="col-sm-2 col-form-label" style="color: black">Location</label>
+                <label for="inputPassword3" class="col-sm-2 col-form-label" style="color: black; font-size: 20px;">Location</label>
                 <div class="col-sm-10">
-                <label for="inputPassword3" class="col-sm-2 col-form-label" style="color: black">Marthandam</label>
+                <label for="inputPassword3" class="col-sm-2 col-form-label" style="color: black; font-size: 20px;">Marthandam</label>
   
-                  {{-- <input type="password" class="form-control" id="inputPassword3" placeholder="Password"> --}}
                 </div>
               </div>
               <div class="form-group row">
-                <label for="inputPassword3" class="col-sm-2 col-form-label" style="color: black">job description</label>
+                <label for="inputPassword3" class="col-sm-2 col-form-label" style="color: black; font-size: 20px;">job description</label>
                 <div class="col-sm-10">
-                <label for="inputPassword3" class="col-sm-10 col-form-label" style="color: black">sdugfdshfvcgsjdfasyfvcsavcgadsfgasvhcvagvgvcHNGVScghsghvbsvfgsdfhvcvhvfhgvs</label>
+                <label for="inputPassword3" class="col-sm-10 col-form-label" style="color: black; font-size: 20px;">sdugfdshfvcgsjdfasyfvcsavcgadsfgasvhcvagvgvcHNGVScghsghvbsvfgsdfhvcvhvfhgvs</label>
   
-                  {{-- <input type="password" class="form-control" id="inputPassword3" placeholder="Password"> --}}
                 </div>
               </div>
               <div class="form-group row">
-                <label for="inputPassword3" class="col-sm-2 col-form-label" style="color: black">Qualification</label>
+                <label for="inputPassword3" class="col-sm-2 col-form-label" style="color: black; font-size: 20px;">Qualification</label>
                 <div class="col-sm-10">
-                <label for="inputPassword3" class="col-sm-2 col-form-label" style="color: black">Any Degree</label>
+                <label for="inputPassword3" class="col-sm-2 col-form-label" style="color: black; font-size: 20px;">Any Degree</label>
   
-                  {{-- <input type="password" class="form-control" id="inputPassword3" placeholder="Password"> --}}
+                </div>
+              </div>
+              <div class="form-group row">
+                <label for="inputPassword3" class="col-sm-2 col-form-label" style="color: black; font-size: 20px;">CTC</label>
+                <div class="col-sm-10">
+                <label for="inputPassword3" class="col-sm-2 col-form-label" style="color: black; font-size: 20px;">7000-10,000</label>
+  
                 </div>
               </div>
 
 
-            {{-- <fieldset class="form-group">
-              <div class="row">
-                <legend class="col-form-label col-sm-2 pt-0">Radios</legend>
-                <div class="col-sm-10">
-                  <div class="form-check">
-                    <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="option1" checked>
-                    <label class="form-check-label" for="gridRadios1">
-                      First radio
-                    </label>
-                  </div>
-                  <div class="form-check">
-                    <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2" value="option2">
-                    <label class="form-check-label" for="gridRadios2">
-                      Second radio
-                    </label>
-                  </div>
-                  <div class="form-check disabled">
-                    <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios3" value="option3" disabled>
-                    <label class="form-check-label" for="gridRadios3">
-                      Third disabled radio
-                    </label>
-                  </div>
-                </div>
-              </div>
-            </fieldset>
-            <div class="form-group row">
-              <div class="col-sm-2">Checkbox</div>
-              <div class="col-sm-10">
-                <div class="form-check">
-                  <input class="form-check-input" type="checkbox" id="gridCheck1">
-                  <label class="form-check-label" for="gridCheck1">
-                    Example checkbox
-                  </label>
-                </div>
-              </div>
-            </div> --}}
+           
             <div class="form-group row">
               <div class="col-sm-10">
-                <button type="submit" class="btn btn-primary">Sign in</button>
+              <button type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#exampleModal" class="btn-buy">APPLY NOW</button>
+                
               </div>
             </div>
           </form>
     </div>
-
+  {{-- </div> --}}
 </div>
 
+
+
+
+
+
+
     </div>
+
+    
   </section>
 
   
@@ -132,7 +91,7 @@
         <div class="modal-body">
           <form>
             <div class="mb-3">
-              <label for="recipient-name" class="col-form-label">JOB TITLE</label>
+              <label for="recipient-name" class="col-form-label">JOB TITLE/SECTOR</label>
               <input type="text" class="form-control" id="recipient-name">
             </div>
             <div class="mb-3">
