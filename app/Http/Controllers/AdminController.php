@@ -9,6 +9,7 @@ use App\Models\Talk;
 use App\Models\Current;
 use App\Models\workshop;
 use App\Models\Payment;
+use App\Models\Jobapply;
 
 class AdminController extends Controller
 {
@@ -125,6 +126,13 @@ public function workshop_view(){
 public function payment_details(){
     $payments=Payment::all();
     return view('admin.payment_details',compact('payments'));
+}
+
+//resumes
+
+public function resumes($id){
+    $resumes=Jobapply::where('id',$id)->get();
+    return view('admin.resumes',compact('resumes'));
 }
 
 }

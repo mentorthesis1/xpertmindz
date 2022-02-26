@@ -64,7 +64,7 @@
                                     <label>Amount</label>
                                     <input type="text" name="amount" class="form-control amount" placeholder="Enter Amount">
                                 </div>
-                                <button id="rzp-button1" class="btn btn-info btn-md mt-3">Pay Now</button>
+                                <button id="rzp-button1" class="btn btn-success btn-md mt-3">Pay Now</button>
                             </div>
                         </div>
                     </div>
@@ -73,6 +73,11 @@
         </main>
     </div>
 
+
+    <div class="text-center">
+        <a href="/" class=" btn btn-primary btn-sm ">go to home</a>
+      </div>
+      
     
        
     

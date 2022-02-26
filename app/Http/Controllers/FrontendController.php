@@ -5,6 +5,10 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use App\Models\workshop;
 use App\Models\Current;
+use App\Models\Jobapply;
+use Illuminate\Support\Facades\Auth;
+
+
 
 class FrontendController extends Controller
 {
@@ -94,11 +98,49 @@ class FrontendController extends Controller
 
 //job apply 
 
-public function job_apply_view($id){
-    $current=Current::where('id',$id)->first();
-    return view('frontend.manpower.job_apply',compact('current'));
+public function job_apply($id){
+      $data['job']=Current::where('id',$id)->first();
+    return view('frontend.manpower.job_apply',$data);
 }
 
+
+public function job_apply_create(Request $request){
+
+ 
+              $job_title=$request->job_title;
+              $name=$request->name;
+              $email=$request->email;
+              $phone=$request->phone;
+              $job_id=$request->job_id;
+              $user_id=Auth::user()->id;
+
+
+              $file=$request->file('resume');
+
+              if($file){
+                $filename = time().'_'.$file->getClientOriginalName();
+                $location=public_path('job/resumes');
+                $file->move($location,$filename);
+              }
+
+              $data=[
+                  'job_title'=>$job_title,
+                  'name'=>$name,
+                  'email'=>$email,
+                  'phone'=>$phone,
+                  'resume'=>$filename,
+                  'job_id'=>$job_id,
+                  'user_id'=>$user_id,
+              ];
+
+              Jobapply::create($data);
+              return redirect()->back()->with('message','Job Applied');
+
+    
+          
+              
+
+}
 
 
 

@@ -60,6 +60,7 @@
                                             {{$key->job_description}}
                                           </td>
                                           <td><a href="/edit_current_openning/{{$key->id}}"><i class="fas fa-edit"></i></a></td>
+                                          <td><a href="/resumes/{{$key->id}}"><i class="fas fa-edit"></i></a></td>
                                           <td><a href="/delete_current_openning/{{$key->id}}" ><i class="fa fa-trash" aria-hidden="true"></i></a></td>
                           </tr>
                                             </tr>

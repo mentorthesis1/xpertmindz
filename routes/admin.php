@@ -32,5 +32,11 @@ Route::get('/workshop_view',[AdminController::class,'workshop_view']);
 
 Route::get('/payment_details',[AdminController::class,'payment_details']);
 
+//resumes
+
+Route::get('/resumes/{id}',[AdminController::class,'resumes']);
+
+
+
 
 
