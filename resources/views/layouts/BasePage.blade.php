@@ -73,11 +73,17 @@
       <nav id="navbar" class="navbar order-last order-lg-0" style="margin-top: -20px;">
         <ul>
 
-        
-           <li><a class="nav-link scrollto " href="/payment_view">
+        @Auth
+           <li><a class="nav-link scrollto " href="/paywithrazorpay">
             <img src="{{asset('frontend/logo/wallet.png')}}" height="40" width="50"
             data-bs-toggle="tooltip" data-bs-placement="bottom" title="Pay Now">
            </a></li>
+        @else   
+        <li><a class="nav-link scrollto" href="/login_view">
+          <img src="{{asset('frontend/logo/wallet.png')}}" height="40" width="50"
+          data-bs-toggle="tooltip" data-bs-placement="bottom" title="Pay Now">
+         </a></li>
+        @endAuth 
          
 
 
@@ -124,6 +130,7 @@
             <ul>
               <li><a href="/dashboard">Dashboard</a></li>
               <li><a href="/profile">Profile</a></li>
+              <li><a href="/dashboard">My Payments</a></li>
               <li><a href="/logout">Logout</a></li>
             </ul>
           </li>
@@ -131,9 +138,9 @@
            @else
           <li class="dropdown"><a href="#"><span>LOGIN</span> <i class="bi bi-chevron-down"></i></a>
             <ul>
-              <li><a href="/login_view">EMPLOYEE LOGIN</a></li>
-              <li><a href="/student_login">STUDENT LOGIN</a></li>
-              <li><a href="/institution_login">INSTITUTION LOGIN</a></li>
+              <li><a href="/login_view">LOGIN</a></li>
+              <li><a href="/student_register">STUDENT REGISTER</a></li>
+              <li><a href="/institution_register">INSTITUTION REGISTER</a></li>
             </ul>
           </li>
           @endAuth     

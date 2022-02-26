@@ -3,24 +3,21 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-
-
 use Razorpay\Api\Api;
 use App\Models\Payment;
+use Illuminate\Support\Facades\Auth;
 use Session;
 use Redirect;
-use Illuminate\Support\Facades\Auth;
 
 
-
-
-class PaymentController extends Controller
-{
-    public function payment_view(){
-        return view('payment.payment_view');
+class RazorpayController extends Controller
+{    
+    public function payWithRazorpay()
+    {        
+        return view('payWithRazorpay');
     }
 
-    public function paymentRazor(Request $request)
+    public function payment(Request $request)
     {
         $input = $request->all();
         $user_id=Auth::user()->id;
@@ -43,21 +40,17 @@ class PaymentController extends Controller
 
         $payInfo = [
                    'payment_id' => $request->razorpay_payment_id,
-            
                    'name'=>$request->name,
                    'email'=>$request->email,
                    'phone'=>$request->phone,
+                   'user_id' => $user_id,
                    'amount' => $request->amount,
-                   'service' => $request->service,
-
-                   'status'=>'onprocess',
                 ];
-
-        Payment::create($payInfo);
-
+                
+        Payment::insertGetId($payInfo);  
+        
         \Session::put('success', 'Payment successful');
 
-        return response()->json(['success' => 'Payment successful,Please check Myorders page']);
+        return response()->json(['success' => 'Payment successful']);
     }
-
 }

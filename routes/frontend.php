@@ -39,7 +39,8 @@ Route::get('/beproject',[FrontendController::class,'beproject']);
 
 
 
-
+//job apply
+Route::get('/job_apply_view/{id}',[FrontendController::class,'job_apply_view']);
 //workshop create
 Route::post('/workshop_create',[FrontendController::class,'workshop_create']);
 
@@ -50,10 +51,6 @@ Route::post('/workshop_create',[FrontendController::class,'workshop_create']);
 Route::get('/web-design',[FrontendController::class,'index']);
 
 //payment
-
-
-Route::get('/payment_view',[PaymentController::class,'payment_view']);
-Route::post('paymentRazor', [PaymentController::class,'paymentRazor'])->name('paymentRazor');
 
 
 

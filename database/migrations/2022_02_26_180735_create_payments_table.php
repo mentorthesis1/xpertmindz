@@ -18,7 +18,8 @@ class CreatePaymentsTable extends Migration
             $table->string('name');
             $table->string('email');
             $table->string('phone');
-            $table->string('service');
+            $table->string('payment_id'); // razorpay payment id
+            $table->integer('user_id');
             $table->string('amount');
             $table->timestamps();
         });
