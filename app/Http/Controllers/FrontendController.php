@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\Models\workshop;
+use App\Models\Current;
 
 class FrontendController extends Controller
 {
@@ -56,8 +57,8 @@ class FrontendController extends Controller
         return view('frontend/projects/project');
     }
     public function manpower(){
-        
-        return view('frontend/manpower/job');
+        $jobs=Current::all();
+        return view('frontend/manpower/job',compact('jobs'));
     }
     public function internship(){
         return view('frontend/internship/internships');
@@ -91,7 +92,12 @@ class FrontendController extends Controller
 
 
 
+//job apply 
 
+public function job_apply_view($id){
+    $current=Current::where('id',$id)->first();
+    return view('frontend.manpower.job_apply',compact('current'));
+}
 
 
 

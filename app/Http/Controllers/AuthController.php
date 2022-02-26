@@ -44,7 +44,7 @@ class AuthController extends Controller
         $request->validate(
             [
                 'name'=>'required',
-                'email'=>'required|unique',
+                'email'=>'required|unique:users',
                 'password'=>'required|confirmed'
 
             ]
@@ -92,7 +92,7 @@ class AuthController extends Controller
             [
                 'name'=>'required',
                 'collage_name'=>'required',
-                'email'=>'required',
+                'email'=>'required|unique:users',
                 'password'=>'required|confirmed'
 
             ]
@@ -119,7 +119,7 @@ class AuthController extends Controller
             [
                 'institution_name'=>'required',
                  
-                'email'=>'required',
+                'email'=>'required|unique:users',
                 'password'=>'required|confirmed'
 
             ]

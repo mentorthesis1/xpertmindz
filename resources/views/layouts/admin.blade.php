@@ -69,7 +69,7 @@
                             </a>
                             <a class="nav-link" href="/current_openning">
                                 <div class="sb-nav-link-icon"><i class="fas fa-tachometer-alt"></i></div>
-                                  Man Power
+                                  Jobs
                             </a>
                             <a class="nav-link" href="/workshop_view">
                                 <div class="sb-nav-link-icon"><i class="fas fa-tachometer-alt"></i></div>
