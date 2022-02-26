@@ -2,7 +2,8 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\NewController;
-use App\Http\Controllers\RazorpayController;
+
+
 
 /*
 |--------------------------------------------------------------------------
@@ -22,8 +23,11 @@ use App\Http\Controllers\RazorpayController;
 Route::get('/',[NewController::class,'index']);
 
 
-Route::get('/pay-with-razorpay',[RazorpayController::class,'payWithRazorpay']);
-Route::post('paymentRazor', [RazorpayController::class,'paymentRazor'])->name('paymentRazor');
+
+use App\Http\Controllers\RazorpayController;
+
+Route::get('paywithrazorpay', [RazorpayController::class,'payWithRazorpay'])->name('paywithrazorpay');
+Route::post('payment', [RazorpayController::class,'payment'])->name('payment');
 
 require __DIR__.'/auth.php';
 require __DIR__.'/frontend.php';

@@ -27,3 +27,10 @@ Route::get('/delete_current_openning/{id}',[AdminController::class,'delete_curre
 
 Route::get('/workshop_view',[AdminController::class,'workshop_view']);
 
+
+//paymet details
+
+Route::get('/payment_details',[AdminController::class,'payment_details']);
+
+
+

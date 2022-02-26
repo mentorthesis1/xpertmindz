@@ -53,8 +53,4 @@ Route::get('/web-design',[FrontendController::class,'index']);
 //payment
 
 
-Route::get('/payment_view',[PaymentController::class,'payment_view']);
-Route::post('paymentRazor', [PaymentController::class,'paymentRazor'])->name('paymentRazor');
-
-
 

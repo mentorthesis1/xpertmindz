@@ -75,6 +75,10 @@
                                 <div class="sb-nav-link-icon"><i class="fas fa-tachometer-alt"></i></div>
                                   Workshop
                             </a>
+                            <a class="nav-link" href="/payment_details">
+                                <div class="sb-nav-link-icon"><i class="fas fa-tachometer-alt"></i></div>
+                                  Payments
+                            </a>
                             @endif
                             @if(Auth()->user()->role == 'user')
                             <a class="nav-link" href="/current_openning">

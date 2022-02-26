@@ -181,17 +181,35 @@
 
                     </div>
 
-                  
+                    <div class="col-md-4">
+                     <div >
+                        <h2 class="my-3">Product Details</h2>
+                       <table class="table table-responsive my-5">
+                         <thead>
+                         <tr>
+                        <th>Product Name</th>
+                        <th>Price</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+
+                   <tr>
+
+                   <td>Mobile</td>
+                   <td >$100</td>
+                   </tr>
+                    </tbody>
+
+                       </table>
                        <div class="mb-3">
                        <button type="button" id="rzp-button1" class="btn btn-primary w-100">pay with razorpay</button>
                      </div>
 
                        <div>
-                     </div>
+          
 
                      </div>
                     </div>
-                     
 
 
                                 </div>
@@ -339,15 +357,13 @@
         <!-- Copyright -->
       </footer>
       <!-- Footer -->
-
-  
 <!-- Footer -->
    <script src="https://checkout.razorpay.com/v1/checkout.js"></script>
    <script>
        $('body').on('click','#rzp-button1',function(e){
            e.preventDefault();
            var amount = $('.amount').val();
-       
+            var prod_id= $('.prod_id').val();
            var name= $('.name').val();
            var email= $('.email').val();
            var phone= $('.phone').val();
@@ -417,7 +433,7 @@
                                               name:name,
                                               email:email,
                                               phone:phone,
-                                            
+                                              prod_id:prod_id,
                                             },
                                             success:function(data){
                                                 $('.success-message').text(data.success);
