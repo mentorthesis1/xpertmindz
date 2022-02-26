@@ -538,7 +538,7 @@
             
             <ul>
               <li> <a href="#" style="color: white ">HR</a></li>
-              <li> <a href="/manpower" style="color: white ">current openings</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="/manpower" style="color: white ">current openings</a></li>
               
             </ul>
           </div>

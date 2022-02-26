@@ -47,7 +47,7 @@
           </div>
         </div>
 
-        <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="600">
+        <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="500">
           <div class="service-box purple">
             {{-- <i class="ri-discuss-line icon"></i> --}}
             <h3>Velit Doloremque.</h3>
@@ -56,7 +56,7 @@
           </div>
         </div>
 
-        <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="700">
+        <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="500">
           <div class="service-box pink">
             {{-- <i class="ri-discuss-line icon"></i> --}}
             <h3>Dolori Architecto</h3>

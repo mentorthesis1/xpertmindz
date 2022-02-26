@@ -192,7 +192,7 @@
       </div>
     </section><!-- End About Us Section --> --}}
 
-    
+    @yield('profile')
     <!-- ======= Portfolio Section ======= -->
     <section id="portfolio" class="portfolio" style="margin-top: 33px;" >
       <div class="container">
@@ -278,11 +278,8 @@
             
             <ul>
               <li> <a href="#" style="color: white ">HR</a></li>
-              <li> <a href="/manpower" style="color: white ">current openings</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="/project" style="color: white ">Project</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="/workshop" style="color: white ">workshop</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="/symposium" style="color: white ">symposium</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="/internship" style="color: white ">Internshp</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="/manpower" style="color: white ">current openings</a></li>
+              
             </ul>
           </div>
           
