@@ -56,10 +56,15 @@
            
             <div class="form-group row">
               <div class="col-sm-10">
-              {{-- <button type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#exampleModal" class="btn-buy">APPLY NOW</button>
-                
-              </div> --}}
-              <a href="/job_apply_view/{{$job->id}}" class="btn btn-success">Apply Now</a>
+
+
+{{--             
+              <a type="button" class="btn btn-success" data-bs-toggle="modal" data-bs-target="#exampleModal" class="btn-buy">APPLY NOW</a>
+           --}}
+            <a type="button" class="btn btn-success" href="/job_apply/{{$job->id}}">APPLY NOW</a>
+    
+              </div>
+              {{-- <a href="/job_apply_view" class="btn btn-success">Apply Now</a> --}}
             </div>
           </form>
     </div>
@@ -100,11 +105,11 @@
             </div>
             <div class="mb-3">
                 <label for="recipient-name" class="col-form-label">Name</label>
-                <input type="text" class="form-control" id="recipient-name">
+                <input type="text"  class="form-control" id="recipient-name">
             </div>
             <div class="mb-3">
                 <label for="recipient-name" class="col-form-label">Email id</label>
-                <input type="text" class="form-control" id="recipient-name">
+                <input type="text"  class="form-control" id="recipient-name">
             </div>
             <div class="mb-3">
                 <label for="recipient-name" class="col-form-label">Phone Number</label>

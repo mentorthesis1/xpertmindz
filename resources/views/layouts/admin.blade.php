@@ -56,33 +56,36 @@
                             </a>
                            @if(Auth()->user()->role == 'admin') 
                             <a class="nav-link" href="/users">
-                                <div class="sb-nav-link-icon"><i class="fas fa-tachometer-alt"></i></div>
+                                <div class="sb-nav-link-icon"><i class="fas fa-users"></i>
+                                </div>
                                  Users
                             </a>
                             <a class="nav-link" href="/reports">
-                                <div class="sb-nav-link-icon"><i class="fas fa-tachometer-alt"></i></div>
-                                 Reports
+                                <div class="sb-nav-link-icon"><i class="fas fa-comment-alt"></i></div>
+                                 Messages
                             </a>
                             <a class="nav-link" href="/talk">
-                                <div class="sb-nav-link-icon"><i class="fas fa-tachometer-alt"></i></div>
+                                <div class="sb-nav-link-icon"><i class="fas fa-link"></i></div>
                                  Talk
                             </a>
                             <a class="nav-link" href="/current_openning">
-                                <div class="sb-nav-link-icon"><i class="fas fa-tachometer-alt"></i></div>
+                                <div class="sb-nav-link-icon"><i class="fas fa-briefcase"></i></div>
                                   Jobs
                             </a>
                             <a class="nav-link" href="/workshop_view">
-                                <div class="sb-nav-link-icon"><i class="fas fa-tachometer-alt"></i></div>
+                                <div class="sb-nav-link-icon"><i class="fas fa-truck"></i>
+                                </div>
                                   Workshop
                             </a>
                             <a class="nav-link" href="/payment_details">
-                                <div class="sb-nav-link-icon"><i class="fas fa-tachometer-alt"></i></div>
+                                <div class="sb-nav-link-icon"><i class="fas fa-landmark"></i>
+                                </div>
                                   Payments
                             </a>
                             @endif
                             @if(Auth()->user()->role == 'user')
                             <a class="nav-link" href="/current_openning">
-                                <div class="sb-nav-link-icon"><i class="fas fa-tachometer-alt"></i></div>
+                                <div class="sb-nav-link-icon"><i class="fas fa-user"></i></div>
                                   User
                             </a>
                             @endif

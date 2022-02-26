@@ -4,7 +4,7 @@ use Illuminate\Database\Migrations\Migration;
 use Illuminate\Database\Schema\Blueprint;
 use Illuminate\Support\Facades\Schema;
 
-class CreatePaymentsTable extends Migration
+class CreateJobappliesTable extends Migration
 {
     /**
      * Run the migrations.
@@ -13,16 +13,16 @@ class CreatePaymentsTable extends Migration
      */
     public function up()
     {
-        Schema::create('payments', function (Blueprint $table) {
+        Schema::create('jobapplies', function (Blueprint $table) {
             $table->id();
+            $table->string('job_title');
             $table->string('name');
             $table->string('email');
             $table->string('phone');
-            $table->string('payment_id'); // razorpay payment id
-            $table->integer('user_id');
-            $table->string('amount');
+            $table->string('resume');
+            $table->string('job_id');
+            $table->string('user_id');
             $table->timestamps();
-            
         });
     }
 
@@ -33,6 +33,6 @@ class CreatePaymentsTable extends Migration
      */
     public function down()
     {
-        Schema::dropIfExists('payments');
+        Schema::dropIfExists('jobapplies');
     }
 }

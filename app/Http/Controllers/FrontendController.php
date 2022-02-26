@@ -5,6 +5,12 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use App\Models\workshop;
 use App\Models\Current;
+use App\Models\Jobapply;
+use App\Models\User;
+use App\Models\Payment;
+use Illuminate\Support\Facades\Auth;
+
+
 
 class FrontendController extends Controller
 {
@@ -96,9 +102,48 @@ class FrontendController extends Controller
 
 //job apply 
 
-public function job_apply_view($id){
-    $current=Current::where('id',$id)->first();
-    return view('frontend.manpower.job_apply',compact('current'));
+public function job_apply($id){
+      $data['job']=Current::where('id',$id)->first();
+    return view('frontend.manpower.job_apply',$data);
+}
+
+
+public function job_apply_create(Request $request){
+
+ 
+              $job_title=$request->job_title;
+              $name=$request->name;
+              $email=$request->email;
+              $phone=$request->phone;
+              $job_id=$request->job_id;
+              $user_id=Auth::user()->id;
+
+
+              $file=$request->file('resume');
+
+              if($file){
+                $filename = time().'_'.$file->getClientOriginalName();
+                $location=public_path('job/resumes');
+                $file->move($location,$filename);
+              }
+
+              $data=[
+                  'job_title'=>$job_title,
+                  'name'=>$name,
+                  'email'=>$email,
+                  'phone'=>$phone,
+                  'resume'=>$filename,
+                  'job_id'=>$job_id,
+                  'user_id'=>$user_id,
+              ];
+
+              Jobapply::create($data);
+              return redirect()->back()->with('message','Job Applied');
+
+    
+          
+              
+
 }
 
 
@@ -129,8 +174,20 @@ public function job_apply_view($id){
 
 
 
+//profile view
 
 
+public function profile_view(){
+    $user_id=Auth::user()->id;
+    $user_details=User::where('id',$user_id)->first();
+    return view('frontend.profile.profile_page',compact('user_details'));
+}
+
+public function my_payments(){
+    $user_id=Auth::user()->id;
+    $payments=Payment::where('user_id',$user_id)->get();
+    return view('frontend.profile.my_payments',compact('payments'));
+}
 
 
 
@@ -217,5 +274,17 @@ public function workshop_create(Request $request){
   public function index(){
       return view('frontend.web.index');
   }
+
+
+
+
+
+
+
+
+
+
+
+
 
 }
