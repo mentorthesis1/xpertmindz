@@ -94,7 +94,12 @@
                   <li><a href="/manpower">Current openings</a></li>
                 </ul>
               </li>
-              <li><a href="/project">Projects</a></li>
+              <li class="dropdown"><a href="#"><span>Projects</span> <i class="bi bi-chevron-right"></i></a>
+                <ul>
+                  <li><a href="/beproject">B.E Projects</a></li>
+                  <li><a href="/beproject">M.E Projects</a></li>
+                </ul>
+              </li>
               <li><a href="/workshop">Workshops</a></li>
               <li><a href="/symposium">Symposium</a></li>
               <li><a href="/internship">Internship</a></li>
@@ -257,7 +262,10 @@
             <ul>
               <li> <a href="#" style="color: white ">Education</a></li>
               <li><i class="bx bx-chevron-right"></i> <a href="/viewcourse" style="color: white ">courses</a></li>
-              
+              <li><i class="bx bx-chevron-right"></i> <a href="/project" style="color: white ">Project</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="/workshop" style="color: white ">workshop</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="/symposium" style="color: white ">symposium</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="/internship" style="color: white ">Internshp</a></li>
             </ul>
           </div>
           <div class="col-lg-3 col-md-6 footer-links" >
@@ -265,7 +273,10 @@
             <ul>
               <li> <a href="#" style="color: white ">HR</a></li>
               <li> <a href="/manpower" style="color: white ">current openings</a></li>
-              
+              <li><i class="bx bx-chevron-right"></i> <a href="/project" style="color: white ">Project</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="/workshop" style="color: white ">workshop</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="/symposium" style="color: white ">symposium</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="/internship" style="color: white ">Internshp</a></li>
             </ul>
           </div>
           
