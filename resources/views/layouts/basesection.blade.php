@@ -53,7 +53,7 @@
   
 
   <!-- ======= Header ======= -->
-  <header id="header" class="fixed-top" style=" max-height:98px; top:0; background:black;">
+  <header id="header" class="fixed-top" style=" max-height:80px; top:0; background:black;">
     <div class="container d-flex align-items-center">
 
       <a href="index.html" class="logo me-auto"><img src="assets/image/logo2.png" alt="" style="height:60px; margin-top:-15px;"></a>
