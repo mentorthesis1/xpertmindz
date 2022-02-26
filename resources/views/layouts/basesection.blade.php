@@ -117,7 +117,9 @@
           @Auth
           <li class="dropdown"><a href="#"><span>My Profile</span> <i class="bi bi-chevron-down"></i></a>
            <ul>
-             <li><a href="/dashboard">Dashboard</a></li>
+            @if(Auth::user()->role=='admin')
+            <li><a href="/dashboard">Dashboard</a></li>
+            @endif
              <li><a href="/profile">Profile</a></li>
              <li><a href="/dashboard">My Payments</a></li>
              <li><a href="/logout">Logout</a></li>

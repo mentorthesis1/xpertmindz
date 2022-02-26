@@ -13,8 +13,8 @@
                   class="img-fluid my-10"
                   style="width: 120px;"
                 />
-                <h5>Name</h5>
-                <h5 style="margin-top: 20px;">Student</h5>
+                <h5>{{$user_details->name}}</h5>
+                <h5 style="margin-top: 20px;">{{$user_details->role}}</h5>
                 </div>
               <div class="col-md-8">
                 <div class="card-body p-4">
@@ -23,7 +23,7 @@
                   <div class="row pt-1">
                     <div class="col-12 mb-3">
                       <h6>Email</h6>
-                      <p class="text-muted">info@example.com</p>
+                      <p class="text-muted">{{$user_details->email}}</p>
                     </div>
                     {{-- <div class="col-6 mb-3">
                       <h6>user id</h6>

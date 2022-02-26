@@ -22,6 +22,7 @@ class CreatePaymentsTable extends Migration
             $table->integer('user_id');
             $table->string('amount');
             $table->timestamps();
+            
         });
     }
 

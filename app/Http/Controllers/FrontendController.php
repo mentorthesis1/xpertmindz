@@ -6,6 +6,8 @@ use Illuminate\Http\Request;
 use App\Models\workshop;
 use App\Models\Current;
 use App\Models\Jobapply;
+use App\Models\User;
+use App\Models\Payment;
 use Illuminate\Support\Facades\Auth;
 
 
@@ -172,7 +174,20 @@ public function job_apply_create(Request $request){
 
 
 
+//profile view
 
+
+public function profile_view(){
+    $user_id=Auth::user()->id;
+    $user_details=User::where('id',$user_id)->first();
+    return view('frontend.profile.profile_page',compact('user_details'));
+}
+
+public function my_payments(){
+    $user_id=Auth::user()->id;
+    $payments=Payment::where('user_id',$user_id)->get();
+    return view('frontend.profile.my_payments',compact('payments'));
+}
 
 
 
@@ -259,5 +274,17 @@ public function workshop_create(Request $request){
   public function index(){
       return view('frontend.web.index');
   }
+
+
+
+
+
+
+
+
+
+
+
+
 
 }

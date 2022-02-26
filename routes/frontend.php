@@ -40,6 +40,31 @@ Route::get('/beproject',[FrontendController::class,'beproject']);
 
 
 
+
+
+
+
+
+
+Route::get('/profile_view',[FrontendController::class,'profile_view']);
+Route::get('/my_payments',[FrontendController::class,'my_payments']);
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 //job apply
 Route::get('/job_apply/{id}',[FrontendController::class,'job_apply']);
 //workshop create
