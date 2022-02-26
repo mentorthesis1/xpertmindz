@@ -39,6 +39,7 @@ Route::get('/beproject',[FrontendController::class,'beproject']);
 
 
 
+
 //job apply
 Route::get('/job_apply/{id}',[FrontendController::class,'job_apply']);
 //workshop create

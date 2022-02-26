@@ -55,7 +55,7 @@
   <!-- ======= Top Bar ======= -->
   <div id="topbar" class="d-flex align-items-center fixed-top">
     <div class="container d-flex align-items-center justify-content-center justify-content-md-between">
-      <div class="align-items-center d-none d-md-flex" style="margin-left: -104px;">
+      <div class="align-items-center d-none d-md-flex" style="margin-left: -104px; font-size: 14px;">
         Xpert Mindz Innovative Solution Pvt Ltd
       </div>
       
@@ -112,7 +112,12 @@
                   <li><a href="/manpower">Current openings</a></li>
                 </ul>
               </li>
-              <li><a href="/project">Projects</a></li>
+              <li class="dropdown"><a href="#"><span>Projects</span> <i class="bi bi-chevron-right"></i></a>
+                <ul>
+                  <li><a href="/beproject">B.E Projects</a></li>
+                  <li><a href="/beproject">M.E Projects</a></li>
+                </ul>
+              </li>
               <li><a href="/workshop">Workshops</a></li>
               <li><a href="/symposium">Symposium</a></li>
               <li><a href="/internship">Internship</a></li>
@@ -239,7 +244,7 @@
                 <div class="content1 d-flex flex-column align-items-center justify-content1-center">
                   <div>
                     <h3 class="text-white fs-5" style="text-align: center;">Courses</h3>
-                    <p class="fs-6 text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo sed cum neque, rem provident ex. Laboriosam </p>
+                    <p class="fs-6 text-white">If you want to see the Courses we offered in xpertmindz just click view more </p>
                     <a href="/viewcourse" type="button" class="btn btn-primary rounded-pill" style="margin-left: 64px;">view more</a>
 
                   </div>
@@ -258,7 +263,7 @@
                 <div class="content1 d-flex flex-column align-items-center justify-content1-center">
                   <div>
                     <h3 class="text-white fs-5"  style="text-align: center;">ManPower</h3>
-                    <p class="fs-6 text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo sed cum neque, rem provident ex. Laboriosam perspiciatis modi eveniet in?</p>
+                    <p class="fs-6 text-white">The candidates who are searching for the jobs.we will help your job findings</p>
                     <a href="/manpower" type="button" class="btn btn-primary rounded-pill" style="margin-left: 64px;">view more</a>
 
                   </div>
@@ -272,12 +277,12 @@
           <div class="container1 d-flex align-items-center justify-content1-center flex-wrap">
             <div class="box1">
               <div class="body1">
-                <div class="imgContainer1"> <img src="assets/image/projectlogo.png" alt="">
+                <div class="imgContainer1"> <img src="assets/image/projectlogo.jpg" alt="">
                 </div>
                 <div class="content1 d-flex flex-column align-items-center justify-content1-center">
                   <div>
                     <h3 class="text-white fs-5"  style="text-align: center;">Projects</h3>
-                    <p class="fs-6 text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo sed cum neque, rem provident ex. Laboriosam perspiciatis modi eveniet in?</p>
+                    <p class="fs-6 text-white">we done the various projects for the students in CSE  EEE   ECE department </p>
                     <a href="/project" type="button" class="btn btn-primary rounded-pill" style="margin-left: 64px;">view more</a>
 
                   </div>
@@ -296,7 +301,7 @@
                 <div class="content1 d-flex flex-column align-items-center justify-content1-center">
                   <div>
                     <h3 class="text-white fs-5"  style="text-align: center;">Workshop</h3>
-                    <p class="fs-6 text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo sed cum neque, rem provident ex. Laboriosam perspiciatis modi eveniet in?</p>
+                    <p class="fs-6 text-white">we are conducting workshops in various topics in your institutions as we as our institution also</p>
                     <a href="/workshop" type="button" class="btn btn-primary rounded-pill" style="margin-left: 64px;">view more</a>
                   </div>
                 </div>
@@ -352,7 +357,7 @@
               <div class="content1 d-flex flex-column align-items-center justify-content1-center">
                 <div>
                   <h3 class="text-white fs-5"  style="text-align: center;">Web development</h3>
-                  <p class="fs-6 text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo sed cum neque, rem provident ex. Laboriosam perspiciatis modi eveniet in?</p>
+                  <p class="fs-6 text-white">we are developing website for various fields and we are using latest features and frame works</p>
                   <a href="/web-design" type="button" class="btn btn-primary rounded-pill" style="margin-left: 64px;">view more</a>
                 </div>
               </div>
@@ -413,51 +418,48 @@
     <section id="portfolio" class="portfolio">
       <div class="container">
         <div class="row">
-          {{-- <div class="col-lg-12 d-flex justify-content-center">
-            <ul id="portfolio-flters">
-              <h1>Our Sub Companies</h1>
-          </ul>
-          </div>
-        </div> --}}
+          {{-- <section class="logoMarqueeSection">
+            <div class="container" id="logoMarqueeSection">
+              <div class="default-content-container flex items-center"> --}}
+                <div class="default-content-container-inner marquee-wrapper relative overflow-hidden inline-block">
+                  <div class="marquee" style="animation-duration: 57s;">
+                    <a target="_blank"><img src="assets/image/clients/client-1.png" title="" class="marqueelogo" style="width: auto; max-width: none;"></a>
+                    <a target="_blank"><img src="assets/image/clients/client-2.png" title="" class="marqueelogo" style="width: auto; max-width: none;"></a>
+                    <a target="_blank"><img src="assets/image/clients/client-3.png" title="" class="marqueelogo" style="width: auto; max-width: none;"></a>
+                    <a target="_blank"><img src="assets/image/clients/client-4.png" title="" class="marqueelogo" style="width: auto; max-width: none;"></a>
+                    <a target="_blank"><img src="assets/image/clients/client-5.png" title="" class="marqueelogo" style="width: auto; max-width: none;"></a>
+                    <a target="_blank"><img src="assets/image/clients/client-6.png" title="" class="marqueelogo" style="width: auto; max-width: none;"></a>
+                    <a target="_blank"><img src="assets/image/clients/client-1.png" title="" class="marqueelogo" style="width: auto; max-width: none;"></a>
+                    <a target="_blank"><img src="assets/image/clients/client-2.png" title="" class="marqueelogo" style="width: auto; max-width: none;"></a>
+                    <a target="_blank"><img src="assets/image/clients/client-3.png" title="" class="marqueelogo" style="width: auto; max-width: none;"></a>
+                    <a target="_blank"><img src="assets/image/clients/client-4.png" title="" class="marqueelogo" style="width: auto; max-width: none;"></a>
+                    <a target="_blank"><img src="assets/image/clients/client-5.png" title="" class="marqueelogo" style="width: auto; max-width: none;"></a>
+                    <a target="_blank"><img src="assets/image/clients/client-6.png" title="" class="marqueelogo" style="width: auto; max-width: none;"></a>
+                  </div>
+                  <div class="marquee" style="animation-duration: 57s;">
+                    <a target="_blank"><img src="assets/image/clients/client-1.png" title="" class="marqueelogo" style="width: auto; max-width: none;"></a>
+                    <a target="_blank"><img src="assets/image/clients/client-2.png" title="" class="marqueelogo" style="width: auto; max-width: none;"></a>
+                    <a target="_blank"><img src="assets/image/clients/client-3.png" title="" class="marqueelogo" style="width: auto; max-width: none;"></a>
+                    <a target="_blank"><img src="assets/image/clients/client-4.png" title="" class="marqueelogo" style="width: auto; max-width: none;"></a>
+                    <a target="_blank"><img src="assets/image/clients/client-5.png" title="" class="marqueelogo" style="width: auto; max-width: none;"></a>
+                    <a target="_blank"><img src="assets/image/clients/client-6.png" title="" class="marqueelogo" style="width: auto; max-width: none;"></a>
+                    <a target="_blank"><img src="assets/image/clients/client-1.png" title="" class="marqueelogo" style="width: auto; max-width: none;"></a>
+                    <a target="_blank"><img src="assets/image/clients/client-2.png" title="" class="marqueelogo" style="width: auto; max-width: none;"></a>
+                    <a target="_blank"><img src="assets/image/clients/client-3.png" title="" class="marqueelogo" style="width: auto; max-width: none;"></a>
+                    <a target="_blank"><img src="assets/image/clients/client-4.png" title="" class="marqueelogo" style="width: auto; max-width: none;"></a>
+                    <a target="_blank"><img src="assets/image/clients/client-5.png" title="" class="marqueelogo" style="width: auto; max-width: none;"></a>
+                    <a target="_blank"><img src="assets/image/clients/client-6.png" title="" class="marqueelogo" style="width: auto; max-width: none;"></a>
+                  </div>
+                </div>
+              {{-- </div>
+            </div>
+          </section> --}}
+          
+           
       
-        {{-- <div class="row portfolio-container"> --}}
+         
       
-          {{-- <div class="container">
-      
-            <div class="row"> --}}
-      
-              
-                  
-                    <div class="default-content-container-inner marquee-wrapper relative overflow-hidden inline-block">
-                      <div class="marquee" style="animation-duration: 57s;">
-                        <a target="_blank"><img src="assets/image/clients/client-1.png" title="" class="marqueelogo" style="width: auto; max-width: none;"></a>
-                        <a target="_blank"><img src="assets/image/clients/client-2.png" title="" class="marqueelogo" style="width: auto; max-width: none;"></a>
-                        <a target="_blank"><img src="assets/image/clients/client-3.png" title="" class="marqueelogo" style="width: auto; max-width: none;"></a>
-                        <a target="_blank"><img src="assets/image/clients/client-4.png" title="" class="marqueelogo" style="width: auto; max-width: none;"></a>
-                        <a target="_blank"><img src="assets/image/clients/client-5.png" title="" class="marqueelogo" style="width: auto; max-width: none;"></a>
-                        <a target="_blank"><img src="assets/image/clients/client-6.png" title="" class="marqueelogo" style="width: auto; max-width: none;"></a>
-                        
-                      </div>
-                      <div class="marquee" style="animation-duration: 57s;">
-                        <a target="_blank"><img src="assets/image/clients/client-1.png" title="" class="marqueelogo" style="width: auto; max-width: none;"></a>
-                        <a target="_blank"><img src="assets/image/clients/client-2.png" title="" class="marqueelogo" style="width: auto; max-width: none;"></a>
-                        <a target="_blank"><img src="assets/image/clients/client-3.png" title="" class="marqueelogo" style="width: auto; max-width: none;"></a>
-                        <a target="_blank"><img src="assets/image/clients/client-4.png" title="" class="marqueelogo" style="width: auto; max-width: none;"></a>
-                        <a target="_blank"><img src="assets/image/clients/client-5.png" title="" class="marqueelogo" style="width: auto; max-width: none;"></a>
-                        <a target="_blank"><img src="assets/image/clients/client-6.png" title="" class="marqueelogo" style="width: auto; max-width: none;"></a>
-                      </div>
-                    </div>
-              
-            {{-- </div> --}}
-            {{-- <div class="row">
-              <div class="col-lg-2 col-md-4 col-6 d-flex align-items-center justify-content-center">
-                <img src="assets/img/clients/client-6.png" class="img-fluid" alt="">
-              </div>
-            </div>   --}}
-      
-          </div>
-      
-        {{-- </div> --}}
+        </div>
        
       </div>
     </section><!-- End Portfolio Section -->
@@ -525,6 +527,10 @@
             <ul>
               <li> <a href="#" style="color: white ">Education</a></li>
               <li><i class="bx bx-chevron-right"></i> <a href="/viewcourse" style="color: white ">courses</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="/project" style="color: white ">Project</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="/workshop" style="color: white ">workshop</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="/symposium" style="color: white ">symposium</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="/internship" style="color: white ">Internshp</a></li>
               
             </ul>
           </div>
@@ -532,7 +538,7 @@
             
             <ul>
               <li> <a href="#" style="color: white ">HR</a></li>
-              <li> <a href="/manpower" style="color: white ">current openings</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="/manpower" style="color: white ">current openings</a></li>
               
             </ul>
           </div>
