@@ -5,6 +5,11 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use App\Models\Contact;
 use App\Models\Talk;
+use App\Mail\ContactMail;
+
+use Illuminate\Support\Facades\Auth;
+use Illuminate\Support\Facades\Mail;
+
 
 class ServerController extends Controller
 {
@@ -22,6 +27,20 @@ class ServerController extends Controller
               $contact->subject=$request->subject;
               $contact->message=$request->message;
               $contact->save();
+
+
+              $details=[
+                'name'=>$request->name,
+                'email'=>$request->email,
+                'message'=>$request->message,
+              ];
+      
+    
+               // Mail::to('info@freesource.in')->send(new ContactMail($details));
+                Mail::to('php.mentorthesis@gmail.com')->send(new ContactMail($details));
+            
+
+
 
 
               return redirect()->back()->with('message','Reports send successfull');

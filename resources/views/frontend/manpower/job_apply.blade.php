@@ -16,7 +16,7 @@
 <body>
   
     <ol class="breadcrumb mb-4 bg-dark p-2">
-        <li class="breadcrumb-item"><a href="/dashboard">Home</a></li>
+        <li class="breadcrumb-item"><a href="/">Home</a></li>
         <li class="breadcrumb-item"><a href="/manpower">Jobs</a></li>
         <li class="breadcrumb-item active">Apply for job</li>
     </ol>

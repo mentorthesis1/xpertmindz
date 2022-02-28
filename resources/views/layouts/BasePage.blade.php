@@ -132,8 +132,8 @@
               <li><a href="/dashboard">Dashboard</a></li>
               @endif
 
-              <li><a href="/profile">Profile</a></li>
-              <li><a href="/dashboard">My Payments</a></li>
+              <li><a href="/profile_view">Profile</a></li>
+              <li><a href="/my_payments">My Payments</a></li>
               <li><a href="/logout">Logout</a></li>
             </ul>
           </li>
@@ -142,6 +142,7 @@
           <li class="dropdown"><a href="#"><span>LOGIN</span> <i class="bi bi-chevron-down"></i></a>
             <ul>
               <li><a href="/login_view">LOGIN</a></li>
+              <li><a href="/register_view">EMPLOYE REGISTER</a></li>
               <li><a href="/student_register">STUDENT REGISTER</a></li>
               <li><a href="/institution_register">INSTITUTION REGISTER</a></li>
             </ul>

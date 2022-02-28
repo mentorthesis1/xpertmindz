@@ -21,7 +21,7 @@
                                             <th>Name</th>
                                             <th>Email</th>
                                             <th>Phone</th>
-                                            <th>Phone</th>
+                                            <th>Resume</th>
 
                                           </tr>
                                       </thead>
@@ -36,6 +36,12 @@
                                         </td>
                                         <td>
                                           {{$key->email}}
+                                        </td>
+                                        <td>
+                                          {{$key->phone}}
+                                        </td>
+                                        <td>
+                                          <a href="{{asset('job/resumes/'. $key->resume)}}">open</a>
                                         </td>
                                             </tr>
                                       @endforeach
