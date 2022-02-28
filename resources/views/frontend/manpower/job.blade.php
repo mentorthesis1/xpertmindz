@@ -3,7 +3,7 @@
 <section id="pricing" class="pricing" style="margin-top: -20px;">
     <div class="container" data-aos="fade-up" style="margin-top: 20px;s">
 
-      <h1>Current Openning</h1>
+      <h2>Current Openning</h2>
       @foreach($jobs as $job)    
 <div class="card border shadow mb-3">
  
