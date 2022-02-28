@@ -3,16 +3,16 @@
   <footer id="footer" style="background-color: #033155">
     
     <div class="footer-top" style="background-color: #033155">
-      <div class="social-links mt-1" style="float: right;">
+      <div class="social-links mt-1" style="float: right; margin-right:24px;">
         <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
         <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
         <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
-        <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
-        <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+        {{-- <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
+        <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a> --}}
       </div>
-      <div class="social-links mt-6" style="float: right; margin-top: 88px; margin-right:-140px; ">
+      <div class="social-links mt-6" style="float: right; margin-top: 88px; margin-right:-108px; ">
         <a href="assets/image/features-1.png" download>
-          <img src="assets/image/boucherlogo.png" style="width: 500%; height: 250%; margin-left: -80px; margin-top: -14px;">
+          <img src="assets/image/boucherlogo.png" style="width: 500%; height: 250%; margin-left: -100px; margin-top: -14px;">
         </a>
       </div>
       <div class="container">
