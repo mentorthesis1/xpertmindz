@@ -496,7 +496,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 @media (max-width: 992px) {
   #hero {
-    height: 100vh;
+    height: 40vh;
   }
   #hero .container {
     margin-top: 100px;
