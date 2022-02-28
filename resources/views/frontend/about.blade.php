@@ -12,30 +12,26 @@
 
       <div class="row">
         <div class="col-lg-6" data-aos="fade-right">
-          <img src="assets/img/about.jpg" class="img-fluid" alt="">
+         
+          <h4> <i class="bi bi-check-circle" style="color: blue"></i> MISSION</h4>
+         
+          <p>
+            The mission of the Department is to equip Candidate with <strong style="font-size:18px; font-style:italic;">specified knowledge, skills, and values to enable them to become good human beings and productive and to achieve excellence in whatever they do </strong>  and setting up regulatory and monitoring mechanism to streamline the functioning of works.
+          </p>
+         
         </div>
         <div class="col-lg-6 pt-4 pt-lg-0 content" data-aos="fade-left">
-          <h4> <i class="bi bi-check-circle" style="color: blue"></i> MISSION</h4>
-          <p>
-            The mission of the Department is to equip Candidate with <strong style="font-size:18px; font-style:italic;">specified knowledge, skills, and values to enable them to become good human beings and productive and to achieve excellence in whatever they do </strong>  and setting up regulatory and monitoring mechanism to streamline the functioning of works.
-          </p>
+          
           <h4> <i class="bi bi-check-circle" style="color: blue"></i> VISION</h4>
+          
           <p>
-            The mission of the Department is to equip Candidate with <strong style="font-size:18px; font-style:italic;">specified knowledge, skills, and values to enable them to become good human beings and productive and to achieve excellence in whatever they do </strong>  and setting up regulatory and monitoring mechanism to streamline the functioning of works.
+            To be a technical institution of high standard and quality comparable to global standards and to produce knowledgeable leaders and entrepreneurs of professional excellence with. Further committed to impart quality education and prepare students to achieve the highest level of intellectual excellence and to develop flair for research and make them enterprising engineers in the field of technical education.
           </p>
-          {{-- <ul>
-            <li><i class="bi bi-check-circle"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat.</li>
-            <li><i class="bi bi-check-circle"></i> Duis aute irure dolor in reprehenderit in voluptate velit.</li>
-            <li><i class="bi bi-check-circle"></i> Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate trideta storacalaperda mastiro dolore eu fugiat nulla pariatur.</li>
-          </ul>
-          <p>
-            Ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate
-            velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-            culpa qui officia deserunt mollit anim id est laborum
-          </p> --}}
+          
+          
         </div>
       </div>
 
     </div>
-  </section>
+</section>
   @endsection
