@@ -10,7 +10,7 @@
   <meta content="" name="keywords">
 
   <!-- Favicons -->
-  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/image/x.png" rel="icon">
   <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
   <!-- Google Fonts -->
@@ -184,36 +184,18 @@
           <div class="carousel-inner" role="listbox">
     
             <!-- Slide 1 -->
-            <div class="carousel-item active" style="background-image: url(assets/image/slide/slide-1.jpg)">
-              {{-- <div class="carousel-container">
-                <div class="container"> --}}
-                  {{-- <h2 class="animate__animated animate__fadeInDown">Welcome to <span>Sailor</span></h2>
-                  <p class="animate__animated animate__fadeInUp">Ut velit est quam dolor ad a aliquid qui aliquid. Sequi ea ut et est quaerat sequi nihil ut aliquam. Occaecati alias dolorem mollitia ut. Similique ea voluptatem. Esse doloremque accusamus repellendus deleniti vel. Minus et tempore modi architecto.</p>
-                  <a href="#about" class="btn-get-started animate__animated animate__fadeInUp scrollto">Read More</a> --}}
-                {{-- </div>
-              </div> --}}
+            <div class="carousel-item active" style="background-image: url(assets/image/slide-1.jpg)">
+             
             </div>
     
             <!-- Slide 2 -->
-            <div class="carousel-item" style="background-image: url(assets/image/slide/slide-2.jpg)">
-              {{-- <div class="carousel-container">
-                <div class="container"> --}}
-                  {{-- <h2 class="animate__animated animate__fadeInDown">Lorem Ipsum Dolor</h2>
-                  <p class="animate__animated animate__fadeInUp">Ut velit est quam dolor ad a aliquid qui aliquid. Sequi ea ut et est quaerat sequi nihil ut aliquam. Occaecati alias dolorem mollitia ut. Similique ea voluptatem. Esse doloremque accusamus repellendus deleniti vel. Minus et tempore modi architecto.</p>
-                  <a href="#about" class="btn-get-started animate__animated animate__fadeInUp scrollto">Read More</a> --}}
-                {{-- </div>
-              </div> --}}
+            <div class="carousel-item" style="background-image: url(assets/image/slide-2.jpg)">
+              
             </div>
     
             <!-- Slide 3 -->
-            <div class="carousel-item" style="background-image: url(assets/image/slide/slide-3.jpg)">
-              {{-- <div class="carousel-container">
-                <div class="container"> --}}
-                  {{-- <h2 class="animate__animated animate__fadeInDown">Sequi ea ut et est quaerat</h2>
-                  <p class="animate__animated animate__fadeInUp">Ut velit est quam dolor ad a aliquid qui aliquid. Sequi ea ut et est quaerat sequi nihil ut aliquam. Occaecati alias dolorem mollitia ut. Similique ea voluptatem. Esse doloremque accusamus repellendus deleniti vel. Minus et tempore modi architecto.</p>
-                  <a href="#about" class="btn-get-started animate__animated animate__fadeInUp scrollto">Read More</a> --}}
-                {{-- </div>
-              </div> --}}
+            <div class="carousel-item" style="background-image: url(assets/image/slide-5.png)">
+              
             </div>
     
           </div>
@@ -231,7 +213,7 @@
 
 
   <section id="about" class="about">
-    <div class="container">
+    <div class="container" >
       <div class="row">
         <div class="col-lg-12 d-flex justify-content-center">
           <h1>Services</h1>
@@ -262,7 +244,7 @@
           <div class="container1 d-flex align-items-center justify-content1-center flex-wrap">
             <div class="box1">
               <div class="body1">
-                <div class="imgContainer1"> <img src="assets/image/manpowerlogo.png" alt=""> 
+                <div class="imgContainer1"> <img src="assets/image/manpower-logo.jpg" alt=""> 
                 </div>
                 <div class="content1 d-flex flex-column align-items-center justify-content1-center">
                   <div>
@@ -323,7 +305,7 @@
                 <div class="content1 d-flex flex-column align-items-center justify-content1-center">
                   <div>
                     <h3 class="text-white fs-5"  style="text-align: center;">Symposium</h3>
-                    <p class="fs-6 text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo sed cum neque, rem provident ex. Laboriosam perspiciatis modi eveniet in?</p>
+                    <p class="fs-6 text-white">We conduct symposium  for students to improve his/her talent with various activites like paperpresentation,etc.. </p>
                     <a href="/symposium" type="button" class="btn btn-primary rounded-pill" style="margin-left: 64px;">view more</a>
                   </div>
                 </div>
@@ -341,7 +323,7 @@
                 <div class="content1 d-flex flex-column align-items-center justify-content1-center">
                   <div>
                     <h3 class="text-white fs-5"  style="text-align: center;">Internship</h3>
-                    <p class="fs-6 text-white">Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo sed cum neque, rem provident ex. Laboriosam perspiciatis modi eveniet in?</p>
+                    <p class="fs-6 text-white">We conducting internship to improvre the chance of getting job in their relevant field</p>
                     <a href="/internship" type="button" class="btn btn-primary rounded-pill" style="margin-left: 64px;">view more</a>
                   </div>
                 </div>
@@ -483,16 +465,16 @@
   <footer id="footer" style="background-color: #033155">
     
     <div class="footer-top" style="background-color: #033155">
-      <div class="social-links mt-1" style="float: right;">
+      <div class="social-links mt-1" style="float: right; margin-right:24px;">
         <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
         <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
         <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
-        <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
-        <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+        {{-- <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
+        <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a> --}}
       </div>
-      <div class="social-links mt-6" style="float: right; margin-top: 88px; margin-right:-140px; ">
+      <div class="social-links mt-6" style="float: right; margin-top: 88px; margin-right:-108px; ">
         <a href="assets/image/features-1.png" download>
-          <img src="assets/image/boucherlogo.png" style="width: 500%; height: 250%; margin-left: -80px; margin-top: -14px;">
+          <img src="assets/image/boucherlogo.png" style="width: 500%; height: 250%; margin-left: -100px; margin-top: -14px;">
         </a>
       </div>
       <div class="container">
@@ -577,7 +559,7 @@
   </footer><!-- End Footer -->
 
   <div id="preloader"></div>
-  <a href="#" class="back-to-top d-flex align-items-center justify-content-center" style="margin-bottom: 62px;"><i class="bi bi-arrow-up-short"></i></a>
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center" style="margin-bottom: 71px;"><i class="bi bi-arrow-up-short"></i></a>
 
   <!-- Vendor JS Files -->
   <script src="assets/vendor/purecounter/purecounter.js"></script>
