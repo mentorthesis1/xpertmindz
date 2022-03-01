@@ -4,7 +4,7 @@
     <div class="container" data-aos="fade-up" style="margin-top: 20px;s">
 
       <h2>Current Openning</h2>
-      @foreach($jobs as $job)    
+      @foreach($jobs as $job)  
 <div class="card border shadow mb-3">
  
     <div class="card-body">

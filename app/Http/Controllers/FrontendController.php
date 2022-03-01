@@ -9,6 +9,9 @@ use App\Models\Jobapply;
 use App\Models\User;
 use App\Models\Payment;
 use Illuminate\Support\Facades\Auth;
+use Illuminate\Support\Facades\Mail;
+
+
 
 
 
@@ -138,6 +141,54 @@ public function job_apply_create(Request $request){
               ];
 
               Jobapply::create($data);
+
+
+
+
+//Mail send
+
+
+
+              $data["resume_email"] = "php.mentorthesis@gmail.com";
+    
+              $data['resume_phone'] =$phone;
+              $data["resume_name"] = $name;
+         
+      
+          
+       
+              $files = [
+                  public_path('job/resumes/'.$filename),
+                 
+              ];
+        
+              Mail::send('emails.resume', $data, function($message)use($data, $files) {
+                  $message->to($data["resume_email"], $data["resume_email"])
+                          ->subject("Job Apply");
+       
+                  foreach ($files as $file){
+                      $message->attach($file);
+                  }
+                  
+              });
+       
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
               return redirect()->back()->with('message','Job Applied');
 
     

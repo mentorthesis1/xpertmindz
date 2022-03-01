@@ -108,7 +108,7 @@ class AuthController extends Controller
 
         Auth::login($user);
 
-        return redirect('/student_login');
+        return redirect('/login_view');
 
 
     }
@@ -135,7 +135,7 @@ class AuthController extends Controller
 
         Auth::login($user);
 
-        return redirect('/institution_login');
+        return redirect('/login_view');
 
     }
 
