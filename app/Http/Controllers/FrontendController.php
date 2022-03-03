@@ -81,6 +81,9 @@ class FrontendController extends Controller
     public function beproject(){
         return view('frontend/projects/beproject');
     }
+    public function meproject(){
+        return view('frontend/projects/meproject');
+    }
    
     
 

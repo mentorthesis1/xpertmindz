@@ -17,7 +17,7 @@
        
         
         <div class="col-md-6 ">
-          <a href="/beproject" style="color: black;">
+          <a href="/meproject" style="color: black;">
           <div class="icon-box" data-aos="fade-up" data-aos-delay="200">
             {{-- <div class="icon"><i class="fas fa-pills"></i></div> --}}
             <h4 class="title" style="text-align: center;">M.E projects</h4>

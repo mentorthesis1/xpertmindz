@@ -12,9 +12,13 @@ use Redirect;
 
 class RazorpayController extends Controller
 {    
-    public function payWithRazorpay()
+    public function payWithRazorpay($req)
     {        
-        return view('payWithRazorpay');
+        return view('payWithRazorpay',compact('req'));
+    }
+
+    public function default_payment(){
+        return view('frontend.default_payment');
     }
 
     public function payment(Request $request)
@@ -45,6 +49,7 @@ class RazorpayController extends Controller
                    'phone'=>$request->phone,
                    'user_id' => $user_id,
                    'amount' => $request->amount,
+                   'requirement'=>$request->req,
                 ];
                 
         Payment::insertGetId($payInfo);  

@@ -52,7 +52,7 @@
                                 <div class="form-group mt-1 mb-1">
                                     <label>Name</label>
                                     <input type="text" name="name" value="{{Auth::user()->name }}" class="form-control name" placeholder="Enter your name" required>
-                                      <input type="hidden" value="{{$req}}" class="requirement" >
+                                 
                                     <p id="name_error" class="text-danger"></p>
                                 </div>
                                 <div class="form-group mt-1 mb-1">
@@ -64,6 +64,11 @@
                                     <label>Phone No</label>
                                     <input type="text" name="phone" class="form-control phone" placeholder="Enter your phone no" required>
                                     <p id="phone_error" class="text-danger"></p>
+                                </div>
+                                <div class="form-group mt-1 mb-1">
+                                    <label>Service Name</label>
+                                    <input type="text" name="service" class="form-control service" placeholder="Enter your service" required>
+                                    <p id="service_error" class="text-danger"></p>
                                 </div>
                                 <div class="form-group mt-1 mb-1">
                                     <label>Amount</label>
@@ -80,7 +85,7 @@
         </main>
     </div>
 <div class="text-center">
-    <a href="/" class="btn btn-warning btn-sm" >Go Home</a>
+    <a href="/" class="btn btn-warning btn-sm mb-5" >Go Home</a>
 </div>
    
 
@@ -94,6 +99,7 @@
         var email = $('.email').val();
         var phone = $('.phone').val();
         var amount = $('.amount').val();
+        var service = $('.service').val();
 
        
 
@@ -133,6 +139,15 @@
                             amount_error="";
                              $('#amount_error').html("");
                           }
+                          if(!service){
+                            service_error="service is required";
+                            $('#service_error').html("");
+                            $('#service_error').html(service_error);
+                          }
+                          else{
+                            service_error="";
+                             $('#service_error').html("");
+                          }
 
                          
                           if(name_error !='' || email_error !='' || phone_error !='' || amount_error !='' ){
@@ -145,7 +160,7 @@
 
                           
 
-                            var req = $('.requirement').val();
+                         
         var total_amount = amount * 100;
         var options = {
             "key": "{{ env('RAZOR_KEY') }}", // Enter the Key ID generated from the Dashboard
@@ -169,7 +184,7 @@
                     email:email,
                     phone:phone,
                     amount:amount,
-                    req:req
+                    req:service
         
                     },
                     success:function(data){

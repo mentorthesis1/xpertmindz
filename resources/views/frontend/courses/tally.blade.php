@@ -15,9 +15,16 @@
       <div class="section-title">
         <p>Java is a high-level, class-based, object-oriented programming language that is designed to have as few implementation dependencies as possible. It is a general-purpose programming language intended to let programmers write once, run anywhere (WORA),[17] meaning that compiled Java code can run on all platforms that support Java without the need to recompile.[18] Java applications are typically compiled to bytecode that can run on any Java virtual machine (JVM) regardless of the underlying computer architecture. The syntax of Java is similar to C and C++, but has fewer low-level facilities than either of them. The Java runtime provides dynamic capabilities (such as reflection and runtime code modification) that are typically not available in traditional compiled languages. As of 2019, Java was one of the most popular programming languages in use according to GitHub,[19][20] particularly for client–server web applications, with a reported 9 million developers.[21]</p>
       </div>
-      <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal" style="margin-left: 46%;">
+      <div class="text-center">
+      <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
         Talk to Us
       </button>
+      @Auth
+      <a href="/paywithrazorpay/tally course" class="btn btn-success">Pay Now</a>
+      @else
+      <a href="/login_view" class="btn btn-success">Pay Now</a>
+      @endAuth
+    </div>
       
 
     </div>
@@ -49,7 +56,7 @@
 
               </div>
               
-                  <input type="hidden" class="form-control mb-2" name="req" value="web developement"/>
+                  <input type="hidden" class="form-control mb-2" name="req" value="tally course"/>
 
               <div class="modal-footer">
                   <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>

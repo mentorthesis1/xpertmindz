@@ -17,10 +17,16 @@
 
             C++ was designed with an orientation toward systems programming and embedded, resource-constrained software and large systems, with performance, efficiency, and flexibility of use as its design highlights.[11] C++ has also been found useful in many other contexts, with key strengths being software infrastructure and resource-constrained applications,[11] including desktop applications, video games, servers (e.g. e-commerce, web search, or databases), and performance-critical applications (e.g. telephone switches or space probes).[12]</p>
       </div>
-
-      <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal" style="margin-left: 46%;">
+      <div class="text-center">
+      <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal" >
         Talk to Us
       </button>
+      @Auth
+      <a href="/paywithrazorpay/C programming course" class="btn btn-success">Pay Now</a>
+      @else
+      <a href="/login_view" class="btn btn-success">Pay Now</a>
+      @endAuth
+    </div>
 
     </div>
 
@@ -51,7 +57,7 @@
 
                 </div>
                 
-                    <input type="hidden" class="form-control mb-2" name="req" value="web developement"/>
+                    <input type="hidden" class="form-control mb-2" name="req" value="C course"/>
 
                 <div class="modal-footer">
                     <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>

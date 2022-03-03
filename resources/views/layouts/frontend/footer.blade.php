@@ -1,8 +1,8 @@
 
   <!-- ======= Footer ======= -->
-  <footer id="footer" style="background-color: #033155">
+  <footer id="footer" style="background-color:black">
     
-    <div class="footer-top" style="background-color: #033155">
+    <div class="footer-top" style="background-color:black">
       <div class="social-links mt-1" style="float: right; margin-right:24px;">
         <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
         <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
@@ -12,7 +12,7 @@
       </div>
       <div class="social-links mt-6" style="float: right; margin-top: 88px; margin-right:-108px; ">
         <a href="assets/image/features-1.png" download>
-          <img src="assets/image/boucherlogo.png" style="width: 500%; height: 250%; margin-left: -100px; margin-top: -14px;">
+          <img src="{{asset('assets/image/boucherlogo.png')}}" style="width: 500%; height: 250%; margin-left: -100px; margin-top: -14px;">
         </a>
       </div>
       <div class="container">
@@ -90,7 +90,7 @@
         <!-- You can delete the links only if you purchased the pro version. -->
         <!-- Licensing information: https://bootstrapmade.com/license/ -->
         <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/medicio-free-bootstrap-theme/ -->
-         <a style="color: white">xpert mindz innovative solutions</a>
+         <a style="color: white">xpertmindz innovative solutions</a>
       </div>
     </div>
   </footer><!-- End Footer -->

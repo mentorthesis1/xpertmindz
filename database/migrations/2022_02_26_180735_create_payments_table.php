@@ -21,7 +21,9 @@ class CreatePaymentsTable extends Migration
             $table->string('payment_id'); // razorpay payment id
             $table->integer('user_id');
             $table->string('amount');
-            $table->timestamps();
+            $table->string('requirement');
+            $table->timestamp('created_at')->useCurrent();
+            $table->timestamp('updated_at')->useCurrent();
             
         });
     }

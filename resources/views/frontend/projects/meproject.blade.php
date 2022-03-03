@@ -1,3 +1,4 @@
+
 @extends('layouts.basesection')
 @section('dashboard')
 
@@ -53,7 +54,7 @@
   
             </div>
             
-                <input type="hidden" class="form-control mb-2" name="req" value="BE project"/>
+                <input type="hidden" class="form-control mb-2" name="req" value="ME project"/>
   
             <div class="modal-footer">
                 <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>

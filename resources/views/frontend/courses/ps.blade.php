@@ -15,10 +15,16 @@
       <div class="section-title">
           <p>Adobe Photoshop is a raster graphics editor developed and published by Adobe Inc. for Windows and macOS. It was originally created in 1988 by Thomas and John Knoll. Since then, the software has become the industry standard not only in raster graphics editing, but in digital art as a whole. The software's name has thus become a generic trademark, leading to its usage as a verb (e.g. "to photoshop an image", "photoshopping", and "photoshop contest") although Adobe discourages such use.[5] Photoshop can edit and compose raster images in multiple layers and supports masks, alpha compositing and several color models including RGB, CMYK, CIELAB, spot color, and duotone. Photoshop uses its own PSD and PSB file formats to support these features. In addition to raster graphics, Photoshop has limited abilities to edit or render text and vector graphics (especially through clipping path for the latter), as well as 3D graphics and video. Its feature set can be expanded by plug-ins; programs developed and distributed independently of Photoshop that run inside it and offer new or enhanced features.</p>
       </div>
-
-      <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal" style="margin-left: 46%;">
+<div class="text-center">
+      <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal" >
         Talk to Us
       </button> 
+      @Auth
+      <a href="/paywithrazorpay/photoshop course" class="btn btn-success">Pay Now</a>
+      @else
+      <a href="/login_view" class="btn btn-success">Pay Now</a>
+      @endAuth
+    </div>
 
     </div>
 
@@ -49,7 +55,7 @@
 
               </div>
               
-                  <input type="hidden" class="form-control mb-2" name="req" value="web developement"/>
+                  <input type="hidden" class="form-control mb-2" name="req" value="photo shop course"/>
 
               <div class="modal-footer">
                   <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>

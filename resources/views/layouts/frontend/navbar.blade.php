@@ -1,18 +1,17 @@
 <nav id="navbar" class="navbar order-last order-lg-0">
     <ul>
 
-      @Auth
+      {{-- @Auth
       <li><a class="nav-link scrollto " href="/paywithrazorpay">
-       <img src="{{asset('frontend/logo/wallet.png')}}" height="40" width="50"
+       <img src="{{asset('frontend/logo/card4.png')}}" height="40" width="40"
        data-bs-toggle="tooltip" data-bs-placement="bottom" title="Pay Now">
       </a></li>
    @else   
    <li><a class="nav-link scrollto" href="/login_view">
-     <img src="{{asset('frontend/logo/wallet.png')}}" height="40" width="50"
+     <img src="{{asset('frontend/logo/card4.png')}}" height="40" width="40"
      data-bs-toggle="tooltip" data-bs-placement="bottom" title="Pay Now">
     </a></li>
-   @endAuth 
-     
+   @endAuth  --}}
 
       <li><a class="nav-link scrollto " href="/">Home</a></li>
       <li><a class="nav-link scrollto" href="/about">About</a></li>
@@ -41,7 +40,7 @@
           <li class="dropdown"><a href="#"><span>Projects</span> <i class="bi bi-chevron-right"></i></a>
             <ul>
               <li><a href="/beproject">B.E Projects</a></li>
-              <li><a href="/beproject">M.E Projects</a></li>
+              <li><a href="/meproject">M.E Projects</a></li>
             </ul>
           </li>
           <li><a href="/workshop">Workshops</a></li>
@@ -61,17 +60,19 @@
         
         <li><a href="/profile_view">Profile</a></li>
         <li><a href="/my_payments">My Payments</a></li>
+        <li><a href="/default_payment">Pay Now</a></li>
         <li><a href="/logout">Logout</a></li>
        </ul>
      </li>
 
       @else
      <li class="dropdown"><a href="#"><span>LOGIN</span> <i class="bi bi-chevron-down"></i></a>
-       <ul>
-         <li><a href="/login_view">LOGIN</a></li>
-         <li><a href="/student_register">STUDENT REGISTER</a></li>
-         <li><a href="/institution_register">INSTITUTION REGISTER</a></li>
-       </ul>
+      <ul>
+        <li><a href="/login_view">LOGIN</a></li>
+        <li><a href="/register_view">EMPLOYE REGISTER</a></li>
+        <li><a href="/student_register">STUDENT REGISTER</a></li>
+        <li><a href="/institution_register">INSTITUTION REGISTER</a></li>
+      </ul>
      </li>
      @endAuth   
       <li>
@@ -87,6 +88,8 @@
         <a><i class="fa fa-search nav-link scrollto " aria-hidden="true" style="font-size: 20px;" onclick="openSearch()"></i></button></a>
         
       </li>
+
+ 
       
     </ul>
     <i class="bi bi-list mobile-nav-toggle"></i>

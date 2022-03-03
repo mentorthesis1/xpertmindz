@@ -20,6 +20,12 @@
 <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
     Talk to Us
   </button>
+  @Auth
+  <a href="/paywithrazorpay/website" class="btn btn-success">Pay Now</a>
+  @else
+  <a href="/login_view" class="btn btn-success">Pay Now</a>
+  @endAuth
+  
   
   <!-- Modal -->
   <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">

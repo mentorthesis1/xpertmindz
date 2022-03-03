@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>Xpert Mindz</title>
+  <title>Xpertmindz</title>
   <meta content="" name="description">
   <meta content="" name="keywords">
 
@@ -56,7 +56,7 @@
   <div id="topbar" class="d-flex align-items-center fixed-top">
     <div class="container d-flex align-items-center justify-content-center justify-content-md-between">
       <div class="align-items-center d-none d-md-flex" style="margin-left: -104px; font-size: 14px;">
-        Xpert Mindz Innovative Solution Pvt Ltd
+        Xpertmindz Innovative Solution Pvt Ltd
       </div>
       
     </div>
@@ -66,24 +66,26 @@
   <header id="header" class="fixed-top" style=" max-height:72px;">
     <div class="container d-flex align-items-center">
 
-      <a href="index.html" class="logo me-auto"><img src="assets/image/logo2.png" alt="" style="height:60px; margin-top:-15px;"></a>
+      <a href="/" class="logo me-auto"><img src="assets/image/logo2.png" alt="" style="height:60px; margin-top:-15px;"></a>
       <!-- Uncomment below if you prefer to use an image logo -->
       <!-- <h1 class="logo me-auto"><a href="index.html">Medicio</a></h1> -->
 
       <nav id="navbar" class="navbar order-last order-lg-0" style="margin-top: -20px;">
         <ul>
 
-        @Auth
-           <li><a class="nav-link scrollto " href="/paywithrazorpay">
-            <img src="{{asset('frontend/logo/wallet.png')}}" height="40" width="50"
-            data-bs-toggle="tooltip" data-bs-placement="bottom" title="Pay Now">
-           </a></li>
-        @else   
-        <li><a class="nav-link scrollto" href="/login_view">
-          <img src="{{asset('frontend/logo/wallet.png')}}" height="40" width="50"
-          data-bs-toggle="tooltip" data-bs-placement="bottom" title="Pay Now">
-         </a></li>
-        @endAuth 
+{{--      
+          @Auth
+          <li><a class="nav-link scrollto " href="/paywithrazorpay">
+           <img src="{{asset('frontend/logo/card4.png')}}" height="40" width="40"
+           data-bs-toggle="tooltip" data-bs-placement="bottom" title="Pay Now">
+          </a></li>
+       @else   
+       <li><a class="nav-link scrollto" href="/login_view">
+         <img src="{{asset('frontend/logo/card4.png')}}" height="40" width="40"
+         data-bs-toggle="tooltip" data-bs-placement="bottom" title="Pay Now">
+        </a></li>
+       @endAuth  --}}
+          
          
 
 
@@ -115,7 +117,7 @@
               <li class="dropdown"><a href="#"><span>Projects</span> <i class="bi bi-chevron-right"></i></a>
                 <ul>
                   <li><a href="/beproject">B.E Projects</a></li>
-                  <li><a href="/beproject">M.E Projects</a></li>
+                  <li><a href="/meproject">M.E Projects</a></li>
                 </ul>
               </li>
               <li><a href="/workshop">Workshops</a></li>
@@ -134,6 +136,7 @@
 
               <li><a href="/profile_view">Profile</a></li>
               <li><a href="/my_payments">My Payments</a></li>
+              <li><a href="/default_payment">Pay Now</a></li>
               <li><a href="/logout">Logout</a></li>
             </ul>
           </li>
@@ -147,7 +150,8 @@
               <li><a href="/institution_register">INSTITUTION REGISTER</a></li>
             </ul>
           </li>
-          @endAuth     
+          @endAuth   
+            
           <li>
             <div id="myOverlay" class="overlay">
               <span class="closebtn" onclick="closeSearch()" title="Close Overlay">×</span>
@@ -161,7 +165,9 @@
             <a><i class="fa fa-search nav-link scrollto " aria-hidden="true" style="font-size: 20px;" onclick="openSearch()"></i></button></a>
             
           </li>
-          
+
+
+        
           
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
@@ -462,9 +468,9 @@
   </div>
 
   <!-- ======= Footer ======= -->
-  <footer id="footer" style="background-color: #033155">
+  <footer id="footer" style="background-color: black">
     
-    <div class="footer-top" style="background-color: #033155">
+    <div class="footer-top" style="background-color:black">
       <div class="social-links mt-1" style="float: right; margin-right:24px;">
         <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
         <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
@@ -546,14 +552,14 @@
 
     <div class="container">
       <div class="copyright">
-       <a style="color: white "> &copy; 2022 </a><strong><span style="color: white ">xpert mindz innovative solution pvt ltd</span></strong><a style="color: white ">. All Rights Reserved</a>
+       <a style="color: white "> &copy; 2022 </a><strong><span style="color: white ">xpertmindz innovative solution pvt ltd</span></strong><a style="color: white ">. All Rights Reserved</a>
       </div>
       <div class="credits">
         <!-- All the links in the footer should remain intact. -->
         <!-- You can delete the links only if you purchased the pro version. -->
         <!-- Licensing information: https://bootstrapmade.com/license/ -->
         <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/medicio-free-bootstrap-theme/ -->
-        <a style="color: white">xpert mindz innovative solutions</a>
+        <a style="color: white">xpertmindz innovative solutions</a>
       </div>
     </div>
   </footer><!-- End Footer -->

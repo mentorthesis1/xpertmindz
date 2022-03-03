@@ -20,11 +20,16 @@
             HTML elements are the building blocks of HTML pages. With HTML constructs, images and other objects such as interactive forms may be embedded into the rendered page. HTML provides a means to create structured documents by denoting structural semantics for text such as headings, paragraphs, lists, links, quotes and other items. HTML elements are delineated by tags, written using angle brackets. Tags such as <img /> and <input /> directly introduce content into the page. Other tags such as <p> surround and provide information about document text and may include other tags as sub-elements. Browsers do not display the HTML tags, but use them to interpret the content of the page.</p>
             
       </div>
-
-      <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal" style="margin-left: 46%;">
+      <div class="text-center">
+      <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal" >
         Talk to Us
       </button> 
-
+      @Auth
+      <a href="/paywithrazorpay/html course" class="btn btn-success">Pay Now</a>
+      @else
+      <a href="/login_view" class="btn btn-success">Pay Now</a>
+      @endAuth
+    </div>
     </div>
 
     <!-- Modal -->
@@ -54,7 +59,7 @@
 
               </div>
               
-                  <input type="hidden" class="form-control mb-2" name="req" value="web developement"/>
+                  <input type="hidden" class="form-control mb-2" name="req" value="html course"/>
 
               <div class="modal-footer">
                   <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>

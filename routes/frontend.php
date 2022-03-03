@@ -28,6 +28,7 @@ Route::get('/internship',[FrontendController::class,'internship']);
 Route::get('/workshop',[FrontendController::class,'workshop']);
 Route::get('/symposium',[FrontendController::class,'symposium']);
 Route::get('/beproject',[FrontendController::class,'beproject']);
+Route::get('/meproject',[FrontendController::class,'meproject']);
 
 
 
@@ -80,6 +81,15 @@ Route::post('/job_apply_create',[FrontendController::class,'job_apply_create']);
 Route::get('/web-design',[FrontendController::class,'index']);
 
 //payment
+
+use App\Http\Controllers\RazorpayController;
+
+Route::get('paywithrazorpay/{req}', [RazorpayController::class,'payWithRazorpay'])->name('paywithrazorpay');
+Route::get('default_payment', [RazorpayController::class,'default_payment']);
+Route::post('payment', [RazorpayController::class,'payment'])->name('payment');
+
+
+
 
 
 

@@ -114,7 +114,7 @@
 
           </div>
           
-              <input type="hidden" class="form-control mb-2" name="req" value="web developement"/>
+              <input type="hidden" class="form-control mb-2" name="req" value="Internship"/>
 
           <div class="modal-footer">
               <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>

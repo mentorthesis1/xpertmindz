@@ -16,9 +16,17 @@
           <P>Big data is a field that treats ways to analyze, systematically extract information from, or otherwise deal with data sets that are too large or complex to be dealt with by traditional data-processing application software. Data with many fields (columns) offer greater statistical power, while data with higher complexity (more attributes or columns) may lead to a higher false discovery rate.[2] Big data analysis challenges include capturing data, data storage, data analysis, search, sharing, transfer, visualization, querying, updating, information privacy, and data source. Big data was originally associated with three key concepts: volume, variety, and velocity.[3] The analysis of big data presents challenges in sampling, and thus previously allowing for only observations and sampling. Therefore, big data often includes data with sizes that exceed the capacity of traditional software to process within an acceptable time and value.</P>
       </div>
 
-      <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal" style="margin-left: 46%;">
+      <div class="text-center">
+      <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal" >
         Talk to Us
       </button>
+      @Auth
+      <a href="/paywithrazorpay/bigdata course" class="btn btn-success">Pay Now</a>
+      @else
+      <a href="/login_view" class="btn btn-success">Pay Now</a>
+      @endAuth
+    </div>
+      
 
     </div>
     <!-- Modal -->
@@ -48,7 +56,7 @@
 
               </div>
               
-                  <input type="hidden" class="form-control mb-2" name="req" value="web developement"/>
+                  <input type="hidden" class="form-control mb-2" name="req" value="bigdata course"/>
 
               <div class="modal-footer">
                   <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>

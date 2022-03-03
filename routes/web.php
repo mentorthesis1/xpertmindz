@@ -24,10 +24,6 @@ Route::get('/',[NewController::class,'index']);
 
 
 
-use App\Http\Controllers\RazorpayController;
-
-Route::get('paywithrazorpay', [RazorpayController::class,'payWithRazorpay'])->name('paywithrazorpay');
-Route::post('payment', [RazorpayController::class,'payment'])->name('payment');
 
 require __DIR__.'/auth.php';
 require __DIR__.'/frontend.php';

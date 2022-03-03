@@ -20,9 +20,16 @@
             ASP.NET's successor is ASP.NET Core. It is a re-implementation of ASP.NET as a modular web framework, together with other frameworks like Entity Framework. The new framework uses the new open-source .NET Compiler Platform (codename "Roslyn") and is cross platform. ASP.NET MVC, ASP.NET Web API, and ASP.NET Web Pages (a platform using only Razor pages) have merged into a unified MVC 6.[3]</p>
       </div>
 
-      <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal" style="margin-left: 46%;">
+      <div class="text-center">
+      <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
         Talk to Us
       </button>
+      @Auth
+      <a href="/paywithrazorpay/asp.net course" class="btn btn-success">Pay Now</a>
+      @else
+      <a href="/login_view" class="btn btn-success">Pay Now</a>
+      @endAuth
+    </div>
       
      
      
@@ -56,7 +63,7 @@
 
           </div>
           
-              <input type="hidden" class="form-control mb-2" name="req" value="web developement"/>
+              <input type="hidden" class="form-control mb-2" name="req" value="asp dot net course"/>
 
           <div class="modal-footer">
               <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>

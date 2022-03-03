@@ -21,9 +21,19 @@
             
             The current on-premises, desktop version of Office is Office 2021, released on October 5, 2021.[12]</p>
       </div>
-      <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal" style="margin-left: 46%;">
+
+      <div class="text-center">
+      <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal" >
         Talk to Us
       </button>
+
+      @Auth
+      <a href="/paywithrazorpay/msoffice course" class="btn btn-success">Pay Now</a>
+      @else
+      <a href="/login_view" class="btn btn-success">Pay Now</a>
+      @endAuth
+
+    </div>
       
 
     </div>
@@ -55,7 +65,7 @@
 
               </div>
               
-                  <input type="hidden" class="form-control mb-2" name="req" value="web developement"/>
+                  <input type="hidden" class="form-control mb-2" name="req" value="msoffice course"/>
 
               <div class="modal-footer">
                   <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>

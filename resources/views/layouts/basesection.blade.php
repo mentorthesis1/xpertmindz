@@ -8,32 +8,31 @@
   <title>Xpert Mindz</title>
   <meta content="" name="description">
   <meta content="" name="keywords">
-
-
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg==" crossorigin="anonymous"></script>
-  <!-- Favicons -->
-  <link href="assets/image/x.png" rel="icon">
-  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+  
+<!-- Favicons -->
+  <link href="{{asset('assets/image/x.png')}}" rel="icon">
+  <link href="{{asset('assets/img/apple-touch-icon.png')}}" rel="apple-touch-icon">
 
   <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Roboto:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
 
   <!-- Vendor CSS Files -->
-  <link href="assets/vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
-  <link href="assets/vendor/animate.css/animate.min.css" rel="stylesheet">
-  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
-  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
-  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
-  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
-  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
-  <link rel="stylesheet" href="auth/css/mdb.min.css" />
+  <link href="{{asset('assets/vendor/fontawesome-free/css/all.min.css')}}" rel="stylesheet">
+  <link href="{{asset('assets/vendor/animate.css/animate.min.css')}}" rel="stylesheet">
+  <link href="{{asset('assets/vendor/aos/aos.css')}}" rel="stylesheet">
+  <link href="{{asset('assets/vendor/bootstrap/css/bootstrap.min.css')}}" rel="stylesheet">
+  <link href="{{asset('assets/vendor/bootstrap-icons/bootstrap-icons.css')}}" rel="stylesheet">
+  <link href="{{asset('assets/vendor/boxicons/css/boxicons.min.css')}}" rel="stylesheet">
+  <link href="{{asset('assets/vendor/glightbox/css/glightbox.min.css')}}" rel="stylesheet">
+  <link href="{{asset('assets/vendor/swiper/swiper-bundle.min.css')}}" rel="stylesheet">
+  <link rel="stylesheet" href="auth/css/mdb.min.css')}}" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
 	<link rel="stylesheet" href="https://mdbcdn.b-cdn.net/wp-content/themes/mdbootstrap4/docs-app/css/dist/mdb5/standard/core.min.css">
 
   <!-- Template Main CSS File -->
-  <link href="assets/css/style.css" rel="stylesheet">
-  <link href="assets/css/custom.css" rel="stylesheet">
+  <link href="{{asset('assets/css/style.css')}}" rel="stylesheet">
+  <link href="{{asset('assets/css/custom.css')}}" rel="stylesheet">
 
   <script src="https://cdn.jsdelivr.net/npm/sweetalert2@10.16.6/dist/sweetalert2.all.min.js"></script>
   
@@ -56,7 +55,7 @@
   <header id="header" class="fixed-top" style=" max-height:80px; top:0; background:black;">
     <div class="container d-flex align-items-center">
 
-      <a href="index.html" class="logo me-auto"><img src="assets/image/logo2.png" alt="" style="height:60px; margin-top:-15px;"></a>
+      <a href="/" class="logo me-auto"><img src="{{asset('assets/image/logo2.png')}}" alt="" style="height:60px; margin-top:-15px;"></a>
       <!-- Uncomment below if you prefer to use an image logo -->
       <!-- <h1 class="logo me-auto"><a href="index.html">Medicio</a></h1> -->
 
@@ -141,16 +140,17 @@
   <div id="preloader"></div>
   <a href="#" class="back-to-top d-flex align-items-center justify-content-center" style="margin-bottom: 71px"><i class="bi bi-arrow-up-short"></i></a>
 
+
   <!-- Vendor JS Files -->
-  <script src="assets/vendor/purecounter/purecounter.js"></script>
-  <script src="assets/vendor/aos/aos.js"></script>
-  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
-  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
-  <script src="assets/vendor/php-email-form/validate.js"></script>
-  <script type="text/javascript" src="auth/js/mdb.min.js"></script>
+  <script src="{{asset('assets/vendor/purecounter/purecounter.js')}}"></script>
+  <script src="{{asset('assets/vendor/aos/aos.js')}}"></script>
+  <script src="{{asset('assets/vendor/bootstrap/js/bootstrap.bundle.min.js')}}"></script>
+  <script src="{{asset('assets/vendor/glightbox/js/glightbox.min.js')}}"></script>
+  <script src="{{asset('assets/vendor/swiper/swiper-bundle.min.js')}}"></script>
+  <script src="{{asset('assets/vendor/php-email-form/validate.js')}}"></script>
+  <script type="text/javascript" src="auth/js/mdb.min.js')}}"></script>
   <!-- Template Main JS File -->
-  <script src="assets/js/main.js"></script>
+  <script src="{{asset('assets/js/main.js')}}"></script>
 
   @if(session()->has('message'))
   <script>
