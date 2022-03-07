@@ -1,10 +1,10 @@
 @extends('layouts.basesection')
 @section('dashboard')
 <div>
-<h1>WORK SHOP</h1><br><br>
-Content is the life force of marketing today. Every business is an information business first; its product comes second. In this age, content is what enables marketers to build, connect, and interact with customers at every touchpoint in the buyer’s journey.
+<h1 class="mt-3 mb-5">WORK SHOP</h1>
+<p>Content is the life force of marketing today. Every business is an information business first; its product comes second. In this age, content is what enables marketers to build, connect, and interact with customers at every touchpoint in the buyer’s journey.</p>
 
-<br><br>Newsletters, events, and courses are all great sources that content strategists, marketers, and consultants can leverage to advance the practice of content marketing. But one of the best ways to achieve the goals of content marketing – to reach, engage and convert new customers to your business – is to document your content marketing strategy with a hands-on, insightful content marketing workshop.
+<br>Newsletters, events, and courses are all great sources that content strategists, marketers, and consultants can leverage to advance the practice of content marketing. But one of the best ways to achieve the goals of content marketing – to reach, engage and convert new customers to your business – is to document your content marketing strategy with a hands-on, insightful content marketing workshop.
 
 
 <br><br>A content workshop will help your company clarify your marketing objectives, lend a consistent voice to your brand, and improve your customer experience, leading to the growth that your business seeks.<br><br>
