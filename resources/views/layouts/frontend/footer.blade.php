@@ -44,7 +44,7 @@
                <li><a href="/about"style="color: white ">About us</a></li>
               <li><a href="#" style="color: white ">Disclaimer</a></li>
               <li> <a href="#" style="color: white ">Privacy policy</a></li>
-              <li> <a href="#" style="color: white ">cookie policy</a></li>
+              <li> <a href="#" style="color: white ">Term & condition</a></li>
             </ul>
           </div>
 

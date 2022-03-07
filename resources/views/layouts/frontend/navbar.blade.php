@@ -85,8 +85,7 @@
             </form>
           </div>
         </div>
-        <a><i class="fa fa-search nav-link scrollto " aria-hidden="true" style="font-size: 20px;" onclick="openSearch()"></i></button></a>
-        
+        <a><i class="fas fa-search" style="font-size: 20px; color:white" onclick="openSearch()"></i></a>
       </li>
 
  

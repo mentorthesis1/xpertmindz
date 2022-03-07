@@ -8,20 +8,13 @@
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
+*{
+  font-family: "Roboto", sans-serif !important;
+}
 body {
-  /* font-family: "Open Sans", sans-serif;*/
-   font-family: 'Proxima Nova';
-  color: #444444;
-  line-height: 30px;
-  font-size: 16px;
-  /* color: #8a8592; */
+ /* font-family: "Open Sans", sans-serif; */
+ font-family: "Roboto", sans-serif;
 
-
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  
-
-  
 }
 
 a {
@@ -772,7 +765,7 @@ section {
   margin-top: 20px;
   color: #7b7b7b;
   font-size: 15px;
-  font-family: "Poppins", sans-serif;
+  font-family: "Roboto", sans-serif;
   transition: ease-in-out 0.3s;
 }
 .counts .count-box a:hover {
@@ -1221,7 +1214,7 @@ section {
   font-size: 36px;
   color: #3fbbc0;
   font-weight: 600;
-  font-family: "Poppins", sans-serif;
+  font-family: "Roboto", sans-serif;
   margin-bottom: 20px;
 }
 .pricing h4 sup {
@@ -1633,7 +1626,8 @@ section {
   left: 0;
   width: 100%;
   height: 100%;
-  background: #333;
+  /* background: #333; */
+  background:#a1d5f7;
   backface-visibility: hidden;
   transform-style: preserve-3d;
   transform: rotateY(180deg);
@@ -1646,7 +1640,7 @@ section {
 .container1 .box1 .body1 .content1 div {
   transform-style: preserve-3d;
   padding: 20px;
-  background: linear-gradient(45deg, #FE0061, #FFEB3B);
+  background: linear-gradient(45deg, #19b8d7, #fb4e90);
   /* background: linear-gradient(45deg, #ee065f, #FFEB3B); */
   transform: translateZ(100px);
 }

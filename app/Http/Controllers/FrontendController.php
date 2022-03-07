@@ -175,28 +175,9 @@ public function job_apply_create(Request $request){
                   
               });
        
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
               return redirect()->back()->with('message','Job Applied');
 
-    
-          
-              
+           
 
 }
 
