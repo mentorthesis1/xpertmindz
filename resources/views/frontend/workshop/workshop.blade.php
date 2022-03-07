@@ -1,6 +1,14 @@
 @extends('layouts.basesection')
 @section('dashboard')
+<div>
+<h1>WORK SHOP</h1><br><br>
+Content is the life force of marketing today. Every business is an information business first; its product comes second. In this age, content is what enables marketers to build, connect, and interact with customers at every touchpoint in the buyer’s journey.
 
+<br><br>Newsletters, events, and courses are all great sources that content strategists, marketers, and consultants can leverage to advance the practice of content marketing. But one of the best ways to achieve the goals of content marketing – to reach, engage and convert new customers to your business – is to document your content marketing strategy with a hands-on, insightful content marketing workshop.
+
+
+<br><br>A content workshop will help your company clarify your marketing objectives, lend a consistent voice to your brand, and improve your customer experience, leading to the growth that your business seeks.<br><br>
+</div>
 <div class="section_our_solution">
   {{-- <div class="row"> --}}<div class="row row-cols-1 row-cols-md-2 g-4">
     <div class="col">
@@ -129,14 +137,52 @@
               
               
             </div>
+
           </div>
+          
         </div>
     </div>
+    
       {{-- </div> --}}
+      
+    </div>
+    <div class="my-3">
+    <h2>1. Plan ahead</h2><br>
+    When you get confirmation that the workshop is a go, it only means you have buy-in from a small group of your leaders. That doesn’t necessarily equate to buy-in from the rest of the organization. Make it clear to your main contact that you need everyone who would be actively involved in the creation and promotion of content to attend the workshop. These roles include:<br><br>
+<ul>
+<li>The content champion or evangelist who reminds the marketing department of the need for consistency in content.</li>
+<li>All team members involved in writing the content and producing creatives such as graphics and videos.</li>
+<li>Everyone who’s going to promote and distribute the content, including the social media and outreach teams.</li>
+</ul>
+<h2>2. Clarify business goals</h2><br>
+As you begin the workshop, make it clear to the attendees how their efforts will be instrumental in helping the company achieve its business goals, namely revenue, sales, profits, and brand awareness.
+<br><br>It’s easy for content marketers to think of their goals in terms of web traffic, leads, or engagement. However, it’s your job to dispel this perception and clarify the difference between digital metrics and business KPIs. Explain a lot about concepts like audience targeting, customer education, thought leadership, and customer retention.</div>
+<br><h2>3. Outline best practices that save the day, any day</h2><br>
+With so much information overload – i.e., content about content – it’d be a surprise if any company had a clear idea of how to develop and stick to a content strategy. Yes, you might instinctively know what content your audience likes and how you can promote that new blog post you published, but in a team everyone has different instincts.<br><br>
+Here are some best practices, some minimum viable processes that you need to get your organization to implement for consistent success in content marketing:<br><br>
+<ul>
+  <li>Define and document a content marketing strategy as well as mission on which the strategy is based. Every piece of content you create should conform to the mission and the strategy.</li>
+  <li>Use audience insights and keyword research to define the signature topics for content creation. Outline how it will be published on your blog.</li>
+  <li>Make an editorial strategy that aims to provide relevant content to various audience segments as and when they need it.</li>
+  <li>Plan for distribution on both organic and paid platforms. You need to achieve the ideal mix, keeping your goals in mind.</li>
+</ul><br><br>
+<h2>4. Map content to the buyer’s journey</h2>
+We’ve all seen those graphics showing what formats of content to create to show to your customers at different stages of the proverbial sales funnel – blog posts for awareness, webinars for consideration, case studies for decision, and so on. Your attendees probably have a good idea of these content formats and types too.<br><br>
+But all that makes little sense if you don’t understand consumers’ behavior – their needs, their intent, and their context – when you’re presenting your content to them. Make it clear how the organization will:<br><br>
+<ul>
+  <li>Educate the audience on various matters in your niche, help them identify if they have a problem, and define it clearly in the awareness</li>
+  <li>Provide various solutions and alternatives to readers’ problems in the consideration.</li>
+  <li>Get into each prospect’s vendor shortlist and eventually induce the prospect to choose your product or service during the decision.</li>
+</ul><br><br>
+
     </div>
   </div>
+  
 </div>
 
+<div>
+
+</div>
 
 <div class="modal fade" id="institution" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
     <div class="modal-dialog">
