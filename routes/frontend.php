@@ -30,6 +30,19 @@ Route::get('/symposium',[FrontendController::class,'symposium']);
 Route::get('/beproject',[FrontendController::class,'beproject']);
 Route::get('/meproject',[FrontendController::class,'meproject']);
 
+//slider
+
+Route::get('/course_slider',[FrontendController::class,'course_slider']);
+
+Route::get('/manpower_slider',[FrontendController::class,'manpower_slider']);
+
+Route::get('/manpower_slider',[FrontendController::class,'manpower_slider']);
+
+Route::get('/webdesign_slider',[FrontendController::class,'webdesign_slider']);
+
+
+Route::get('/meproject',[FrontendController::class,'meproject']);
+
 
 
 

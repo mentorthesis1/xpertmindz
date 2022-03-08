@@ -140,6 +140,7 @@
               <li><a href="/profile_view">Profile</a></li>
               <li><a href="/my_payments">My Payments</a></li>
               <li><a href="/default_payment">Pay Now</a></li>
+           
               <li><a href="/logout">Logout</a></li>
             </ul>
           </li>
