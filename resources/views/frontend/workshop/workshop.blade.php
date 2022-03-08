@@ -1,10 +1,10 @@
 @extends('layouts.basesection')
 @section('dashboard')
 <div>
-<h1>WORK SHOP</h1><br><br>
-Content is the life force of marketing today. Every business is an information business first; its product comes second. In this age, content is what enables marketers to build, connect, and interact with customers at every touchpoint in the buyer’s journey.
+<h1 class="mt-3 mb-5">WORK SHOP</h1>
+<p>Content is the life force of marketing today. Every business is an information business first; its product comes second. In this age, content is what enables marketers to build, connect, and interact with customers at every touchpoint in the buyer’s journey.</p>
 
-<br><br>Newsletters, events, and courses are all great sources that content strategists, marketers, and consultants can leverage to advance the practice of content marketing. But one of the best ways to achieve the goals of content marketing – to reach, engage and convert new customers to your business – is to document your content marketing strategy with a hands-on, insightful content marketing workshop.
+<br>Newsletters, events, and courses are all great sources that content strategists, marketers, and consultants can leverage to advance the practice of content marketing. But one of the best ways to achieve the goals of content marketing – to reach, engage and convert new customers to your business – is to document your content marketing strategy with a hands-on, insightful content marketing workshop.
 
 
 <br><br>A content workshop will help your company clarify your marketing objectives, lend a consistent voice to your brand, and improve your customer experience, leading to the growth that your business seeks.<br><br>
@@ -174,8 +174,11 @@ But all that makes little sense if you don’t understand consumers’ behavior 
   <li>Provide various solutions and alternatives to readers’ problems in the consideration.</li>
   <li>Get into each prospect’s vendor shortlist and eventually induce the prospect to choose your product or service during the decision.</li>
 </ul><br><br>
-
-    </div>
+<h2>5. Show them how (and why) to build a community</h2><br>
+Now that you’ve taught them about the customer journey and how to match content to the intent of the customer, you need to help them build a ready audience who will proactively view the brand’s content (and have reason to engage with it).
+<br><br>Emphasize to them that when there’s a basic caucus or consumer segment ready and willing to interact with the brand, the content is better received. Chances are, this community will help spread your messaging to more people, growing your audience and improving brand sentiment along the way. That’s why it’s important to start building your community as early as possible in the content planning process, even before you create and promote your regular content.
+    
+</div>
   </div>
   
 </div>
