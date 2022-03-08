@@ -194,16 +194,18 @@
     
             <!-- Slide 1 -->
             <div class="carousel-item active" style="background-image: url(assets/image/slide-7.jpg)">
-             
+             <a class=" btn btn-dark btn-sm p-2" style="margin-bottom:65px; border-radius:7px">Explore More</a>
             </div>
     
             <!-- Slide 2 -->
             <div class="carousel-item" style="background-image: url(assets/image/slide-9.jpg)">
+              <a class=" btn btn-dark btn-sm p-2" style="margin-bottom:65px; border-radius:7px">Explore More</a>
               
             </div>
     
             <!-- Slide 3 -->
             <div class="carousel-item" style="background-image: url(assets/image/slide-6.png)">
+              <a class=" btn btn-dark btn-sm p-2" style="margin-bottom:65px; border-radius:7px">Explore More</a>
               
             </div>
     
