@@ -84,6 +84,16 @@ class FrontendController extends Controller
     public function meproject(){
         return view('frontend/projects/meproject');
     }
+
+    public function course_slider(){
+        return view('frontend/slider/course-slider');
+    }
+    public function manpower_slider(){
+        return view('frontend/slider/manpower-slider');
+    }
+    public function webdesign_slider(){
+        return view('frontend/slider/webdesign-slider');
+    }
    
     
 
