@@ -1,6 +1,6 @@
 @extends('layouts.basesection')
 @section('dashboard')
-<section id="cta" class="cta">
+{{-- <section id="cta" class="cta">
     <div class="container" data-aos="zoom-in">
 
       <div class="text-center">
@@ -8,7 +8,10 @@
       </div>
 
     </div>
-  </section>
+  </section> --}}
+  <div class="mb-3">
+    <h2 class="text-info">Matlab</h2>
+  </div>
   <section id="services" class="services services">
     <div class="container" data-aos="fade-up">
 

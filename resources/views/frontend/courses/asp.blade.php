@@ -1,6 +1,6 @@
 @extends('layouts.basesection')
 @section('dashboard')
-<section id="cta" class="cta">
+{{-- <section id="cta" class="cta">
     <div class="container" data-aos="zoom-in">
 
       <div class="text-center">
@@ -8,10 +8,12 @@
       </div>
 
     </div>
-  </section>
+</section> --}}
   <section id="services" class="services services">
     <div class="container" data-aos="fade-up">
-
+      <div class="mb-3">
+        <h2 class="text-info">Asp dot Net</h2>
+      </div>
       <div class="section-title">
           <p>ASP.NET is an open-source,[2] server-side web-application framework designed for web development to produce dynamic web pages. It was developed by Microsoft to allow programmers to build dynamic web sites, applications and services.
 

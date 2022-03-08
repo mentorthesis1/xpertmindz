@@ -43,7 +43,7 @@
     <div class="container" >
       <div class="row">
         <div class="col-lg-12 d-flex justify-content-center">
-          <h1>Services</h1>
+          <h1>Services 1</h1>
         </div>
       </div>
     

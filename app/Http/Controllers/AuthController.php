@@ -43,9 +43,9 @@ class AuthController extends Controller
     public function register(Request $request){
         $request->validate(
             [
-                'name'=>'required',
+                'name'=>'required|min:3|max:50',
                 'email'=>'required|unique:users',
-                'password'=>'required|confirmed'
+                'password'=>'required|min:6|max:50|confirmed'
 
             ]
             );
@@ -90,10 +90,10 @@ class AuthController extends Controller
 
         $request->validate(
             [
-                'name'=>'required',
-                'collage_name'=>'required',
+                'name'=>'required|min:3|max:50',
+                'collage_name'=>'required|min:3|max:50',
                 'email'=>'required|unique:users',
-                'password'=>'required|confirmed'
+                'password'=>'required|min:6|max:50|confirmed'
 
             ]
             );
@@ -117,10 +117,10 @@ class AuthController extends Controller
        
         $request->validate(
             [
-                'institution_name'=>'required',
+                'institution_name'=>'required|min:3|max:50',
                  
                 'email'=>'required|unique:users',
-                'password'=>'required|confirmed'
+                'password'=>'required|min:6|max:50|confirmed'
 
             ]
             );
