@@ -194,7 +194,7 @@
           <div class="carousel-inner" role="listbox">
     
             <!-- Slide 1 -->
-            <div class="carousel-item active" style="background-image: url(assets/image/slide-7.jpg)">
+            <div class="carousel-item active" style="background-image: url(assets/image/course1.jpg)">
              
             </div>
     
