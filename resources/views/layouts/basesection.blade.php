@@ -58,7 +58,7 @@
   <header id="header" class="fixed-top" style=" max-height:80px; top:0; background:black;">
     <div class="container d-flex align-items-center">
 
-      <a href="/" class="logo me-auto"><img src="{{asset('assets/image/logo2.png')}}" alt="" style="height:60px; margin-top:-15px;"></a>
+      <a href="/" class="logo me-auto"><img src="assets/image/logo.png" alt="" style="height:115px; width=115px; margin-top:-42px;"></a>
       <!-- Uncomment below if you prefer to use an image logo -->
       <!-- <h1 class="logo me-auto"><a href="index.html">Medicio</a></h1> -->
 
@@ -132,7 +132,7 @@
 
   <div class="whatsapp-chat">
     <a href="https://wa.me/8681910095?text=I'm%20interested%20in%20your%20car%20for%20sale">
-      <img src="{{asset('frontend/logo/whatsapp2.png')}}" alt="whatsapp chat" height="80px" width="80px">
+      <img src="{{asset('frontend/logo/whatsapp2.png')}}" alt="whatsapp chat" height="65px" width="65px">
     </a>
     
   </div>

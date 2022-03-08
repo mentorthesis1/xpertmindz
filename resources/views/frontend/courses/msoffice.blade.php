@@ -1,6 +1,6 @@
 @extends('layouts.basesection')
 @section('dashboard')
-<section id="cta" class="cta">
+{{-- <section id="cta" class="cta">
     <div class="container" data-aos="zoom-in">
 
       <div class="text-center">
@@ -8,10 +8,12 @@
       </div>
 
     </div>
-  </section>
+  </section> --}}
   <section id="services" class="services services">
     <div class="container" data-aos="fade-up">
-
+      <div class="mb-3">
+        <h2 class="text-info">Ms Office</h2>
+      </div>
       <div class="section-title">
           <p>Microsoft Office, or simply Office, is a family of client software, server software, and services developed by Microsoft. It was first announced by Bill Gates on August 1, 1988, at COMDEX in Las Vegas. Initially a marketing term for an office suite (bundled set of productivity applications), the first version of Office contained Microsoft Word, Microsoft Excel, and Microsoft PowerPoint. Over the years, Office applications have grown substantially closer with shared features such as a common spell checker, OLE data integration and Visual Basic for Applications scripting language. Microsoft also positions Office as a development platform for line-of-business software under the Office Business Applications brand. On July 10, 2012, Softpedia reported that Office was being used by over a billion people worldwide.[11]
 

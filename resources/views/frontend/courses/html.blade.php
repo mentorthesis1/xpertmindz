@@ -1,6 +1,6 @@
 @extends('layouts.basesection')
 @section('dashboard')
-<section id="cta" class="cta">
+{{-- <section id="cta" class="cta">
     <div class="container" data-aos="zoom-in">
 
       <div class="text-center">
@@ -8,10 +8,13 @@
       </div>
 
     </div>
-  </section>
+  </section> --}}
+
   <section id="services" class="services services">
     <div class="container" data-aos="fade-up">
-
+      <div class="mb-3">
+        <h2 class="text-info">Html</h2>
+      </div>
       <div class="section-title">
           <P>The HyperText Markup Language, or HTML is the standard markup language for documents designed to be displayed in a web browser. It can be assisted by technologies such as Cascading Style Sheets (CSS) and scripting languages such as JavaScript.
 

@@ -1,6 +1,6 @@
 @extends('layouts.basesection')
 @section('dashboard')
-<section id="cta" class="cta" >
+{{-- <section id="cta" class="cta" >
     <div class="container" data-aos="zoom-in">
 
       <div class="text-center">
@@ -8,10 +8,12 @@
       </div>
 
     </div>
-  </section>
+  </section> --}}
   <section id="services" class="services services">
     <div class="container" data-aos="fade-up">
-
+      <div class="mb-3">
+        <h2 class="text-info">Python</h2>
+      </div>
       <div class="section-title">
           <p>Python is an interpreted high-level general-purpose programming language. Its design philosophy emphasizes code readability with its use of significant indentation. Its language constructs and object-oriented approach aim to help programmers write clear, logical code for small- and large-scale projects.[29]
 
