@@ -49,7 +49,25 @@
   <link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/sweetalert2@10.10.1/dist/sweetalert2.min.css'>
 
   
-
+<style>
+  .bgimage {
+  width:100%;
+  height:500px;
+  background: url('assets/hero.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size:cover;
+  background-attachment: fixed;
+}
+/* .bgimage h5 {
+  color:black;
+} */
+.hero-content{
+  margin-top:300px;
+ 
+  
+}
+</style>
 
 </head>
 
@@ -184,7 +202,7 @@
 
   <a><img src="{{asset('frontend/logo/search.png')}}" height="20px" width="20px"/></a>
 
-  <!-- ======= Hero Section ======= -->
+  {{-- <!-- ======= Hero Section ======= -->
   <section id="hero">
 
     <div id="heroCarousel" data-bs-interval="2000" class="carousel slide carousel-fade" data-bs-ride="carousel">
@@ -221,7 +239,20 @@
           </a>
         </div>
     </section>     
- <!-- End Hero -->
+ <!-- End Hero --> --}}
+
+
+ <section class="bgimage">
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12  text-center hero-content">
+        {{-- <h5>Hello, world! Full width Hero-unit header</h5>
+        <p class="text-info">This is a template for a simple marketing or informational website. It includes a large callout called the hero unit and three supporting pieces of content.</p> --}}
+        <p><a href="#" class="btn  btn-large" style="background-color:black; color:white">Explore more »</a></p>
+      </div>
+    </div>
+  </div>
+</section>
 
 
   <section id="about" class="about">
