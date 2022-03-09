@@ -194,17 +194,19 @@
           <div class="carousel-inner" role="listbox">
     
             <!-- Slide 1 -->
-            <div class="carousel-item active" style="background-image: url(assets/image/course1.jpg)">
-             
+            <div class="carousel-item active" style="background-image: url(assets/image/course4.jpg)">
+             <a class=" btn btn-dark btn-sm p-2" href="/course_slider" style="margin-bottom:65px; border-radius:7px">Explore More</a>
             </div>
     
             <!-- Slide 2 -->
-            <div class="carousel-item" style="background-image: url(assets/image/slide-9.jpg)">
+            <div class="carousel-item" style="background-image: url(assets/image/manpower.jpg)">
+              <a class=" btn btn-dark btn-sm p-2" href="/manpower_slider" style="margin-bottom:65px; border-radius:7px">Explore More</a>
               
             </div>
     
             <!-- Slide 3 -->
-            <div class="carousel-item" style="background-image: url(assets/image/slide-6.png)">
+            <div class="carousel-item" style="background-image: url(assets/image/webdesign.jpg)">
+              <a class=" btn btn-sm p-2" href="/webdesign_slider" style="margin-bottom:65px; border-radius:7px; background-color:#008CBA">Explore More</a>
               
             </div>
     
