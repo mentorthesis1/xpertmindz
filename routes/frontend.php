@@ -40,6 +40,8 @@ Route::get('/manpower_slider',[FrontendController::class,'manpower_slider']);
 
 Route::get('/webdesign_slider',[FrontendController::class,'webdesign_slider']);
 
+Route::get('/hero',[FrontendController::class,'hero']);
+
 
 Route::get('/meproject',[FrontendController::class,'meproject']);
 

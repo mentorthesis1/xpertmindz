@@ -1,7 +1,8 @@
 @extends('layouts.basesection')
 @section('dashboard')
 <div>
-  <h1 > Services </h1>
+  <h1 style="text-align: center; " class="mt-3"> Services </h1><br><br>
+  <h2 style="text-align: center; ">1.Course</h2><br>
   <h3 class="mt-3 mb-5"> Java</h3>
   <p> Java is a programming language and computing platform first released by Sun Microsystems in 1995.
        It has evolved from humble beginnings to power a large share of today’s digital world,
@@ -33,6 +34,7 @@ Humans need to be able to control the interaction between people and machines.
 
      C programming is considered as the base for other programming languages, 
      that is why it is known as mother language.</p>
+ 
 
 
 

@@ -94,6 +94,9 @@ class FrontendController extends Controller
     public function webdesign_slider(){
         return view('frontend/slider/webdesign-slider');
     }
+    public function hero(){
+        return view('frontend/hero/services');
+    }
    
     
 
