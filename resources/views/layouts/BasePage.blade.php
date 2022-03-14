@@ -259,7 +259,11 @@
     <div class="container" >
       <div class="row">
         <div class="col-lg-12 d-flex justify-content-center">
+<<<<<<< HEAD
           <h1>Services 1</h1>
+=======
+          <h1>Services</h1>
+>>>>>>> dcdb70456fc4ab54c72c88e60e801994235cd032
         </div>
       </div>
     
