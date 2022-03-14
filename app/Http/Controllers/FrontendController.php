@@ -322,6 +322,16 @@ public function workshop_create(Request $request){
 
 
 
+  //terms and privacy
+
+  public function terms(){
+      return view('privacy.terms');
+  }
+
+  public function privacy(){
+      return view('privacy.privacy');
+  }
+
 
 
 

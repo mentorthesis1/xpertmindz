@@ -43,8 +43,8 @@
                <li><a href="#" style="color: white ">Home</a></li>
                <li><a href="/about"style="color: white ">About us</a></li>
               <li><a href="#" style="color: white ">Disclaimer</a></li>
-              <li> <a href="#" style="color: white ">Privacy policy</a></li>
-              <li> <a href="#" style="color: white ">Term & condition</a></li>
+              <li> <a href="/privacy" style="color: white ">Privacy policy</a></li>
+              <li> <a href="/terms" style="color: white ">Term & condition</a></li>
             </ul>
           </div>
 

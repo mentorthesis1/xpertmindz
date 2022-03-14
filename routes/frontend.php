@@ -103,6 +103,13 @@ Route::post('payment', [RazorpayController::class,'payment'])->name('payment');
 
 
 
+//terms and privacy
+
+Route::get('/terms',[FrontendController::class,'terms']);
+Route::get('/privacy',[FrontendController::class,'privacy']);
+
+
+
 
 
 
