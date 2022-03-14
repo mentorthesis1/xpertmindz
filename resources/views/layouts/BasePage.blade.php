@@ -212,19 +212,19 @@
           <div class="carousel-inner" role="listbox">
     
             <!-- Slide 1 -->
-            <div class="carousel-item active" style="background-image: url(assets/image/slide-7.jpg)">
-             <a class=" btn btn-dark btn-sm p-2" style="margin-bottom:65px; border-radius:7px">Explore More</a>
+            <div class="carousel-item active" style="background-image: url(assets/image/course4.jpg)">
+             <a class=" btn btn-dark btn-sm p-2" href="/course_slider" style="margin-bottom:65px; border-radius:7px">Explore More</a>
             </div>
     
             <!-- Slide 2 -->
-            <div class="carousel-item" style="background-image: url(assets/image/slide-9.jpg)">
-              <a class=" btn btn-dark btn-sm p-2" style="margin-bottom:65px; border-radius:7px">Explore More</a>
+            <div class="carousel-item" style="background-image: url(assets/image/manpower.jpg)">
+              <a class=" btn btn-dark btn-sm p-2" href="/manpower_slider" style="margin-bottom:65px; border-radius:7px">Explore More</a>
               
             </div>
     
             <!-- Slide 3 -->
-            <div class="carousel-item" style="background-image: url(assets/image/slide-6.png)">
-              <a class=" btn btn-dark btn-sm p-2" style="margin-bottom:65px; border-radius:7px">Explore More</a>
+            <div class="carousel-item" style="background-image: url(assets/image/webdesign.jpg)">
+              <a class=" btn btn-sm p-2" href="/webdesign_slider" style="margin-bottom:65px; border-radius:7px; background-color:#008CBA">Explore More</a>
               
             </div>
     
@@ -248,7 +248,7 @@
       <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12  text-center hero-content">
         {{-- <h5>Hello, world! Full width Hero-unit header</h5>
         <p class="text-info">This is a template for a simple marketing or informational website. It includes a large callout called the hero unit and three supporting pieces of content.</p> --}}
-        <p><a href="#" class="btn  btn-large" style="background-color:black; color:white">Explore more »</a></p>
+        <p><a href="/hero" class="btn  btn-large" style="background-color:black; color:white">Explore more »</a></p>
       </div>
     </div>
   </div>
