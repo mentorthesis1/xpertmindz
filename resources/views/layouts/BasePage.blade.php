@@ -248,7 +248,7 @@
       <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12  text-center hero-content">
         {{-- <h5>Hello, world! Full width Hero-unit header</h5>
         <p class="text-info">This is a template for a simple marketing or informational website. It includes a large callout called the hero unit and three supporting pieces of content.</p> --}}
-        <p><a href="#" class="btn  btn-large" style="background-color:black; color:white">Explore more »</a></p>
+        <p><a href="/hero" class="btn  btn-large" style="background-color:black; color:white">Explore more »</a></p>
       </div>
     </div>
   </div>
