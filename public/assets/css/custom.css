@@ -1,0 +1,13 @@
+.whatsapp-chat{
+    bottom:10px;
+    left:10px;
+    position: fixed;
+}
+
+.text-image{
+    position: absolute;
+  top: 96%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color:black;
+}
