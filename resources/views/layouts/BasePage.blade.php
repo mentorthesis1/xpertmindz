@@ -87,11 +87,11 @@
   <header id="header" class="fixed-top" style=" max-height:72px;">
     <div class="container d-flex align-items-center">
 
-      <a href="/" class="logo me-auto"><img src="assets/image/logo.png" alt="" style="height:115px; width=115px; margin-top:-45px;"></a>
+      <a href="/" class="logo me-auto"><img src="assets/image/logo2.png" alt="" style="height:60px; width=60px; margin-top:-15px;"></a>
       <!-- Uncomment below if you prefer to use an image logo -->
       <!-- <h1 class="logo me-auto"><a href="index.html">Medicio</a></h1> -->
 
-      <nav id="navbar" class="navbar order-last order-lg-0" style="margin-top: -25px;">
+      <nav id="navbar" class="navbar order-last order-lg-0" style="margin-top: -15px;">
         <ul>
 
 {{--      
@@ -259,11 +259,7 @@
     <div class="container" >
       <div class="row">
         <div class="col-lg-12 d-flex justify-content-center">
-<<<<<<< HEAD
-          <h1>Services 1</h1>
-=======
           <h1>Services</h1>
->>>>>>> dcdb70456fc4ab54c72c88e60e801994235cd032
         </div>
       </div>
     

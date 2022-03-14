@@ -55,7 +55,7 @@
   <header id="header" class="fixed-top" style=" max-height:80px; top:0; background:black;">
     <div class="container d-flex align-items-center">
 
-      <a href="/" class="logo me-auto"><img src="assets/image/logo.png" alt="" style="height:115px; width=115px; margin-top:-42px;"></a>
+      <a href="/" class="logo me-auto"><img src="assets/image/logo2.png" alt="" style="height:60px; width=60px; margin-top:-12px;"></a>
       <!-- Uncomment below if you prefer to use an image logo -->
       <!-- <h1 class="logo me-auto"><a href="index.html">Medicio</a></h1> -->
 

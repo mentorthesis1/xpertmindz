@@ -1,4 +1,4 @@
-<nav id="navbar" class="navbar order-last order-lg-0" style="margin-top: -25px;">
+<nav id="navbar" class="navbar order-last order-lg-0" style="margin-top: -10px;">
     <ul>
 
       {{-- @Auth
