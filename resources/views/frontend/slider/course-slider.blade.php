@@ -1,5 +1,6 @@
 @extends('layouts.basesection')
 @section('dashboard')
+<!-- hero content start-->
 <div>
   <h1 > Services </h1>
   <h3 class="mt-3 mb-5"> Java</h3>
@@ -24,7 +25,9 @@ Humans need to be able to control the interaction between people and machines.
      while data with higher complexity (more attributes or columns) may lead to a higher false discovery rate.
      Big data analysis challenges include capturing data, data storage, data analysis, 
      search, sharing, transfer, visualization, querying, updating, information privacy, and data source. Big data was originally associated with three key concepts: volume, variety, and velocity.[3] The analysis of big data presents challenges in sampling, and thus previously allowing for only observations and sampling. Therefore, big data often includes data with sizes that exceed the capacity of traditional software to process within an acceptable time and value.</p>
-<br> <h3 class="mt-3 mb-5"> C-programming</h3>
+ 
+        <br> <h3 class="mt-3 mb-5"> C-programming</h3>
+
 <p>C language Tutorial with programming approach for beginners and professionals,
      helps you to understand the C language tutorial easily. Our C tutorial explains each topic with programs.
 
@@ -39,7 +42,7 @@ Humans need to be able to control the interaction between people and machines.
 
 </div>
   
-
+<!----hero contend end-->
 
   <section id="services" class="services services">
     <div class="container" data-aos="fade-up">
