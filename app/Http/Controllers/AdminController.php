@@ -89,8 +89,8 @@ class AdminController extends Controller
         $location=$request->location;
         $quali=$request->quali;
         $exp=$request->exp;
-        $last_date=$request->last_date;
-        $job_des=$request->last_date;
+  
+        $job_des=$request->job_des;
           
         $data=[
             'job_title'=>$job_title,
@@ -98,12 +98,12 @@ class AdminController extends Controller
             'location'=>$location,
             'qualification'=>$quali,
             'experience'=>$exp,
-            'last_date'=>$last_date,
+      
             'job_description'=>$job_des
         ];
         
         Current::where('id',$id)->update($data);
-        return redirect()->back()->with('message','Update successfully');
+        return redirect()->back()->with('message','update record successfully');
 }
 
 

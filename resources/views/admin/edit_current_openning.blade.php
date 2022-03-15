@@ -23,7 +23,7 @@
       
       <div class="card-body">
 
-        <form action="/edit_current_openning" method="post" >
+        <form action="/update_current_openning" method="post" >
                @csrf
           
           <div class="row">
@@ -32,6 +32,7 @@
               <div class="form-group">
                 <label class="bmd-label-floating">Job Title</label>
                 <input type="text" name="job_title" value="{{$key->job_title}}" class="form-control">
+                <input type="hidden" name="id" value="{{$key->id}}">
                 @error('job_title')
                 <p class="text-danger mt-1 mb-1">{{ $message }}</p>
                  @enderror
