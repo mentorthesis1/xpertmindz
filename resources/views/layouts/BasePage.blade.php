@@ -91,7 +91,7 @@
       <!-- Uncomment below if you prefer to use an image logo -->
       <!-- <h1 class="logo me-auto"><a href="index.html">Medicio</a></h1> -->
 
-      <nav id="navbar" class="navbar order-last order-lg-0" style="margin-top: -15px;">
+      <nav id="navbar" class="navbar order-last order-lg-0" style="margin-top: -12px;">
         <ul>
 
 {{--      
@@ -112,7 +112,8 @@
 
 
           <li><a class="nav-link scrollto " href="/">Home</a></li>
-          <li><a class="nav-link scrollto" href="/about">About</a></li>
+       
+          <li><a class="nav-link scrollto" href="/about">Current Openning</a></li>
           
           <li class="dropdown"><a href="#"><span>SERVICES</span> <i class="bi bi-chevron-down"></i></a>
             <ul>
@@ -147,6 +148,7 @@
               <li><a href="/web-design">Web Development</a></li>
             </ul>
           </li>
+          <li><a class="nav-link scrollto" href="/about">About</a></li>
           <li><a class="nav-link scrollto" href="/contactUs">Contact Us</a></li>
            @Auth
            <li class="dropdown"><a href="#"><span>My Profile</span> <i class="bi bi-chevron-down"></i></a>
@@ -293,7 +295,7 @@
             <div class="box1">
               <div class="body1">
                 <div class="imgContainer1"> <img src="assets/image/service/job.jpg" alt=""> 
-                  <h5 class="text-image">Manpower</h5>
+                  <h5 class="text-image">Requirement</h5>
                 </div>
                 <div class="content1 d-flex flex-column align-items-center justify-content1-center">
                   <div>
@@ -469,12 +471,10 @@
   </section>
     
     <!-- ======= Portfolio Section ======= -->
-    <section id="portfolio" class="portfolio">
+    {{-- <section id="portfolio" class="portfolio">
       <div class="container">
         <div class="row">
-          {{-- <section class="logoMarqueeSection">
-            <div class="container" id="logoMarqueeSection">
-              <div class="default-content-container flex items-center"> --}}
+        
                 <div class="default-content-container-inner marquee-wrapper relative overflow-hidden inline-block">
                   <div class="marquee" style="animation-duration: 57s;">
                     <a target="_blank"><img src="assets/image/clients/client-1.png" title="" class="marqueelogo" style="width: auto; max-width: none;"></a>
@@ -505,9 +505,7 @@
                     <a target="_blank"><img src="assets/image/clients/client-6.png" title="" class="marqueelogo" style="width: auto; max-width: none;"></a>
                   </div>
                 </div>
-              {{-- </div>
-            </div>
-          </section> --}}
+         
           
            
       
@@ -516,7 +514,7 @@
         </div>
        
       </div>
-    </section><!-- End Portfolio Section -->
+    </section><!-- End Portfolio Section --> --}}
 
   </main><!-- End #main -->
 
@@ -540,11 +538,11 @@
         {{-- <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
         <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a> --}}
       </div>
-      <div class="social-links mt-6" style="float: right; margin-top: 88px; margin-right:-108px; ">
+      {{-- <div class="social-links mt-6" style="float: right; margin-top: 88px; margin-right:-108px; ">
         <a href="assets/image/features-1.png" download>
           <img src="assets/image/boucherlogo.png" style="width: 500%; height: 250%; margin-left: -100px; margin-top: -14px;">
         </a>
-      </div>
+      </div> --}}
       <div class="container">
         <div class="row">
 

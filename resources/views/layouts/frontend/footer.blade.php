@@ -10,11 +10,11 @@
         {{-- <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
         <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a> --}}
       </div>
-      <div class="social-links mt-6" style="float: right; margin-top: 88px; margin-right:-108px; ">
+      {{-- <div class="social-links mt-6" style="float: right; margin-top: 88px; margin-right:-108px; ">
         <a href="assets/image/features-1.png" download>
           <img src="{{asset('assets/image/boucherlogo.png')}}" style="width: 500%; height: 250%; margin-left: -100px; margin-top: -14px;">
         </a>
-      </div>
+      </div> --}}
       <div class="container">
         <div class="row">
 

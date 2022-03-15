@@ -72,7 +72,7 @@
   
 </div>
 
-
+@endforeach
 
 
 
@@ -82,7 +82,7 @@
 
 
 
-    @endforeach
+    
 
     
   </section>

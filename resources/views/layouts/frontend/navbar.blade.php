@@ -14,8 +14,8 @@
    @endAuth  --}}
 
       <li><a class="nav-link scrollto " href="/">Home</a></li>
-      <li><a class="nav-link scrollto" href="/about">About</a></li>
-      
+ 
+      <li><a class="nav-link scrollto" href="/manpower">Current Openning</a></li>
       <li class="dropdown"><a href="#"><span>SERVICES</span> <i class="bi bi-chevron-down"></i></a>
         <ul>
 
@@ -49,6 +49,7 @@
           <li><a href="/web-design">Web Development</a></li>
         </ul>
       </li>
+      <li><a class="nav-link scrollto" href="/about">About</a></li>
       <li><a class="nav-link scrollto" href="/contactUs">Contact Us</a></li>
 
       @Auth
