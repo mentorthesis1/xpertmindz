@@ -92,7 +92,7 @@
               <div class="col-md-12">
                 <div class="form-group">
                   <label class="bmd-label-floating">Job Description</label>
-                  <input name="job_des"  value="ghjtuyitky"  class="form-control">
+                  <input name="job_des"  value="{{$key->job_description}}"  class="form-control">
                    
                 </div>
 

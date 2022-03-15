@@ -113,7 +113,7 @@
 
           <li><a class="nav-link scrollto " href="/">Home</a></li>
        
-          <li><a class="nav-link scrollto" href="/about">Current Openning</a></li>
+          <li><a class="nav-link scrollto" href="/manpower">Current Openning</a></li>
           
           <li class="dropdown"><a href="#"><span>SERVICES</span> <i class="bi bi-chevron-down"></i></a>
             <ul>
