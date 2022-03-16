@@ -1,5 +1,5 @@
-@extends('layouts.basesection')
-@section('dashboard')
+@extends('layouts.BasePage')
+@section('content')
 <section id="services1" class="services1" style="margin-top: -20px;">
 
     <div class="container" data-aos="fade-up">

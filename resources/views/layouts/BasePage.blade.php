@@ -49,7 +49,7 @@
   <link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/sweetalert2@10.10.1/dist/sweetalert2.min.css'>
 
   @yield('styles')
-<style>
+{{-- <style>
   .bgimage {
   width:100%;
   height:700px;
@@ -67,7 +67,9 @@
  
   
 }
-</style>
+</style> --}}
+
+
 
 </head>
 

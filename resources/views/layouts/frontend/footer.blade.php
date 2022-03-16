@@ -41,10 +41,10 @@
             {{-- <h4>Useful Links</h4> --}}
             <ul>
                <li><a href="#" style="color: white ">Home</a></li>
-               <li><a href="/about"style="color: white ">About us</a></li>
-              <li><a href="#" style="color: white ">Disclaimer</a></li>
-              <li> <a href="/privacy" style="color: white ">Privacy policy</a></li>
-              <li> <a href="/terms" style="color: white ">Term & condition</a></li>
+               <li><i class="bx bx-chevron-right"></i><a href="/about"style="color: white ">About us</a></li>
+              <li><i class="bx bx-chevron-right"></i><a href="#" style="color: white ">Disclaimer</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="/privacy" style="color: white ">Privacy policy</a></li>
+              <li><i class="bx bx-chevron-right"></i> <a href="/terms" style="color: white ">Term & condition</a></li>
             </ul>
           </div>
 
@@ -52,10 +52,10 @@
             
             <ul>
               <li><a href="#" style="color: white ">Service</a></li>
-              <li><a href="/viewcourse"style="color: white ">Courses</a></li>
-             <li><a href="/workshop" style="color: white ">Workshop</a></li>
-             <li> <a href="/internship" style="color: white ">Internship</a></li>
-             <li> <a href="/web-design" style="color: white ">Web design</a></li>
+              <li><i class="bx bx-chevron-right"></i><a href="/viewcourse"style="color: white ">Courses</a></li>
+             <li><i class="bx bx-chevron-right"></i><a href="/workshop" style="color: white ">Workshop</a></li>
+             <li><i class="bx bx-chevron-right"></i> <a href="/internship" style="color: white ">Internship</a></li>
+             <li><i class="bx bx-chevron-right"></i> <a href="/web-design" style="color: white ">Web design</a></li>
            </ul>
           </div>
           <div class="col-lg-3 col-md-6 footer-links" >
