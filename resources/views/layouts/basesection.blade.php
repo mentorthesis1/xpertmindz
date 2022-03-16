@@ -43,6 +43,8 @@
   <link rel='stylesheet' href='https://cdn.jsdelivr.net/npm/sweetalert2@10.10.1/dist/sweetalert2.min.css'>
 
   @yield('styles')
+
+
  
 </head>
 
@@ -55,7 +57,7 @@
   <header id="header" class="fixed-top" style=" max-height:80px; top:0; background:black;">
     <div class="container d-flex align-items-center">
 
-      <a href="/" class="logo me-auto"><img src="{{asset('assets/image/logo2.png')}}" alt="" style="height:60px; width=60px; margin-top:-12px;"></a>
+      <a href="/" class="logo me-auto"><img src="{{asset('frontend/logo/xpertmindz_logo_dark.svg')}}" alt="" style="height:160px; width=60px; margin-top:-60px;"></a>
       <!-- Uncomment below if you prefer to use an image logo -->
       <!-- <h1 class="logo me-auto"><a href="index.html">Medicio</a></h1> -->
 
@@ -64,11 +66,6 @@
 
     </div>
   </header><!-- End Header -->
-
-  <!-- ======= Hero Section ======= -->
-      @yield('carousal')
- <!-- End Hero -->
-
 
   
 

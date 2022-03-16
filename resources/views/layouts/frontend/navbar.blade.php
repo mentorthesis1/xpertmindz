@@ -1,4 +1,4 @@
-<nav id="navbar" class="navbar order-last order-lg-0" style="margin-top: -10px;">
+<nav id="navbar" class="navbar order-last order-lg-0" style=" margin-top:-40px;" >
     <ul>
 
       {{-- @Auth
@@ -15,23 +15,11 @@
 
       <li><a class="nav-link scrollto " href="/">Home</a></li>
  
-      <li><a class="nav-link scrollto" href="/manpower">Current Openning</a></li>
+   
       <li class="dropdown"><a href="#"><span>SERVICES</span> <i class="bi bi-chevron-down"></i></a>
         <ul>
 
-          <li class="dropdown"><a href="#"><span>Courses</span> <i class="bi bi-chevron-right"></i></a>
-            <ul>
-              <li><a href="/java">Java</a></li>
-              <li><a href="/python">Python</a></li>
-              <li><a href="/c">C++ programing</a></li>
-              <li><a href="/web-design">Web Design</a></li>
-              <li><a href="/matlab">Matlab</a></li>
-              <li><a href="/ps">Photo Shop</a></li>
-              <li><a href="/tally">Tally</a></li>
-              <li><a href="/asp">Asp.net</a></li>
-              <li><a href="/pgdca">PGDCA</a></li>
-            </ul>
-          </li>
+          <li><a href="/viewcourse">Courses</a></li>
           <li class="dropdown"><a href="#"><span>Man Power</span> <i class="bi bi-chevron-right"></i></a>
             <ul>
               <li><a href="/manpower">Current openings</a></li>
@@ -49,8 +37,8 @@
           <li><a href="/web-design">Web Development</a></li>
         </ul>
       </li>
-      <li><a class="nav-link scrollto" href="/about">About</a></li>
-      <li><a class="nav-link scrollto" href="/contactUs">Contact Us</a></li>
+    
+      <li><a class="nav-link scrollto" href="/contactUs">Contact</a></li>
 
       @Auth
       <li class="dropdown"><a href="#"><span>My Profile</span> <i class="bi bi-chevron-down"></i></a>
@@ -70,9 +58,8 @@
      <li class="dropdown"><a href="#"><span>LOGIN</span> <i class="bi bi-chevron-down"></i></a>
       <ul>
         <li><a href="/login_view">LOGIN</a></li>
-        <li><a href="/register_view">EMPLOYE REGISTER</a></li>
-        <li><a href="/student_register">STUDENT REGISTER</a></li>
-        <li><a href="/institution_register">INSTITUTION REGISTER</a></li>
+        <li><a href="/register_view">SIGNUP</a></li>
+  
       </ul>
      </li>
      @endAuth   

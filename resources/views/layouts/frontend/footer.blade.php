@@ -51,13 +51,12 @@
           <div class="col-lg-3 col-md-6 footer-links" >
             
             <ul>
-              <li> <a href="#" style="color: white ">Education</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="/viewcourse" style="color: white ">courses</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="/project" style="color: white ">Project</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="/workshop" style="color: white ">workshop</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="/symposium" style="color: white ">symposium</a></li>
-              <li><i class="bx bx-chevron-right"></i> <a href="/internship" style="color: white ">Internshp</a></li>
-            </ul>
+              <li><a href="#" style="color: white ">Service</a></li>
+              <li><a href="/viewcourse"style="color: white ">Courses</a></li>
+             <li><a href="/workshop" style="color: white ">Workshop</a></li>
+             <li> <a href="/internship" style="color: white ">Internship</a></li>
+             <li> <a href="/web-design" style="color: white ">Web design</a></li>
+           </ul>
           </div>
           <div class="col-lg-3 col-md-6 footer-links" >
             
@@ -83,14 +82,14 @@
 
     <div class="container">
       <div class="copyright">
-       <a style="color: white "> &copy; 2022 </a><strong><span style="color: white ">xpert mindz innovative solution pvt ltd</span></strong><a style="color: white ">. All Rights Reserved</a>
+       <a style="color: white "> &copy; 2022 </a><span style="color: white ">xpertmindz innovative solution pvt ltd</span><a style="color: white ">. All Rights Reserved</a>
       </div>
       <div class="credits">
         <!-- All the links in the footer should remain intact. -->
         <!-- You can delete the links only if you purchased the pro version. -->
         <!-- Licensing information: https://bootstrapmade.com/license/ -->
         <!-- Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/medicio-free-bootstrap-theme/ -->
-         <a style="color: white">xpertmindz innovative solutions</a>
+         {{-- <a style="color: white">xpertmindz innovative solutions</a> --}}
       </div>
     </div>
   </footer><!-- End Footer -->

@@ -1,5 +1,5 @@
-@extends('layouts.basesection')
-@section('dashboard')
+@extends('layouts.BasePage')
+@section('content')
 {{-- <section id="cta" class="cta">
     <div class="container" data-aos="zoom-in">
 
@@ -9,12 +9,12 @@
 
     </div>
   </section> --}}
-  <div class="mb-3">
-    <h2 class="text-info">Matlab</h2>
-  </div>
-  <section id="services" class="services services">
+  
+  <section id="services" class="services services page-margintop">
     <div class="container" data-aos="fade-up">
-
+      <div class="mb-3">
+        <h2 class="text-info">Matlab</h2>
+      </div>
       <div class="section-title">
         <p>MATLAB (an abbreviation of "MATrix LABoratory") is a proprietary multi-paradigm programming language and numeric computing environment developed by MathWorks. MATLAB allows matrix manipulations, plotting of functions and data, implementation of algorithms, creation of user interfaces, and interfacing with programs written in other languages.
 

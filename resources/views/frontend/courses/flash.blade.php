@@ -1,5 +1,5 @@
-@extends('layouts.basesection')
-@section('dashboard')
+@extends('layouts.BasePage')
+@section('content')
 {{-- <section id="cta" class="cta">
     <div class="container" data-aos="zoom-in">
 
@@ -12,7 +12,7 @@
   <div class="mb-3">
     <h2 class="text-info">Flash</h2>
   </div>
-  <section id="services" class="services services">
+  <section id="services" class="services services page-margintop">
     <div class="container" data-aos="fade-up">
 
       <div class="section-title">
